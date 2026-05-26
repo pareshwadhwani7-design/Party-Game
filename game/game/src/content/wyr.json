@@ -1,0 +1,4008 @@
+{
+  "chill": [
+    {
+      "optA": "Explain your a lie you told confidently in round 1",
+      "optB": "Let the group vote on your a lie you told confidently in round 1"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 2",
+      "optB": "Let the group vote on your a lie you told confidently in round 2"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 3",
+      "optB": "Let the group vote on your a lie you told confidently in round 3"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 4",
+      "optB": "Let the group vote on your a lie you told confidently in round 4"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 5",
+      "optB": "Let the group vote on your a lie you told confidently in round 5"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 6",
+      "optB": "Let the group vote on your a lie you told confidently in round 6"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 7",
+      "optB": "Let the group vote on your a lie you told confidently in round 7"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 8",
+      "optB": "Let the group vote on your a lie you told confidently in round 8"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 9",
+      "optB": "Let the group vote on your a lie you told confidently in round 9"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 10",
+      "optB": "Let the group vote on your a lie you told confidently in round 10"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 11",
+      "optB": "Let the group vote on your a lie you told confidently in round 11"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 12",
+      "optB": "Let the group vote on your a lie you told confidently in round 12"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 13",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 13"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 14",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 14"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 15",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 15"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 16",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 16"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 17",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 17"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 18",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 18"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 19",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 19"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 20",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 20"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 21",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 21"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 22",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 22"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 23",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 23"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 24",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 24"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 25",
+      "optB": "Let the group vote on your a screenshot you saved in round 25"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 26",
+      "optB": "Let the group vote on your a screenshot you saved in round 26"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 27",
+      "optB": "Let the group vote on your a screenshot you saved in round 27"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 28",
+      "optB": "Let the group vote on your a screenshot you saved in round 28"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 29",
+      "optB": "Let the group vote on your a screenshot you saved in round 29"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 30",
+      "optB": "Let the group vote on your a screenshot you saved in round 30"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 31",
+      "optB": "Let the group vote on your a screenshot you saved in round 31"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 32",
+      "optB": "Let the group vote on your a screenshot you saved in round 32"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 33",
+      "optB": "Let the group vote on your a screenshot you saved in round 33"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 34",
+      "optB": "Let the group vote on your a screenshot you saved in round 34"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 35",
+      "optB": "Let the group vote on your a screenshot you saved in round 35"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 36",
+      "optB": "Let the group vote on your a screenshot you saved in round 36"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 37",
+      "optB": "Let the group vote on your a message you typed and deleted in round 37"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 38",
+      "optB": "Let the group vote on your a message you typed and deleted in round 38"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 39",
+      "optB": "Let the group vote on your a message you typed and deleted in round 39"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 40",
+      "optB": "Let the group vote on your a message you typed and deleted in round 40"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 41",
+      "optB": "Let the group vote on your a message you typed and deleted in round 41"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 42",
+      "optB": "Let the group vote on your a message you typed and deleted in round 42"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 43",
+      "optB": "Let the group vote on your a message you typed and deleted in round 43"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 44",
+      "optB": "Let the group vote on your a message you typed and deleted in round 44"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 45",
+      "optB": "Let the group vote on your a message you typed and deleted in round 45"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 46",
+      "optB": "Let the group vote on your a message you typed and deleted in round 46"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 47",
+      "optB": "Let the group vote on your a message you typed and deleted in round 47"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 48",
+      "optB": "Let the group vote on your a message you typed and deleted in round 48"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 49",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 49"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 50",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 50"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 51",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 51"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 52",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 52"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 53",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 53"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 54",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 54"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 55",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 55"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 56",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 56"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 57",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 57"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 58",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 58"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 59",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 59"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 60",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 60"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 61",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 61"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 62",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 62"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 63",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 63"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 64",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 64"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 65",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 65"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 66",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 66"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 67",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 67"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 68",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 68"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 69",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 69"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 70",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 70"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 71",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 71"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 72",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 72"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 73",
+      "optB": "Let the group vote on your a shopping regret in round 73"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 74",
+      "optB": "Let the group vote on your a shopping regret in round 74"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 75",
+      "optB": "Let the group vote on your a shopping regret in round 75"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 76",
+      "optB": "Let the group vote on your a shopping regret in round 76"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 77",
+      "optB": "Let the group vote on your a shopping regret in round 77"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 78",
+      "optB": "Let the group vote on your a shopping regret in round 78"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 79",
+      "optB": "Let the group vote on your a shopping regret in round 79"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 80",
+      "optB": "Let the group vote on your a shopping regret in round 80"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 81",
+      "optB": "Let the group vote on your a shopping regret in round 81"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 82",
+      "optB": "Let the group vote on your a shopping regret in round 82"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 83",
+      "optB": "Let the group vote on your a shopping regret in round 83"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 84",
+      "optB": "Let the group vote on your a shopping regret in round 84"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 85",
+      "optB": "Let the group vote on your a social media stalk in round 85"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 86",
+      "optB": "Let the group vote on your a social media stalk in round 86"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 87",
+      "optB": "Let the group vote on your a social media stalk in round 87"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 88",
+      "optB": "Let the group vote on your a social media stalk in round 88"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 89",
+      "optB": "Let the group vote on your a social media stalk in round 89"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 90",
+      "optB": "Let the group vote on your a social media stalk in round 90"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 91",
+      "optB": "Let the group vote on your a social media stalk in round 91"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 92",
+      "optB": "Let the group vote on your a social media stalk in round 92"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 93",
+      "optB": "Let the group vote on your a social media stalk in round 93"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 94",
+      "optB": "Let the group vote on your a social media stalk in round 94"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 95",
+      "optB": "Let the group vote on your a social media stalk in round 95"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 96",
+      "optB": "Let the group vote on your a social media stalk in round 96"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 97",
+      "optB": "Let the group vote on your a secret jealousy in round 97"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 98",
+      "optB": "Let the group vote on your a secret jealousy in round 98"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 99",
+      "optB": "Let the group vote on your a secret jealousy in round 99"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 100",
+      "optB": "Let the group vote on your a secret jealousy in round 100"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 101",
+      "optB": "Let the group vote on your a secret jealousy in round 101"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 102",
+      "optB": "Let the group vote on your a secret jealousy in round 102"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 103",
+      "optB": "Let the group vote on your a secret jealousy in round 103"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 104",
+      "optB": "Let the group vote on your a secret jealousy in round 104"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 105",
+      "optB": "Let the group vote on your a secret jealousy in round 105"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 106",
+      "optB": "Let the group vote on your a secret jealousy in round 106"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 107",
+      "optB": "Let the group vote on your a secret jealousy in round 107"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 108",
+      "optB": "Let the group vote on your a secret jealousy in round 108"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 109",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 109"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 110",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 110"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 111",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 111"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 112",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 112"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 113",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 113"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 114",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 114"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 115",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 115"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 116",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 116"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 117",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 117"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 118",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 118"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 119",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 119"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 120",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 120"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 121",
+      "optB": "Let the group vote on your a rumor you almost believed in round 121"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 122",
+      "optB": "Let the group vote on your a rumor you almost believed in round 122"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 123",
+      "optB": "Let the group vote on your a rumor you almost believed in round 123"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 124",
+      "optB": "Let the group vote on your a rumor you almost believed in round 124"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 125",
+      "optB": "Let the group vote on your a rumor you almost believed in round 125"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 126",
+      "optB": "Let the group vote on your a rumor you almost believed in round 126"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 127",
+      "optB": "Let the group vote on your a rumor you almost believed in round 127"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 128",
+      "optB": "Let the group vote on your a rumor you almost believed in round 128"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 129",
+      "optB": "Let the group vote on your a rumor you almost believed in round 129"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 130",
+      "optB": "Let the group vote on your a rumor you almost believed in round 130"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 131",
+      "optB": "Let the group vote on your a rumor you almost believed in round 131"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 132",
+      "optB": "Let the group vote on your a rumor you almost believed in round 132"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 133",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 133"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 134",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 134"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 135",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 135"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 136",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 136"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 137",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 137"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 138",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 138"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 139",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 139"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 140",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 140"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 141",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 141"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 142",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 142"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 143",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 143"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 144",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 144"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 145",
+      "optB": "Let the group vote on your a lie you told confidently in round 145"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 146",
+      "optB": "Let the group vote on your a lie you told confidently in round 146"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 147",
+      "optB": "Let the group vote on your a lie you told confidently in round 147"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 148",
+      "optB": "Let the group vote on your a lie you told confidently in round 148"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 149",
+      "optB": "Let the group vote on your a lie you told confidently in round 149"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 150",
+      "optB": "Let the group vote on your a lie you told confidently in round 150"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 151",
+      "optB": "Let the group vote on your a lie you told confidently in round 151"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 152",
+      "optB": "Let the group vote on your a lie you told confidently in round 152"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 153",
+      "optB": "Let the group vote on your a lie you told confidently in round 153"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 154",
+      "optB": "Let the group vote on your a lie you told confidently in round 154"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 155",
+      "optB": "Let the group vote on your a lie you told confidently in round 155"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 156",
+      "optB": "Let the group vote on your a lie you told confidently in round 156"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 157",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 157"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 158",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 158"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 159",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 159"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 160",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 160"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 161",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 161"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 162",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 162"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 163",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 163"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 164",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 164"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 165",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 165"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 166",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 166"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 167",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 167"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 168",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 168"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 169",
+      "optB": "Let the group vote on your a screenshot you saved in round 169"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 170",
+      "optB": "Let the group vote on your a screenshot you saved in round 170"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 171",
+      "optB": "Let the group vote on your a screenshot you saved in round 171"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 172",
+      "optB": "Let the group vote on your a screenshot you saved in round 172"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 173",
+      "optB": "Let the group vote on your a screenshot you saved in round 173"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 174",
+      "optB": "Let the group vote on your a screenshot you saved in round 174"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 175",
+      "optB": "Let the group vote on your a screenshot you saved in round 175"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 176",
+      "optB": "Let the group vote on your a screenshot you saved in round 176"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 177",
+      "optB": "Let the group vote on your a screenshot you saved in round 177"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 178",
+      "optB": "Let the group vote on your a screenshot you saved in round 178"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 179",
+      "optB": "Let the group vote on your a screenshot you saved in round 179"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 180",
+      "optB": "Let the group vote on your a screenshot you saved in round 180"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 181",
+      "optB": "Let the group vote on your a message you typed and deleted in round 181"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 182",
+      "optB": "Let the group vote on your a message you typed and deleted in round 182"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 183",
+      "optB": "Let the group vote on your a message you typed and deleted in round 183"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 184",
+      "optB": "Let the group vote on your a message you typed and deleted in round 184"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 185",
+      "optB": "Let the group vote on your a message you typed and deleted in round 185"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 186",
+      "optB": "Let the group vote on your a message you typed and deleted in round 186"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 187",
+      "optB": "Let the group vote on your a message you typed and deleted in round 187"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 188",
+      "optB": "Let the group vote on your a message you typed and deleted in round 188"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 189",
+      "optB": "Let the group vote on your a message you typed and deleted in round 189"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 190",
+      "optB": "Let the group vote on your a message you typed and deleted in round 190"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 191",
+      "optB": "Let the group vote on your a message you typed and deleted in round 191"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 192",
+      "optB": "Let the group vote on your a message you typed and deleted in round 192"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 193",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 193"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 194",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 194"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 195",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 195"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 196",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 196"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 197",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 197"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 198",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 198"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 199",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 199"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 200",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 200"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 201",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 201"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 202",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 202"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 203",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 203"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 204",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 204"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 205",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 205"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 206",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 206"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 207",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 207"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 208",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 208"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 209",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 209"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 210",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 210"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 211",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 211"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 212",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 212"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 213",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 213"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 214",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 214"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 215",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 215"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 216",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 216"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 217",
+      "optB": "Let the group vote on your a shopping regret in round 217"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 218",
+      "optB": "Let the group vote on your a shopping regret in round 218"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 219",
+      "optB": "Let the group vote on your a shopping regret in round 219"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 220",
+      "optB": "Let the group vote on your a shopping regret in round 220"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 221",
+      "optB": "Let the group vote on your a shopping regret in round 221"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 222",
+      "optB": "Let the group vote on your a shopping regret in round 222"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 223",
+      "optB": "Let the group vote on your a shopping regret in round 223"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 224",
+      "optB": "Let the group vote on your a shopping regret in round 224"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 225",
+      "optB": "Let the group vote on your a shopping regret in round 225"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 226",
+      "optB": "Let the group vote on your a shopping regret in round 226"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 227",
+      "optB": "Let the group vote on your a shopping regret in round 227"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 228",
+      "optB": "Let the group vote on your a shopping regret in round 228"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 229",
+      "optB": "Let the group vote on your a social media stalk in round 229"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 230",
+      "optB": "Let the group vote on your a social media stalk in round 230"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 231",
+      "optB": "Let the group vote on your a social media stalk in round 231"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 232",
+      "optB": "Let the group vote on your a social media stalk in round 232"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 233",
+      "optB": "Let the group vote on your a social media stalk in round 233"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 234",
+      "optB": "Let the group vote on your a social media stalk in round 234"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 235",
+      "optB": "Let the group vote on your a social media stalk in round 235"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 236",
+      "optB": "Let the group vote on your a social media stalk in round 236"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 237",
+      "optB": "Let the group vote on your a social media stalk in round 237"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 238",
+      "optB": "Let the group vote on your a social media stalk in round 238"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 239",
+      "optB": "Let the group vote on your a social media stalk in round 239"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 240",
+      "optB": "Let the group vote on your a social media stalk in round 240"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 241",
+      "optB": "Let the group vote on your a secret jealousy in round 241"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 242",
+      "optB": "Let the group vote on your a secret jealousy in round 242"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 243",
+      "optB": "Let the group vote on your a secret jealousy in round 243"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 244",
+      "optB": "Let the group vote on your a secret jealousy in round 244"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 245",
+      "optB": "Let the group vote on your a secret jealousy in round 245"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 246",
+      "optB": "Let the group vote on your a secret jealousy in round 246"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 247",
+      "optB": "Let the group vote on your a secret jealousy in round 247"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 248",
+      "optB": "Let the group vote on your a secret jealousy in round 248"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 249",
+      "optB": "Let the group vote on your a secret jealousy in round 249"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 250",
+      "optB": "Let the group vote on your a secret jealousy in round 250"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 251",
+      "optB": "Let the group vote on your a secret jealousy in round 251"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 252",
+      "optB": "Let the group vote on your a secret jealousy in round 252"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 253",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 253"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 254",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 254"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 255",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 255"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 256",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 256"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 257",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 257"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 258",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 258"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 259",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 259"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 260",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 260"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 261",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 261"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 262",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 262"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 263",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 263"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 264",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 264"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 265",
+      "optB": "Let the group vote on your a rumor you almost believed in round 265"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 266",
+      "optB": "Let the group vote on your a rumor you almost believed in round 266"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 267",
+      "optB": "Let the group vote on your a rumor you almost believed in round 267"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 268",
+      "optB": "Let the group vote on your a rumor you almost believed in round 268"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 269",
+      "optB": "Let the group vote on your a rumor you almost believed in round 269"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 270",
+      "optB": "Let the group vote on your a rumor you almost believed in round 270"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 271",
+      "optB": "Let the group vote on your a rumor you almost believed in round 271"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 272",
+      "optB": "Let the group vote on your a rumor you almost believed in round 272"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 273",
+      "optB": "Let the group vote on your a rumor you almost believed in round 273"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 274",
+      "optB": "Let the group vote on your a rumor you almost believed in round 274"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 275",
+      "optB": "Let the group vote on your a rumor you almost believed in round 275"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 276",
+      "optB": "Let the group vote on your a rumor you almost believed in round 276"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 277",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 277"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 278",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 278"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 279",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 279"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 280",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 280"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 281",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 281"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 282",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 282"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 283",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 283"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 284",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 284"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 285",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 285"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 286",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 286"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 287",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 287"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 288",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 288"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 289",
+      "optB": "Let the group vote on your a lie you told confidently in round 289"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 290",
+      "optB": "Let the group vote on your a lie you told confidently in round 290"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 291",
+      "optB": "Let the group vote on your a lie you told confidently in round 291"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 292",
+      "optB": "Let the group vote on your a lie you told confidently in round 292"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 293",
+      "optB": "Let the group vote on your a lie you told confidently in round 293"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 294",
+      "optB": "Let the group vote on your a lie you told confidently in round 294"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 295",
+      "optB": "Let the group vote on your a lie you told confidently in round 295"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 296",
+      "optB": "Let the group vote on your a lie you told confidently in round 296"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 297",
+      "optB": "Let the group vote on your a lie you told confidently in round 297"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 298",
+      "optB": "Let the group vote on your a lie you told confidently in round 298"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 299",
+      "optB": "Let the group vote on your a lie you told confidently in round 299"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 300",
+      "optB": "Let the group vote on your a lie you told confidently in round 300"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 301",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 301"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 302",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 302"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 303",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 303"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 304",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 304"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 305",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 305"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 306",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 306"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 307",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 307"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 308",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 308"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 309",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 309"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 310",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 310"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 311",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 311"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 312",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 312"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 313",
+      "optB": "Let the group vote on your a screenshot you saved in round 313"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 314",
+      "optB": "Let the group vote on your a screenshot you saved in round 314"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 315",
+      "optB": "Let the group vote on your a screenshot you saved in round 315"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 316",
+      "optB": "Let the group vote on your a screenshot you saved in round 316"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 317",
+      "optB": "Let the group vote on your a screenshot you saved in round 317"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 318",
+      "optB": "Let the group vote on your a screenshot you saved in round 318"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 319",
+      "optB": "Let the group vote on your a screenshot you saved in round 319"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 320",
+      "optB": "Let the group vote on your a screenshot you saved in round 320"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 321",
+      "optB": "Let the group vote on your a screenshot you saved in round 321"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 322",
+      "optB": "Let the group vote on your a screenshot you saved in round 322"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 323",
+      "optB": "Let the group vote on your a screenshot you saved in round 323"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 324",
+      "optB": "Let the group vote on your a screenshot you saved in round 324"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 325",
+      "optB": "Let the group vote on your a message you typed and deleted in round 325"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 326",
+      "optB": "Let the group vote on your a message you typed and deleted in round 326"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 327",
+      "optB": "Let the group vote on your a message you typed and deleted in round 327"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 328",
+      "optB": "Let the group vote on your a message you typed and deleted in round 328"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 329",
+      "optB": "Let the group vote on your a message you typed and deleted in round 329"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 330",
+      "optB": "Let the group vote on your a message you typed and deleted in round 330"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 331",
+      "optB": "Let the group vote on your a message you typed and deleted in round 331"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 332",
+      "optB": "Let the group vote on your a message you typed and deleted in round 332"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 333",
+      "optB": "Let the group vote on your a message you typed and deleted in round 333"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 334",
+      "optB": "Let the group vote on your a message you typed and deleted in round 334"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 335",
+      "optB": "Let the group vote on your a message you typed and deleted in round 335"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 336",
+      "optB": "Let the group vote on your a message you typed and deleted in round 336"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 337",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 337"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 338",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 338"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 339",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 339"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 340",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 340"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 341",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 341"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 342",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 342"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 343",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 343"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 344",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 344"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 345",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 345"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 346",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 346"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 347",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 347"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 348",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 348"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 349",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 349"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 350",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 350"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 351",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 351"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 352",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 352"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 353",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 353"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 354",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 354"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 355",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 355"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 356",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 356"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 357",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 357"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 358",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 358"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 359",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 359"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 360",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 360"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 361",
+      "optB": "Let the group vote on your a shopping regret in round 361"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 362",
+      "optB": "Let the group vote on your a shopping regret in round 362"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 363",
+      "optB": "Let the group vote on your a shopping regret in round 363"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 364",
+      "optB": "Let the group vote on your a shopping regret in round 364"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 365",
+      "optB": "Let the group vote on your a shopping regret in round 365"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 366",
+      "optB": "Let the group vote on your a shopping regret in round 366"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 367",
+      "optB": "Let the group vote on your a shopping regret in round 367"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 368",
+      "optB": "Let the group vote on your a shopping regret in round 368"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 369",
+      "optB": "Let the group vote on your a shopping regret in round 369"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 370",
+      "optB": "Let the group vote on your a shopping regret in round 370"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 371",
+      "optB": "Let the group vote on your a shopping regret in round 371"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 372",
+      "optB": "Let the group vote on your a shopping regret in round 372"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 373",
+      "optB": "Let the group vote on your a social media stalk in round 373"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 374",
+      "optB": "Let the group vote on your a social media stalk in round 374"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 375",
+      "optB": "Let the group vote on your a social media stalk in round 375"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 376",
+      "optB": "Let the group vote on your a social media stalk in round 376"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 377",
+      "optB": "Let the group vote on your a social media stalk in round 377"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 378",
+      "optB": "Let the group vote on your a social media stalk in round 378"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 379",
+      "optB": "Let the group vote on your a social media stalk in round 379"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 380",
+      "optB": "Let the group vote on your a social media stalk in round 380"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 381",
+      "optB": "Let the group vote on your a social media stalk in round 381"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 382",
+      "optB": "Let the group vote on your a social media stalk in round 382"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 383",
+      "optB": "Let the group vote on your a social media stalk in round 383"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 384",
+      "optB": "Let the group vote on your a social media stalk in round 384"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 385",
+      "optB": "Let the group vote on your a secret jealousy in round 385"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 386",
+      "optB": "Let the group vote on your a secret jealousy in round 386"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 387",
+      "optB": "Let the group vote on your a secret jealousy in round 387"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 388",
+      "optB": "Let the group vote on your a secret jealousy in round 388"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 389",
+      "optB": "Let the group vote on your a secret jealousy in round 389"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 390",
+      "optB": "Let the group vote on your a secret jealousy in round 390"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 391",
+      "optB": "Let the group vote on your a secret jealousy in round 391"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 392",
+      "optB": "Let the group vote on your a secret jealousy in round 392"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 393",
+      "optB": "Let the group vote on your a secret jealousy in round 393"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 394",
+      "optB": "Let the group vote on your a secret jealousy in round 394"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 395",
+      "optB": "Let the group vote on your a secret jealousy in round 395"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 396",
+      "optB": "Let the group vote on your a secret jealousy in round 396"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 397",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 397"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 398",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 398"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 399",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 399"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 400",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 400"
+    }
+  ],
+  "savage": [
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 1",
+      "optB": "Let the group vote on your a lie you told confidently in round 1"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 2",
+      "optB": "Let the group vote on your a lie you told confidently in round 2"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 3",
+      "optB": "Let the group vote on your a lie you told confidently in round 3"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 4",
+      "optB": "Let the group vote on your a lie you told confidently in round 4"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 5",
+      "optB": "Let the group vote on your a lie you told confidently in round 5"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 6",
+      "optB": "Let the group vote on your a lie you told confidently in round 6"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 7",
+      "optB": "Let the group vote on your a lie you told confidently in round 7"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 8",
+      "optB": "Let the group vote on your a lie you told confidently in round 8"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 9",
+      "optB": "Let the group vote on your a lie you told confidently in round 9"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 10",
+      "optB": "Let the group vote on your a lie you told confidently in round 10"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 11",
+      "optB": "Let the group vote on your a lie you told confidently in round 11"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 12",
+      "optB": "Let the group vote on your a lie you told confidently in round 12"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 13",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 13"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 14",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 14"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 15",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 15"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 16",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 16"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 17",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 17"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 18",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 18"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 19",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 19"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 20",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 20"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 21",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 21"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 22",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 22"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 23",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 23"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 24",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 24"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 25",
+      "optB": "Let the group vote on your a screenshot you saved in round 25"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 26",
+      "optB": "Let the group vote on your a screenshot you saved in round 26"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 27",
+      "optB": "Let the group vote on your a screenshot you saved in round 27"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 28",
+      "optB": "Let the group vote on your a screenshot you saved in round 28"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 29",
+      "optB": "Let the group vote on your a screenshot you saved in round 29"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 30",
+      "optB": "Let the group vote on your a screenshot you saved in round 30"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 31",
+      "optB": "Let the group vote on your a screenshot you saved in round 31"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 32",
+      "optB": "Let the group vote on your a screenshot you saved in round 32"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 33",
+      "optB": "Let the group vote on your a screenshot you saved in round 33"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 34",
+      "optB": "Let the group vote on your a screenshot you saved in round 34"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 35",
+      "optB": "Let the group vote on your a screenshot you saved in round 35"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 36",
+      "optB": "Let the group vote on your a screenshot you saved in round 36"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 37",
+      "optB": "Let the group vote on your a message you typed and deleted in round 37"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 38",
+      "optB": "Let the group vote on your a message you typed and deleted in round 38"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 39",
+      "optB": "Let the group vote on your a message you typed and deleted in round 39"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 40",
+      "optB": "Let the group vote on your a message you typed and deleted in round 40"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 41",
+      "optB": "Let the group vote on your a message you typed and deleted in round 41"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 42",
+      "optB": "Let the group vote on your a message you typed and deleted in round 42"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 43",
+      "optB": "Let the group vote on your a message you typed and deleted in round 43"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 44",
+      "optB": "Let the group vote on your a message you typed and deleted in round 44"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 45",
+      "optB": "Let the group vote on your a message you typed and deleted in round 45"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 46",
+      "optB": "Let the group vote on your a message you typed and deleted in round 46"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 47",
+      "optB": "Let the group vote on your a message you typed and deleted in round 47"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 48",
+      "optB": "Let the group vote on your a message you typed and deleted in round 48"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 49",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 49"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 50",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 50"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 51",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 51"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 52",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 52"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 53",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 53"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 54",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 54"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 55",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 55"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 56",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 56"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 57",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 57"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 58",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 58"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 59",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 59"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 60",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 60"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 61",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 61"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 62",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 62"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 63",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 63"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 64",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 64"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 65",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 65"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 66",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 66"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 67",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 67"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 68",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 68"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 69",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 69"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 70",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 70"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 71",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 71"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 72",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 72"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 73",
+      "optB": "Let the group vote on your a shopping regret in round 73"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 74",
+      "optB": "Let the group vote on your a shopping regret in round 74"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 75",
+      "optB": "Let the group vote on your a shopping regret in round 75"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 76",
+      "optB": "Let the group vote on your a shopping regret in round 76"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 77",
+      "optB": "Let the group vote on your a shopping regret in round 77"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 78",
+      "optB": "Let the group vote on your a shopping regret in round 78"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 79",
+      "optB": "Let the group vote on your a shopping regret in round 79"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 80",
+      "optB": "Let the group vote on your a shopping regret in round 80"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 81",
+      "optB": "Let the group vote on your a shopping regret in round 81"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 82",
+      "optB": "Let the group vote on your a shopping regret in round 82"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 83",
+      "optB": "Let the group vote on your a shopping regret in round 83"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 84",
+      "optB": "Let the group vote on your a shopping regret in round 84"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 85",
+      "optB": "Let the group vote on your a social media stalk in round 85"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 86",
+      "optB": "Let the group vote on your a social media stalk in round 86"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 87",
+      "optB": "Let the group vote on your a social media stalk in round 87"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 88",
+      "optB": "Let the group vote on your a social media stalk in round 88"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 89",
+      "optB": "Let the group vote on your a social media stalk in round 89"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 90",
+      "optB": "Let the group vote on your a social media stalk in round 90"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 91",
+      "optB": "Let the group vote on your a social media stalk in round 91"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 92",
+      "optB": "Let the group vote on your a social media stalk in round 92"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 93",
+      "optB": "Let the group vote on your a social media stalk in round 93"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 94",
+      "optB": "Let the group vote on your a social media stalk in round 94"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 95",
+      "optB": "Let the group vote on your a social media stalk in round 95"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 96",
+      "optB": "Let the group vote on your a social media stalk in round 96"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 97",
+      "optB": "Let the group vote on your a secret jealousy in round 97"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 98",
+      "optB": "Let the group vote on your a secret jealousy in round 98"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 99",
+      "optB": "Let the group vote on your a secret jealousy in round 99"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 100",
+      "optB": "Let the group vote on your a secret jealousy in round 100"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 101",
+      "optB": "Let the group vote on your a secret jealousy in round 101"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 102",
+      "optB": "Let the group vote on your a secret jealousy in round 102"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 103",
+      "optB": "Let the group vote on your a secret jealousy in round 103"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 104",
+      "optB": "Let the group vote on your a secret jealousy in round 104"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 105",
+      "optB": "Let the group vote on your a secret jealousy in round 105"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 106",
+      "optB": "Let the group vote on your a secret jealousy in round 106"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 107",
+      "optB": "Let the group vote on your a secret jealousy in round 107"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 108",
+      "optB": "Let the group vote on your a secret jealousy in round 108"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 109",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 109"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 110",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 110"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 111",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 111"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 112",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 112"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 113",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 113"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 114",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 114"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 115",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 115"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 116",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 116"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 117",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 117"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 118",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 118"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 119",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 119"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 120",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 120"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 121",
+      "optB": "Let the group vote on your a rumor you almost believed in round 121"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 122",
+      "optB": "Let the group vote on your a rumor you almost believed in round 122"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 123",
+      "optB": "Let the group vote on your a rumor you almost believed in round 123"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 124",
+      "optB": "Let the group vote on your a rumor you almost believed in round 124"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 125",
+      "optB": "Let the group vote on your a rumor you almost believed in round 125"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 126",
+      "optB": "Let the group vote on your a rumor you almost believed in round 126"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 127",
+      "optB": "Let the group vote on your a rumor you almost believed in round 127"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 128",
+      "optB": "Let the group vote on your a rumor you almost believed in round 128"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 129",
+      "optB": "Let the group vote on your a rumor you almost believed in round 129"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 130",
+      "optB": "Let the group vote on your a rumor you almost believed in round 130"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 131",
+      "optB": "Let the group vote on your a rumor you almost believed in round 131"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 132",
+      "optB": "Let the group vote on your a rumor you almost believed in round 132"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 133",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 133"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 134",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 134"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 135",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 135"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 136",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 136"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 137",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 137"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 138",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 138"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 139",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 139"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 140",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 140"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 141",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 141"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 142",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 142"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 143",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 143"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 144",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 144"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 145",
+      "optB": "Let the group vote on your a lie you told confidently in round 145"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 146",
+      "optB": "Let the group vote on your a lie you told confidently in round 146"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 147",
+      "optB": "Let the group vote on your a lie you told confidently in round 147"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 148",
+      "optB": "Let the group vote on your a lie you told confidently in round 148"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 149",
+      "optB": "Let the group vote on your a lie you told confidently in round 149"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 150",
+      "optB": "Let the group vote on your a lie you told confidently in round 150"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 151",
+      "optB": "Let the group vote on your a lie you told confidently in round 151"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 152",
+      "optB": "Let the group vote on your a lie you told confidently in round 152"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 153",
+      "optB": "Let the group vote on your a lie you told confidently in round 153"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 154",
+      "optB": "Let the group vote on your a lie you told confidently in round 154"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 155",
+      "optB": "Let the group vote on your a lie you told confidently in round 155"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 156",
+      "optB": "Let the group vote on your a lie you told confidently in round 156"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 157",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 157"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 158",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 158"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 159",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 159"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 160",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 160"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 161",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 161"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 162",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 162"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 163",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 163"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 164",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 164"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 165",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 165"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 166",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 166"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 167",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 167"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 168",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 168"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 169",
+      "optB": "Let the group vote on your a screenshot you saved in round 169"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 170",
+      "optB": "Let the group vote on your a screenshot you saved in round 170"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 171",
+      "optB": "Let the group vote on your a screenshot you saved in round 171"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 172",
+      "optB": "Let the group vote on your a screenshot you saved in round 172"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 173",
+      "optB": "Let the group vote on your a screenshot you saved in round 173"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 174",
+      "optB": "Let the group vote on your a screenshot you saved in round 174"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 175",
+      "optB": "Let the group vote on your a screenshot you saved in round 175"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 176",
+      "optB": "Let the group vote on your a screenshot you saved in round 176"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 177",
+      "optB": "Let the group vote on your a screenshot you saved in round 177"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 178",
+      "optB": "Let the group vote on your a screenshot you saved in round 178"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 179",
+      "optB": "Let the group vote on your a screenshot you saved in round 179"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 180",
+      "optB": "Let the group vote on your a screenshot you saved in round 180"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 181",
+      "optB": "Let the group vote on your a message you typed and deleted in round 181"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 182",
+      "optB": "Let the group vote on your a message you typed and deleted in round 182"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 183",
+      "optB": "Let the group vote on your a message you typed and deleted in round 183"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 184",
+      "optB": "Let the group vote on your a message you typed and deleted in round 184"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 185",
+      "optB": "Let the group vote on your a message you typed and deleted in round 185"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 186",
+      "optB": "Let the group vote on your a message you typed and deleted in round 186"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 187",
+      "optB": "Let the group vote on your a message you typed and deleted in round 187"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 188",
+      "optB": "Let the group vote on your a message you typed and deleted in round 188"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 189",
+      "optB": "Let the group vote on your a message you typed and deleted in round 189"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 190",
+      "optB": "Let the group vote on your a message you typed and deleted in round 190"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 191",
+      "optB": "Let the group vote on your a message you typed and deleted in round 191"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 192",
+      "optB": "Let the group vote on your a message you typed and deleted in round 192"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 193",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 193"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 194",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 194"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 195",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 195"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 196",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 196"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 197",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 197"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 198",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 198"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 199",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 199"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 200",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 200"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 201",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 201"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 202",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 202"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 203",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 203"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 204",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 204"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 205",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 205"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 206",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 206"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 207",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 207"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 208",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 208"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 209",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 209"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 210",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 210"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 211",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 211"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 212",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 212"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 213",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 213"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 214",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 214"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 215",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 215"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 216",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 216"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 217",
+      "optB": "Let the group vote on your a shopping regret in round 217"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 218",
+      "optB": "Let the group vote on your a shopping regret in round 218"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 219",
+      "optB": "Let the group vote on your a shopping regret in round 219"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 220",
+      "optB": "Let the group vote on your a shopping regret in round 220"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 221",
+      "optB": "Let the group vote on your a shopping regret in round 221"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 222",
+      "optB": "Let the group vote on your a shopping regret in round 222"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 223",
+      "optB": "Let the group vote on your a shopping regret in round 223"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 224",
+      "optB": "Let the group vote on your a shopping regret in round 224"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 225",
+      "optB": "Let the group vote on your a shopping regret in round 225"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 226",
+      "optB": "Let the group vote on your a shopping regret in round 226"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 227",
+      "optB": "Let the group vote on your a shopping regret in round 227"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 228",
+      "optB": "Let the group vote on your a shopping regret in round 228"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 229",
+      "optB": "Let the group vote on your a social media stalk in round 229"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 230",
+      "optB": "Let the group vote on your a social media stalk in round 230"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 231",
+      "optB": "Let the group vote on your a social media stalk in round 231"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 232",
+      "optB": "Let the group vote on your a social media stalk in round 232"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 233",
+      "optB": "Let the group vote on your a social media stalk in round 233"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 234",
+      "optB": "Let the group vote on your a social media stalk in round 234"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 235",
+      "optB": "Let the group vote on your a social media stalk in round 235"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 236",
+      "optB": "Let the group vote on your a social media stalk in round 236"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 237",
+      "optB": "Let the group vote on your a social media stalk in round 237"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 238",
+      "optB": "Let the group vote on your a social media stalk in round 238"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 239",
+      "optB": "Let the group vote on your a social media stalk in round 239"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 240",
+      "optB": "Let the group vote on your a social media stalk in round 240"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 241",
+      "optB": "Let the group vote on your a secret jealousy in round 241"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 242",
+      "optB": "Let the group vote on your a secret jealousy in round 242"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 243",
+      "optB": "Let the group vote on your a secret jealousy in round 243"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 244",
+      "optB": "Let the group vote on your a secret jealousy in round 244"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 245",
+      "optB": "Let the group vote on your a secret jealousy in round 245"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 246",
+      "optB": "Let the group vote on your a secret jealousy in round 246"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 247",
+      "optB": "Let the group vote on your a secret jealousy in round 247"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 248",
+      "optB": "Let the group vote on your a secret jealousy in round 248"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 249",
+      "optB": "Let the group vote on your a secret jealousy in round 249"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 250",
+      "optB": "Let the group vote on your a secret jealousy in round 250"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 251",
+      "optB": "Let the group vote on your a secret jealousy in round 251"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 252",
+      "optB": "Let the group vote on your a secret jealousy in round 252"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 253",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 253"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 254",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 254"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 255",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 255"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 256",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 256"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 257",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 257"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 258",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 258"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 259",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 259"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 260",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 260"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 261",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 261"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 262",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 262"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 263",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 263"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 264",
+      "optB": "Let the group vote on your a compliment you wanted to hear in round 264"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 265",
+      "optB": "Let the group vote on your a rumor you almost believed in round 265"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 266",
+      "optB": "Let the group vote on your a rumor you almost believed in round 266"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 267",
+      "optB": "Let the group vote on your a rumor you almost believed in round 267"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 268",
+      "optB": "Let the group vote on your a rumor you almost believed in round 268"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 269",
+      "optB": "Let the group vote on your a rumor you almost believed in round 269"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 270",
+      "optB": "Let the group vote on your a rumor you almost believed in round 270"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 271",
+      "optB": "Let the group vote on your a rumor you almost believed in round 271"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 272",
+      "optB": "Let the group vote on your a rumor you almost believed in round 272"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 273",
+      "optB": "Let the group vote on your a rumor you almost believed in round 273"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 274",
+      "optB": "Let the group vote on your a rumor you almost believed in round 274"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 275",
+      "optB": "Let the group vote on your a rumor you almost believed in round 275"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 276",
+      "optB": "Let the group vote on your a rumor you almost believed in round 276"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 277",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 277"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 278",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 278"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 279",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 279"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 280",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 280"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 281",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 281"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 282",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 282"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 283",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 283"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 284",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 284"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 285",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 285"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 286",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 286"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 287",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 287"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 288",
+      "optB": "Let the group vote on your a movie you pretend to understand in round 288"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 289",
+      "optB": "Let the group vote on your a lie you told confidently in round 289"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 290",
+      "optB": "Let the group vote on your a lie you told confidently in round 290"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 291",
+      "optB": "Let the group vote on your a lie you told confidently in round 291"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 292",
+      "optB": "Let the group vote on your a lie you told confidently in round 292"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 293",
+      "optB": "Let the group vote on your a lie you told confidently in round 293"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 294",
+      "optB": "Let the group vote on your a lie you told confidently in round 294"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 295",
+      "optB": "Let the group vote on your a lie you told confidently in round 295"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 296",
+      "optB": "Let the group vote on your a lie you told confidently in round 296"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 297",
+      "optB": "Let the group vote on your a lie you told confidently in round 297"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 298",
+      "optB": "Let the group vote on your a lie you told confidently in round 298"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 299",
+      "optB": "Let the group vote on your a lie you told confidently in round 299"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 300",
+      "optB": "Let the group vote on your a lie you told confidently in round 300"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 301",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 301"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 302",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 302"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 303",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 303"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 304",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 304"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 305",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 305"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 306",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 306"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 307",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 307"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 308",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 308"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 309",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 309"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 310",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 310"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 311",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 311"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 312",
+      "optB": "Let the group vote on your a plan you cancelled dramatically in round 312"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 313",
+      "optB": "Let the group vote on your a screenshot you saved in round 313"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 314",
+      "optB": "Let the group vote on your a screenshot you saved in round 314"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 315",
+      "optB": "Let the group vote on your a screenshot you saved in round 315"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 316",
+      "optB": "Let the group vote on your a screenshot you saved in round 316"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 317",
+      "optB": "Let the group vote on your a screenshot you saved in round 317"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 318",
+      "optB": "Let the group vote on your a screenshot you saved in round 318"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 319",
+      "optB": "Let the group vote on your a screenshot you saved in round 319"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 320",
+      "optB": "Let the group vote on your a screenshot you saved in round 320"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 321",
+      "optB": "Let the group vote on your a screenshot you saved in round 321"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 322",
+      "optB": "Let the group vote on your a screenshot you saved in round 322"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 323",
+      "optB": "Let the group vote on your a screenshot you saved in round 323"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 324",
+      "optB": "Let the group vote on your a screenshot you saved in round 324"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 325",
+      "optB": "Let the group vote on your a message you typed and deleted in round 325"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 326",
+      "optB": "Let the group vote on your a message you typed and deleted in round 326"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 327",
+      "optB": "Let the group vote on your a message you typed and deleted in round 327"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 328",
+      "optB": "Let the group vote on your a message you typed and deleted in round 328"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 329",
+      "optB": "Let the group vote on your a message you typed and deleted in round 329"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 330",
+      "optB": "Let the group vote on your a message you typed and deleted in round 330"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 331",
+      "optB": "Let the group vote on your a message you typed and deleted in round 331"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 332",
+      "optB": "Let the group vote on your a message you typed and deleted in round 332"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 333",
+      "optB": "Let the group vote on your a message you typed and deleted in round 333"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 334",
+      "optB": "Let the group vote on your a message you typed and deleted in round 334"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 335",
+      "optB": "Let the group vote on your a message you typed and deleted in round 335"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 336",
+      "optB": "Let the group vote on your a message you typed and deleted in round 336"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 337",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 337"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 338",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 338"
+    },
+    {
+      "optA": "Have everyone roast your a screenshot you saved in round 339",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 339"
+    },
+    {
+      "optA": "Have everyone roast your a message you typed and deleted in round 340",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 340"
+    },
+    {
+      "optA": "Have everyone roast your a food opinion you defend too hard in round 341",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 341"
+    },
+    {
+      "optA": "Have everyone roast your a habit you pretend is normal in round 342",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 342"
+    },
+    {
+      "optA": "Have everyone roast your a shopping regret in round 343",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 343"
+    },
+    {
+      "optA": "Have everyone roast your a social media stalk in round 344",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 344"
+    },
+    {
+      "optA": "Have everyone roast your a secret jealousy in round 345",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 345"
+    },
+    {
+      "optA": "Have everyone roast your a compliment you wanted to hear in round 346",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 346"
+    },
+    {
+      "optA": "Have everyone roast your a rumor you almost believed in round 347",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 347"
+    },
+    {
+      "optA": "Have everyone roast your a movie you pretend to understand in round 348",
+      "optB": "Let the group vote on your a food opinion you defend too hard in round 348"
+    },
+    {
+      "optA": "Have everyone roast your a lie you told confidently in round 349",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 349"
+    },
+    {
+      "optA": "Have everyone roast your a plan you cancelled dramatically in round 350",
+      "optB": "Let the group vote on your a habit you pretend is normal in round 350"
+    }
+  ],
+  "nsfw": [
+    {
+      "optA": "Explain your a lie you told confidently in round 1",
+      "optB": "Let your crush see your a lie you told confidently in round 1"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 2",
+      "optB": "Let your crush see your a lie you told confidently in round 2"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 3",
+      "optB": "Let your crush see your a lie you told confidently in round 3"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 4",
+      "optB": "Let your crush see your a lie you told confidently in round 4"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 5",
+      "optB": "Let your crush see your a lie you told confidently in round 5"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 6",
+      "optB": "Let your crush see your a lie you told confidently in round 6"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 7",
+      "optB": "Let your crush see your a lie you told confidently in round 7"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 8",
+      "optB": "Let your crush see your a lie you told confidently in round 8"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 9",
+      "optB": "Let your crush see your a lie you told confidently in round 9"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 10",
+      "optB": "Let your crush see your a lie you told confidently in round 10"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 11",
+      "optB": "Let your crush see your a lie you told confidently in round 11"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 12",
+      "optB": "Let your crush see your a lie you told confidently in round 12"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 13",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 13"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 14",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 14"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 15",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 15"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 16",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 16"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 17",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 17"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 18",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 18"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 19",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 19"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 20",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 20"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 21",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 21"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 22",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 22"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 23",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 23"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 24",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 24"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 25",
+      "optB": "Let your crush see your a screenshot you saved in round 25"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 26",
+      "optB": "Let your crush see your a screenshot you saved in round 26"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 27",
+      "optB": "Let your crush see your a screenshot you saved in round 27"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 28",
+      "optB": "Let your crush see your a screenshot you saved in round 28"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 29",
+      "optB": "Let your crush see your a screenshot you saved in round 29"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 30",
+      "optB": "Let your crush see your a screenshot you saved in round 30"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 31",
+      "optB": "Let your crush see your a screenshot you saved in round 31"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 32",
+      "optB": "Let your crush see your a screenshot you saved in round 32"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 33",
+      "optB": "Let your crush see your a screenshot you saved in round 33"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 34",
+      "optB": "Let your crush see your a screenshot you saved in round 34"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 35",
+      "optB": "Let your crush see your a screenshot you saved in round 35"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 36",
+      "optB": "Let your crush see your a screenshot you saved in round 36"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 37",
+      "optB": "Let your crush see your a message you typed and deleted in round 37"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 38",
+      "optB": "Let your crush see your a message you typed and deleted in round 38"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 39",
+      "optB": "Let your crush see your a message you typed and deleted in round 39"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 40",
+      "optB": "Let your crush see your a message you typed and deleted in round 40"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 41",
+      "optB": "Let your crush see your a message you typed and deleted in round 41"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 42",
+      "optB": "Let your crush see your a message you typed and deleted in round 42"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 43",
+      "optB": "Let your crush see your a message you typed and deleted in round 43"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 44",
+      "optB": "Let your crush see your a message you typed and deleted in round 44"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 45",
+      "optB": "Let your crush see your a message you typed and deleted in round 45"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 46",
+      "optB": "Let your crush see your a message you typed and deleted in round 46"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 47",
+      "optB": "Let your crush see your a message you typed and deleted in round 47"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 48",
+      "optB": "Let your crush see your a message you typed and deleted in round 48"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 49",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 49"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 50",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 50"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 51",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 51"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 52",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 52"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 53",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 53"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 54",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 54"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 55",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 55"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 56",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 56"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 57",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 57"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 58",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 58"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 59",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 59"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 60",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 60"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 61",
+      "optB": "Let your crush see your a habit you pretend is normal in round 61"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 62",
+      "optB": "Let your crush see your a habit you pretend is normal in round 62"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 63",
+      "optB": "Let your crush see your a habit you pretend is normal in round 63"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 64",
+      "optB": "Let your crush see your a habit you pretend is normal in round 64"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 65",
+      "optB": "Let your crush see your a habit you pretend is normal in round 65"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 66",
+      "optB": "Let your crush see your a habit you pretend is normal in round 66"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 67",
+      "optB": "Let your crush see your a habit you pretend is normal in round 67"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 68",
+      "optB": "Let your crush see your a habit you pretend is normal in round 68"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 69",
+      "optB": "Let your crush see your a habit you pretend is normal in round 69"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 70",
+      "optB": "Let your crush see your a habit you pretend is normal in round 70"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 71",
+      "optB": "Let your crush see your a habit you pretend is normal in round 71"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 72",
+      "optB": "Let your crush see your a habit you pretend is normal in round 72"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 73",
+      "optB": "Let your crush see your a shopping regret in round 73"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 74",
+      "optB": "Let your crush see your a shopping regret in round 74"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 75",
+      "optB": "Let your crush see your a shopping regret in round 75"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 76",
+      "optB": "Let your crush see your a shopping regret in round 76"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 77",
+      "optB": "Let your crush see your a shopping regret in round 77"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 78",
+      "optB": "Let your crush see your a shopping regret in round 78"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 79",
+      "optB": "Let your crush see your a shopping regret in round 79"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 80",
+      "optB": "Let your crush see your a shopping regret in round 80"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 81",
+      "optB": "Let your crush see your a shopping regret in round 81"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 82",
+      "optB": "Let your crush see your a shopping regret in round 82"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 83",
+      "optB": "Let your crush see your a shopping regret in round 83"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 84",
+      "optB": "Let your crush see your a shopping regret in round 84"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 85",
+      "optB": "Let your crush see your a social media stalk in round 85"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 86",
+      "optB": "Let your crush see your a social media stalk in round 86"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 87",
+      "optB": "Let your crush see your a social media stalk in round 87"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 88",
+      "optB": "Let your crush see your a social media stalk in round 88"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 89",
+      "optB": "Let your crush see your a social media stalk in round 89"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 90",
+      "optB": "Let your crush see your a social media stalk in round 90"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 91",
+      "optB": "Let your crush see your a social media stalk in round 91"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 92",
+      "optB": "Let your crush see your a social media stalk in round 92"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 93",
+      "optB": "Let your crush see your a social media stalk in round 93"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 94",
+      "optB": "Let your crush see your a social media stalk in round 94"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 95",
+      "optB": "Let your crush see your a social media stalk in round 95"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 96",
+      "optB": "Let your crush see your a social media stalk in round 96"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 97",
+      "optB": "Let your crush see your a secret jealousy in round 97"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 98",
+      "optB": "Let your crush see your a secret jealousy in round 98"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 99",
+      "optB": "Let your crush see your a secret jealousy in round 99"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 100",
+      "optB": "Let your crush see your a secret jealousy in round 100"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 101",
+      "optB": "Let your crush see your a secret jealousy in round 101"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 102",
+      "optB": "Let your crush see your a secret jealousy in round 102"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 103",
+      "optB": "Let your crush see your a secret jealousy in round 103"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 104",
+      "optB": "Let your crush see your a secret jealousy in round 104"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 105",
+      "optB": "Let your crush see your a secret jealousy in round 105"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 106",
+      "optB": "Let your crush see your a secret jealousy in round 106"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 107",
+      "optB": "Let your crush see your a secret jealousy in round 107"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 108",
+      "optB": "Let your crush see your a secret jealousy in round 108"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 109",
+      "optB": "Let your crush see your a compliment you wanted to hear in round 109"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 110",
+      "optB": "Let your crush see your a compliment you wanted to hear in round 110"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 111",
+      "optB": "Let your crush see your a compliment you wanted to hear in round 111"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 112",
+      "optB": "Let your crush see your a compliment you wanted to hear in round 112"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 113",
+      "optB": "Let your crush see your a compliment you wanted to hear in round 113"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 114",
+      "optB": "Let your crush see your a compliment you wanted to hear in round 114"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 115",
+      "optB": "Let your crush see your a compliment you wanted to hear in round 115"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 116",
+      "optB": "Let your crush see your a compliment you wanted to hear in round 116"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 117",
+      "optB": "Let your crush see your a compliment you wanted to hear in round 117"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 118",
+      "optB": "Let your crush see your a compliment you wanted to hear in round 118"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 119",
+      "optB": "Let your crush see your a compliment you wanted to hear in round 119"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 120",
+      "optB": "Let your crush see your a compliment you wanted to hear in round 120"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 121",
+      "optB": "Let your crush see your a rumor you almost believed in round 121"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 122",
+      "optB": "Let your crush see your a rumor you almost believed in round 122"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 123",
+      "optB": "Let your crush see your a rumor you almost believed in round 123"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 124",
+      "optB": "Let your crush see your a rumor you almost believed in round 124"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 125",
+      "optB": "Let your crush see your a rumor you almost believed in round 125"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 126",
+      "optB": "Let your crush see your a rumor you almost believed in round 126"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 127",
+      "optB": "Let your crush see your a rumor you almost believed in round 127"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 128",
+      "optB": "Let your crush see your a rumor you almost believed in round 128"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 129",
+      "optB": "Let your crush see your a rumor you almost believed in round 129"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 130",
+      "optB": "Let your crush see your a rumor you almost believed in round 130"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 131",
+      "optB": "Let your crush see your a rumor you almost believed in round 131"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 132",
+      "optB": "Let your crush see your a rumor you almost believed in round 132"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 133",
+      "optB": "Let your crush see your a movie you pretend to understand in round 133"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 134",
+      "optB": "Let your crush see your a movie you pretend to understand in round 134"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 135",
+      "optB": "Let your crush see your a movie you pretend to understand in round 135"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 136",
+      "optB": "Let your crush see your a movie you pretend to understand in round 136"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 137",
+      "optB": "Let your crush see your a movie you pretend to understand in round 137"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 138",
+      "optB": "Let your crush see your a movie you pretend to understand in round 138"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 139",
+      "optB": "Let your crush see your a movie you pretend to understand in round 139"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 140",
+      "optB": "Let your crush see your a movie you pretend to understand in round 140"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 141",
+      "optB": "Let your crush see your a movie you pretend to understand in round 141"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 142",
+      "optB": "Let your crush see your a movie you pretend to understand in round 142"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 143",
+      "optB": "Let your crush see your a movie you pretend to understand in round 143"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 144",
+      "optB": "Let your crush see your a movie you pretend to understand in round 144"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 145",
+      "optB": "Let your crush see your a lie you told confidently in round 145"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 146",
+      "optB": "Let your crush see your a lie you told confidently in round 146"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 147",
+      "optB": "Let your crush see your a lie you told confidently in round 147"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 148",
+      "optB": "Let your crush see your a lie you told confidently in round 148"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 149",
+      "optB": "Let your crush see your a lie you told confidently in round 149"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 150",
+      "optB": "Let your crush see your a lie you told confidently in round 150"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 151",
+      "optB": "Let your crush see your a lie you told confidently in round 151"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 152",
+      "optB": "Let your crush see your a lie you told confidently in round 152"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 153",
+      "optB": "Let your crush see your a lie you told confidently in round 153"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 154",
+      "optB": "Let your crush see your a lie you told confidently in round 154"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 155",
+      "optB": "Let your crush see your a lie you told confidently in round 155"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 156",
+      "optB": "Let your crush see your a lie you told confidently in round 156"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 157",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 157"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 158",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 158"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 159",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 159"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 160",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 160"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 161",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 161"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 162",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 162"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 163",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 163"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 164",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 164"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 165",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 165"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 166",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 166"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 167",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 167"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 168",
+      "optB": "Let your crush see your a plan you cancelled dramatically in round 168"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 169",
+      "optB": "Let your crush see your a screenshot you saved in round 169"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 170",
+      "optB": "Let your crush see your a screenshot you saved in round 170"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 171",
+      "optB": "Let your crush see your a screenshot you saved in round 171"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 172",
+      "optB": "Let your crush see your a screenshot you saved in round 172"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 173",
+      "optB": "Let your crush see your a screenshot you saved in round 173"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 174",
+      "optB": "Let your crush see your a screenshot you saved in round 174"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 175",
+      "optB": "Let your crush see your a screenshot you saved in round 175"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 176",
+      "optB": "Let your crush see your a screenshot you saved in round 176"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 177",
+      "optB": "Let your crush see your a screenshot you saved in round 177"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 178",
+      "optB": "Let your crush see your a screenshot you saved in round 178"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 179",
+      "optB": "Let your crush see your a screenshot you saved in round 179"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 180",
+      "optB": "Let your crush see your a screenshot you saved in round 180"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 181",
+      "optB": "Let your crush see your a message you typed and deleted in round 181"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 182",
+      "optB": "Let your crush see your a message you typed and deleted in round 182"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 183",
+      "optB": "Let your crush see your a message you typed and deleted in round 183"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 184",
+      "optB": "Let your crush see your a message you typed and deleted in round 184"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 185",
+      "optB": "Let your crush see your a message you typed and deleted in round 185"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 186",
+      "optB": "Let your crush see your a message you typed and deleted in round 186"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 187",
+      "optB": "Let your crush see your a message you typed and deleted in round 187"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 188",
+      "optB": "Let your crush see your a message you typed and deleted in round 188"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 189",
+      "optB": "Let your crush see your a message you typed and deleted in round 189"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 190",
+      "optB": "Let your crush see your a message you typed and deleted in round 190"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 191",
+      "optB": "Let your crush see your a message you typed and deleted in round 191"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 192",
+      "optB": "Let your crush see your a message you typed and deleted in round 192"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 193",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 193"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 194",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 194"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 195",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 195"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 196",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 196"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 197",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 197"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 198",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 198"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 199",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 199"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 200",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 200"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 201",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 201"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 202",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 202"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 203",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 203"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 204",
+      "optB": "Let your crush see your a food opinion you defend too hard in round 204"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 205",
+      "optB": "Let your crush see your a habit you pretend is normal in round 205"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 206",
+      "optB": "Let your crush see your a habit you pretend is normal in round 206"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 207",
+      "optB": "Let your crush see your a habit you pretend is normal in round 207"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 208",
+      "optB": "Let your crush see your a habit you pretend is normal in round 208"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 209",
+      "optB": "Let your crush see your a habit you pretend is normal in round 209"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 210",
+      "optB": "Let your crush see your a habit you pretend is normal in round 210"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 211",
+      "optB": "Let your crush see your a habit you pretend is normal in round 211"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 212",
+      "optB": "Let your crush see your a habit you pretend is normal in round 212"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 213",
+      "optB": "Let your crush see your a habit you pretend is normal in round 213"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 214",
+      "optB": "Let your crush see your a habit you pretend is normal in round 214"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 215",
+      "optB": "Let your crush see your a habit you pretend is normal in round 215"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 216",
+      "optB": "Let your crush see your a habit you pretend is normal in round 216"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 217",
+      "optB": "Let your crush see your a shopping regret in round 217"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 218",
+      "optB": "Let your crush see your a shopping regret in round 218"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 219",
+      "optB": "Let your crush see your a shopping regret in round 219"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 220",
+      "optB": "Let your crush see your a shopping regret in round 220"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 221",
+      "optB": "Let your crush see your a shopping regret in round 221"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 222",
+      "optB": "Let your crush see your a shopping regret in round 222"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 223",
+      "optB": "Let your crush see your a shopping regret in round 223"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 224",
+      "optB": "Let your crush see your a shopping regret in round 224"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 225",
+      "optB": "Let your crush see your a shopping regret in round 225"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 226",
+      "optB": "Let your crush see your a shopping regret in round 226"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 227",
+      "optB": "Let your crush see your a shopping regret in round 227"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 228",
+      "optB": "Let your crush see your a shopping regret in round 228"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 229",
+      "optB": "Let your crush see your a social media stalk in round 229"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 230",
+      "optB": "Let your crush see your a social media stalk in round 230"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 231",
+      "optB": "Let your crush see your a social media stalk in round 231"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 232",
+      "optB": "Let your crush see your a social media stalk in round 232"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 233",
+      "optB": "Let your crush see your a social media stalk in round 233"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 234",
+      "optB": "Let your crush see your a social media stalk in round 234"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 235",
+      "optB": "Let your crush see your a social media stalk in round 235"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 236",
+      "optB": "Let your crush see your a social media stalk in round 236"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 237",
+      "optB": "Let your crush see your a social media stalk in round 237"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 238",
+      "optB": "Let your crush see your a social media stalk in round 238"
+    },
+    {
+      "optA": "Explain your a rumor you almost believed in round 239",
+      "optB": "Let your crush see your a social media stalk in round 239"
+    },
+    {
+      "optA": "Explain your a movie you pretend to understand in round 240",
+      "optB": "Let your crush see your a social media stalk in round 240"
+    },
+    {
+      "optA": "Explain your a lie you told confidently in round 241",
+      "optB": "Let your crush see your a secret jealousy in round 241"
+    },
+    {
+      "optA": "Explain your a plan you cancelled dramatically in round 242",
+      "optB": "Let your crush see your a secret jealousy in round 242"
+    },
+    {
+      "optA": "Explain your a screenshot you saved in round 243",
+      "optB": "Let your crush see your a secret jealousy in round 243"
+    },
+    {
+      "optA": "Explain your a message you typed and deleted in round 244",
+      "optB": "Let your crush see your a secret jealousy in round 244"
+    },
+    {
+      "optA": "Explain your a food opinion you defend too hard in round 245",
+      "optB": "Let your crush see your a secret jealousy in round 245"
+    },
+    {
+      "optA": "Explain your a habit you pretend is normal in round 246",
+      "optB": "Let your crush see your a secret jealousy in round 246"
+    },
+    {
+      "optA": "Explain your a shopping regret in round 247",
+      "optB": "Let your crush see your a secret jealousy in round 247"
+    },
+    {
+      "optA": "Explain your a social media stalk in round 248",
+      "optB": "Let your crush see your a secret jealousy in round 248"
+    },
+    {
+      "optA": "Explain your a secret jealousy in round 249",
+      "optB": "Let your crush see your a secret jealousy in round 249"
+    },
+    {
+      "optA": "Explain your a compliment you wanted to hear in round 250",
+      "optB": "Let your crush see your a secret jealousy in round 250"
+    }
+  ]
+}

@@ -89,7 +89,7 @@ function InstructionsScreen({
         '2 players are randomly selected to face off',
         'A question appears — be first to answer it',
         'Press "Answered!" as fast as you can',
-        '60 seconds on the clock — go!',
+        '120 seconds on the clock — go!',
       ],
       scoring: ['Each answered question: +5 points', 'Winner bonus: +10 points'],
     },
@@ -98,7 +98,7 @@ function InstructionsScreen({
         'Everyone plays at the same time',
         'A question appears with 4 options',
         'Tap your answer before time runs out (20 seconds)',
-        '10 questions total',
+        '30 questions total',
       ],
       scoring: ['Correct answer: +10 points', 'First correct: +3 bonus points'],
     },
@@ -356,7 +356,7 @@ function RapidFireScreen({
   onAction: () => void
 }) {
   const rf = session.rapidFire
-  const [timeLeft, setTimeLeft] = useState(60)
+  const [timeLeft, setTimeLeft] = useState(120)
   const [ended, setEnded] = useState(false)
   const endedRef = useRef(false)
 

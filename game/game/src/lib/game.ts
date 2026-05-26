@@ -22,6 +22,11 @@ export interface TDQuestion {
   resolution?: 'done' | 'skip'
 }
 
+export interface PromptPoolItem {
+  type?: 'truth' | 'dare'
+  index: number
+}
+
 export interface RapidFireState {
   questionIndexes: number[]
   completed?: boolean
@@ -45,6 +50,7 @@ export interface QuizQuestion {
   answers: Record<string, number>
   firstCorrectPlayerId?: string
   revealed: boolean
+  scored?: boolean
   openedAt: number
 }
 
@@ -52,6 +58,7 @@ export interface MLTState {
   text: string
   votes: Record<string, string>
   revealed: boolean
+  scored?: boolean
 }
 
 export interface WYRState {
@@ -68,6 +75,7 @@ export interface FakeItState {
   fakerName: string
   phase: 'presenting' | 'voting' | 'revealed'
   votes: Record<string, 'convinced' | 'busted'>
+  scored?: boolean
 }
 
 export interface ActItOutState {
@@ -78,6 +86,7 @@ export interface ActItOutState {
   durationMs: number
   phase: 'acting' | 'voting' | 'done'
   votes: Record<string, boolean>
+  scored?: boolean
 }
 
 export interface GameSession {
@@ -94,8 +103,14 @@ export interface GameSession {
   rapidFire: RapidFireState | null
   currentQuizQuestion: QuizQuestion | null
   quizQueueIndexes: number[]
+  quizIndexes?: number[]
   tdPool?: Array<{ type: 'truth' | 'dare'; index: number }>
+  currentTDIndex?: number
+  questionIndexes?: number[]
   dhamaalPool?: number[]
+  promptIndexes?: number[]
+  currentPromptIndex?: number
+  usedPromptIds: string[]
   currentMLT: MLTState | null
   currentWYR: WYRState | null
   currentFakeIt: FakeItState | null
@@ -158,6 +173,13 @@ export function createNewSession(hostId: string, hostName: string): GameSession 
     rapidFire: null,
     currentQuizQuestion: null,
     quizQueueIndexes: [],
+    quizIndexes: [],
+    currentTDIndex: 0,
+    questionIndexes: [],
+    dhamaalPool: [],
+    promptIndexes: [],
+    currentPromptIndex: 0,
+    usedPromptIds: [],
     currentMLT: null,
     currentWYR: null,
     currentFakeIt: null,
@@ -169,12 +191,12 @@ export function createNewSession(hostId: string, hostName: string): GameSession 
 
 export function getTotalQuestionsForMode(mode: GameMode, playerCount: number): number {
   if (mode === 'truth-or-dare') return Math.max(playerCount * 6, 30)
-  if (mode === 'rapid-fire') return 1
+  if (mode === 'rapid-fire') return 25
   if (mode === 'quiz-up') return 30
-  if (mode === 'most-likely-to') return Math.max(playerCount * 4, 20)
-  if (mode === 'would-you-rather') return 20
-  if (mode === 'fake-it') return Math.max(playerCount * 2, 12)
-  if (mode === 'act-it-out') return Math.max(playerCount * 2, 12)
+  if (mode === 'most-likely-to') return Math.max(playerCount * 5, 25)
+  if (mode === 'would-you-rather') return 25
+  if (mode === 'fake-it') return Math.max(playerCount * 3, 20)
+  if (mode === 'act-it-out') return Math.max(playerCount * 3, 20)
   return 10
 }
 

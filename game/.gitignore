@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+game/node_modules/
+
+# Production builds
+dist/
+game/dist/
+
+# Netlify local state and generated deploy output
+.netlify/
+game/.netlify/
+netlify/
+game/netlify/
+
+# TanStack/Vite generated cache
+.tanstack/
+game/.tanstack/
+.vite/
+game/.vite/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+game/.env
+game/.env.*
+!game/.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+game/*.log
+
+# TypeScript incremental output
+*.tsbuildinfo
+game/*.tsbuildinfo
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local archives and temporary files
+*.zip
+*.tar
+*.tgz
+tmp/
+temp/
+game/tmp/
+game/temp/

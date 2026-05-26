@@ -6,113 +6,26 @@ import {
   getTotalQuestionsForMode,
 } from '../../../lib/game'
 import {
-  TRUTHS,
-  DARES,
-  RAPID_FIRE_QUESTIONS,
-  QUIZ_QUESTIONS,
-  shuffleArray,
-  pickRandomQuizIndexes,
-  buildTDPool,
-  buildDhamaalPool,
-} from '../../../lib/questions'
-import {
-  MLT_PROMPTS,
-  WYR_PROMPTS,
-  FAKE_IT_PROMPTS,
-  ACT_IT_OUT_PROMPTS,
-  pickRandomPrompt,
-  pickRandomDare,
-} from '../../../lib/dhamaalPrompts'
+  advanceDhamaalMode,
+  advanceQuizQuestion,
+  advanceRapidFireQuestion,
+  advanceTruthOrDare,
+  beginPlaying,
+  completeRapidFire,
+  pickNextWyrDare,
+  prepareModePools,
+  revealQuizQuestion,
+  scoreActItOut,
+  scoreFakeIt,
+  scoreMLT,
+  scoreQuizQuestion,
+} from '../../../lib/gameEngine'
 
 type ActionBody = {
   sessionId: string
   playerId: string
   action: string
   data?: Record<string, unknown>
-}
-
-function pickTDQuestion(session: GameSession, targetIdx: number) {
-  const target = session.players[targetIdx]
-  const poolItem = session.tdPool?.[session.questionIndex]
-  if (!poolItem) return null
-
-  if (poolItem.type === 'dare') {
-    const dare = DARES[poolItem.index]
-    return {
-      type: 'dare' as const,
-      text: dare.text,
-      drinkPenalty: dare.drinkPenalty,
-      targetPlayerId: target.id,
-      targetPlayerName: target.name,
-    }
-  }
-
-  const truth = TRUTHS[poolItem.index]
-  return {
-    type: 'truth' as const,
-    text: truth,
-    drinkPenalty: 0,
-    targetPlayerId: target.id,
-    targetPlayerName: target.name,
-  }
-}
-
-function buildNextQuizQuestion(session: GameSession): GameSession['currentQuizQuestion'] {
-  if (session.quizQueueIndexes.length === 0) return null
-  const idx = session.quizQueueIndexes[session.questionIndex]
-  if (idx === undefined) return null
-  const q = QUIZ_QUESTIONS[idx]
-  return {
-    text: q.text,
-    options: q.options,
-    correctIndex: q.correctIndex,
-    answers: {},
-    revealed: false,
-    openedAt: Date.now(),
-  }
-}
-
-function buildMLT(session: GameSession): GameSession['currentMLT'] {
-  const tone = session.tone || 'chill'
-  const prompt = pickRandomPrompt(MLT_PROMPTS[tone])
-  return { text: prompt.text, votes: {}, revealed: false }
-}
-
-function buildWYR(session: GameSession): GameSession['currentWYR'] {
-  const tone = session.tone || 'chill'
-  const prompt = pickRandomPrompt(WYR_PROMPTS[tone])
-  return { optA: prompt.optA, optB: prompt.optB, votes: {}, revealed: false, dare: null }
-}
-
-function buildFakeIt(session: GameSession): GameSession['currentFakeIt'] {
-  const tone = session.tone || 'chill'
-  const prompt = pickRandomPrompt(FAKE_IT_PROMPTS[tone])
-  const faker = session.players[session.currentPlayerIndex]
-  return { text: prompt.text, fakerId: faker.id, fakerName: faker.name, phase: 'presenting', votes: {} }
-}
-
-function buildActItOut(session: GameSession): GameSession['currentActItOut'] {
-  const tone = session.tone || 'chill'
-  const prompt = pickRandomPrompt(ACT_IT_OUT_PROMPTS[tone])
-  const actor = session.players[session.currentPlayerIndex]
-  return { text: prompt.text, actorId: actor.id, actorName: actor.name, startedAt: Date.now(), durationMs: 60000, phase: 'acting', votes: {} }
-}
-
-function advanceDhamaalMode(session: GameSession) {
-  session.questionIndex++
-  if (session.questionIndex >= session.totalQuestions) {
-    session.state = 'results'
-    session.currentMLT = null
-    session.currentWYR = null
-    session.currentFakeIt = null
-    session.currentActItOut = null
-    return
-  }
-  session.currentPlayerIndex = (session.currentPlayerIndex + 1) % session.players.length
-  if (session.gameMode === 'most-likely-to') session.currentMLT = buildMLT(session)
-  else if (session.gameMode === 'would-you-rather') session.currentWYR = buildWYR(session)
-  else if (session.gameMode === 'fake-it') session.currentFakeIt = buildFakeIt(session)
-  else if (session.gameMode === 'act-it-out') session.currentActItOut = buildActItOut(session)
 }
 
 export const Route = createFileRoute('/api/game/action')({
@@ -140,14 +53,7 @@ export const Route = createFileRoute('/api/game/action')({
             session.questionIndex = 0
             session.currentPlayerIndex = 0
             session.totalQuestions = getTotalQuestionsForMode(mode, session.players.length)
-
-            if (mode === 'quiz-up') {
-              session.quizQueueIndexes = pickRandomQuizIndexes(session.totalQuestions)
-            }
-
-            if (mode === 'truth-or-dare') {
-              session.tdPool = buildTDPool(session.totalQuestions)
-            }
+            prepareModePools(session, mode)
 
             await saveSession(session)
             return Response.json(session)
@@ -158,40 +64,7 @@ export const Route = createFileRoute('/api/game/action')({
             if (playerId !== session.hostId) return Response.json(session)
             if (session.state !== 'instructions') return Response.json(session)
 
-            session.state = 'playing'
-
-            if (session.gameMode === 'truth-or-dare') {
-              session.currentTDQuestion = pickTDQuestion(session, session.currentPlayerIndex)
-            } else if (session.gameMode === 'rapid-fire') {
-              const shuffled = shuffleArray([...Array(session.players.length).keys()])
-              const p1Idx = shuffled[0]
-              const p2Idx = shuffled[1] ?? (p1Idx === 0 ? 1 : 0)
-              const rfQuestions = shuffleArray([...RAPID_FIRE_QUESTIONS])
-              session.rapidFire = {
-                player1Id: session.players[p1Idx].id,
-                player2Id: session.players[p2Idx].id,
-                player1Name: session.players[p1Idx].name,
-                player2Name: session.players[p2Idx].name,
-                startedAt: Date.now(),
-                durationMs: 120000,
-                score1: 0,
-                score2: 0,
-                currentQuestion: rfQuestions[0],
-                questionIndexes: rfQuestions.map((_, idx) => idx),
-                questionIndex: 0,
-                ended: false,
-              }
-            } else if (session.gameMode === 'quiz-up') {
-              session.currentQuizQuestion = buildNextQuizQuestion(session)
-            } else if (session.gameMode === 'most-likely-to') {
-              session.currentMLT = buildMLT(session)
-            } else if (session.gameMode === 'would-you-rather') {
-              session.currentWYR = buildWYR(session)
-            } else if (session.gameMode === 'fake-it') {
-              session.currentFakeIt = buildFakeIt(session)
-            } else if (session.gameMode === 'act-it-out') {
-              session.currentActItOut = buildActItOut(session)
-            }
+            beginPlaying(session)
 
             await saveSession(session)
             return Response.json(session)
@@ -216,14 +89,7 @@ export const Route = createFileRoute('/api/game/action')({
               if (p) p.score += pts
             }
 
-            session.questionIndex++
-            if (session.questionIndex >= session.totalQuestions) {
-              session.state = 'results'
-              session.currentTDQuestion = null
-            } else {
-              session.currentPlayerIndex = (session.currentPlayerIndex + 1) % session.players.length
-              session.currentTDQuestion = pickTDQuestion(session, session.currentPlayerIndex)
-            }
+            advanceTruthOrDare(session)
 
             await saveSession(session)
             return Response.json(session)
@@ -248,8 +114,7 @@ export const Route = createFileRoute('/api/game/action')({
               if (isP1) rf.score1++
               if (isP2) rf.score2++
 
-              rf.questionIndex++
-              rf.currentQuestion = RAPID_FIRE_QUESTIONS[rf.questionIndex % RAPID_FIRE_QUESTIONS.length]
+              advanceRapidFireQuestion(session)
             }
 
             await saveSession(session)
@@ -261,20 +126,7 @@ export const Route = createFileRoute('/api/game/action')({
             if (session.state !== 'playing' || session.gameMode !== 'rapid-fire' || !session.rapidFire) {
               return Response.json({ error: 'Invalid state' }, { status: 400 })
             }
-            const rf = session.rapidFire
-            if (rf.completed) return Response.json(session)
-            rf.completed = true
-            rf.ended = true
-
-            const p1 = session.players.find(p => p.id === rf.player1Id)
-            const p2 = session.players.find(p => p.id === rf.player2Id)
-            if (p1) p1.score += rf.score1 * 5
-            if (p2) p2.score += rf.score2 * 5
-
-            if (rf.score1 > rf.score2 && p1) p1.score += 10
-            else if (rf.score2 > rf.score1 && p2) p2.score += 10
-
-            session.state = 'results'
+            completeRapidFire(session)
             await saveSession(session)
             return Response.json(session)
           }
@@ -298,12 +150,7 @@ export const Route = createFileRoute('/api/game/action')({
             const allAnswered = session.players.every(p => q.answers[p.id] !== undefined)
             if (allAnswered) {
               q.revealed = true
-              session.players.forEach(p => {
-                if (q.answers[p.id] === q.correctIndex) {
-                  p.score += 10
-                  if (p.id === q.firstCorrectPlayerId) p.score += 3
-                }
-              })
+              scoreQuizQuestion(session)
             }
 
             await saveSession(session)
@@ -318,13 +165,7 @@ export const Route = createFileRoute('/api/game/action')({
             const q = session.currentQuizQuestion
             if (q.revealed) return Response.json(session)
 
-            q.revealed = true
-            session.players.forEach(p => {
-              if (q.answers[p.id] === q.correctIndex) {
-                p.score += 10
-                if (p.id === q.firstCorrectPlayerId) p.score += 3
-              }
-            })
+            revealQuizQuestion(session)
 
             await saveSession(session)
             return Response.json(session)
@@ -337,13 +178,7 @@ export const Route = createFileRoute('/api/game/action')({
               return Response.json({ error: 'Invalid state' }, { status: 400 })
             }
 
-            session.questionIndex++
-            if (session.questionIndex >= session.totalQuestions) {
-              session.state = 'results'
-              session.currentQuizQuestion = null
-            } else {
-              session.currentQuizQuestion = buildNextQuizQuestion(session)
-            }
+            advanceQuizQuestion(session)
 
             await saveSession(session)
             return Response.json(session)
@@ -370,19 +205,7 @@ export const Route = createFileRoute('/api/game/action')({
             const allVoted = session.players.every(p => mlt.votes[p.id])
             if (allVoted) {
               mlt.revealed = true
-              const voteCounts: Record<string, number> = {}
-              Object.values(mlt.votes).forEach(tid => {
-                voteCounts[tid] = (voteCounts[tid] || 0) + 1
-              })
-              let maxVotes = 0
-              let winnerId = ''
-              Object.entries(voteCounts).forEach(([pid, count]) => {
-                if (count > maxVotes) { maxVotes = count; winnerId = pid }
-              })
-              if (winnerId) {
-                const winner = session.players.find(p => p.id === winnerId)
-                if (winner) winner.score += maxVotes
-              }
+              scoreMLT(session)
             }
 
             await saveSession(session)
@@ -398,19 +221,7 @@ export const Route = createFileRoute('/api/game/action')({
             if (mlt.revealed) return Response.json(session)
 
             mlt.revealed = true
-            const voteCounts: Record<string, number> = {}
-            Object.values(mlt.votes).forEach(tid => {
-              voteCounts[tid] = (voteCounts[tid] || 0) + 1
-            })
-            let maxVotes = 0
-            let winnerId = ''
-            Object.entries(voteCounts).forEach(([pid, count]) => {
-              if (count > maxVotes) { maxVotes = count; winnerId = pid }
-            })
-            if (winnerId) {
-              const winner = session.players.find(p => p.id === winnerId)
-              if (winner) winner.score += maxVotes
-            }
+            scoreMLT(session)
 
             await saveSession(session)
             return Response.json(session)
@@ -465,8 +276,7 @@ export const Route = createFileRoute('/api/game/action')({
             if (session.state !== 'playing' || session.gameMode !== 'would-you-rather' || !session.currentWYR) {
               return Response.json({ error: 'Invalid state' }, { status: 400 })
             }
-            const tone = session.tone || 'chill'
-            session.currentWYR.dare = pickRandomDare(tone)
+            session.currentWYR.dare = pickNextWyrDare(session)
             await saveSession(session)
             return Response.json(session)
           }
@@ -514,11 +324,7 @@ export const Route = createFileRoute('/api/game/action')({
             const allVoted = nonFakers.every(p => fi.votes[p.id])
             if (allVoted) {
               fi.phase = 'revealed'
-              const convincedCount = Object.values(fi.votes).filter(v => v === 'convinced').length
-              if (convincedCount > nonFakers.length / 2) {
-                const faker = session.players.find(p => p.id === fi.fakerId)
-                if (faker) faker.score += convincedCount * 2
-              }
+              scoreFakeIt(session)
             }
 
             await saveSession(session)
@@ -531,13 +337,9 @@ export const Route = createFileRoute('/api/game/action')({
               return Response.json({ error: 'Invalid state' }, { status: 400 })
             }
             const fi = session.currentFakeIt
+            if (fi.phase === 'revealed') return Response.json(session)
             fi.phase = 'revealed'
-            const nonFakers = session.players.filter(p => p.id !== fi.fakerId)
-            const convincedCount = Object.values(fi.votes).filter(v => v === 'convinced').length
-            if (convincedCount > nonFakers.length / 2) {
-              const faker = session.players.find(p => p.id === fi.fakerId)
-              if (faker) faker.score += convincedCount * 2
-            }
+            scoreFakeIt(session)
             await saveSession(session)
             return Response.json(session)
           }
@@ -579,11 +381,7 @@ export const Route = createFileRoute('/api/game/action')({
             const allVoted = nonActors.every(p => aio.votes[p.id] !== undefined)
             if (allVoted) {
               aio.phase = 'done'
-              const guessedCount = Object.values(aio.votes).filter(v => v).length
-              if (guessedCount > nonActors.length / 2) {
-                const actor = session.players.find(p => p.id === aio.actorId)
-                if (actor) actor.score += 10
-              }
+              scoreActItOut(session)
             }
 
             await saveSession(session)
@@ -596,13 +394,9 @@ export const Route = createFileRoute('/api/game/action')({
               return Response.json({ error: 'Invalid state' }, { status: 400 })
             }
             const aio = session.currentActItOut
+            if (aio.phase === 'done') return Response.json(session)
             aio.phase = 'done'
-            const nonActors = session.players.filter(p => p.id !== aio.actorId)
-            const guessedCount = Object.values(aio.votes).filter(v => v).length
-            if (guessedCount > nonActors.length / 2) {
-              const actor = session.players.find(p => p.id === aio.actorId)
-              if (actor) actor.score += 10
-            }
+            scoreActItOut(session)
             await saveSession(session)
             return Response.json(session)
           }

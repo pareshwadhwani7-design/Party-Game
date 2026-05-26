@@ -1,5 +1,5 @@
 import { createFileRoute, useNavigate } from '@tanstack/react-router'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { GameSession, GAME_MODES } from '../lib/game'
 
 export const Route = createFileRoute('/results/$sessionId')({
