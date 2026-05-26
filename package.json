@@ -1,0 +1,8 @@
+{
+  "name": "party-game-deploy-root",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm --prefix game install && npm --prefix game run build && node scripts/copy-client-dist.mjs"
+  }
+}
