@@ -2,6 +2,7 @@ import truths from '../content/truths.json'
 import dares from '../content/dares.json'
 import rapidFireQuestions from '../content/rapid-fire.json'
 import quizQuestions from '../content/quiz.json'
+import type { Tone } from './dhamaalPrompts'
 
 export interface QuizQuestionTemplate {
   text: string
@@ -9,10 +10,58 @@ export interface QuizQuestionTemplate {
   correctIndex: number
 }
 
-export const TRUTHS = truths as string[]
-export const DARES = dares as Array<{ text: string; drinkPenalty: number }>
-export const RAPID_FIRE_QUESTIONS = rapidFireQuestions as string[]
-export const QUIZ_QUESTIONS = quizQuestions as QuizQuestionTemplate[]
+export interface DareTemplate {
+  text: string
+  drinkPenalty: number
+}
+
+type ToneContent<T> = Record<Tone, T[]>
+
+function toneContent<T>(content: T[] | Partial<ToneContent<T>>): ToneContent<T> {
+  if (Array.isArray(content)) {
+    return {
+      chill: content,
+      savage: content,
+      nsfw: content,
+    }
+  }
+
+  return {
+    chill: content.chill ?? [],
+    savage: content.savage ?? content.chill ?? [],
+    nsfw: content.nsfw ?? content.savage ?? content.chill ?? [],
+  }
+}
+
+function byTone<T>(content: ToneContent<T>, tone: Tone): T[] {
+  return content[tone]?.length ? content[tone] : content.chill
+}
+
+export const TRUTHS_BY_TONE = toneContent(truths as string[] | Partial<ToneContent<string>>)
+export const DARES_BY_TONE = toneContent(dares as DareTemplate[] | Partial<ToneContent<DareTemplate>>)
+export const RAPID_FIRE_BY_TONE = toneContent(rapidFireQuestions as string[] | Partial<ToneContent<string>>)
+export const QUIZ_BY_TONE = toneContent(quizQuestions as QuizQuestionTemplate[] | Partial<ToneContent<QuizQuestionTemplate>>)
+
+export const TRUTHS = TRUTHS_BY_TONE.chill
+export const DARES = DARES_BY_TONE.chill
+export const RAPID_FIRE_QUESTIONS = RAPID_FIRE_BY_TONE.chill
+export const QUIZ_QUESTIONS = QUIZ_BY_TONE.chill
+
+export function getTruths(tone: Tone): string[] {
+  return byTone(TRUTHS_BY_TONE, tone)
+}
+
+export function getDares(tone: Tone): DareTemplate[] {
+  return byTone(DARES_BY_TONE, tone)
+}
+
+export function getRapidFireQuestions(tone: Tone): string[] {
+  return byTone(RAPID_FIRE_BY_TONE, tone)
+}
+
+export function getQuizQuestions(tone: Tone): QuizQuestionTemplate[] {
+  return byTone(QUIZ_BY_TONE, tone)
+}
 
 export function shuffleArray<T>(arr: T[]): T[] {
   const result = [...arr]

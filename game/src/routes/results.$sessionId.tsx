@@ -12,6 +12,7 @@ function ResultsPage() {
   const [session, setSession] = useState<GameSession | null>(null)
   const [playerId, setPlayerId] = useState('')
   const [resetting, setResetting] = useState(false)
+  const [replaying, setReplaying] = useState(false)
 
   useEffect(() => {
     setPlayerId(localStorage.getItem('playerId') || '')
@@ -26,6 +27,8 @@ function ResultsPage() {
           setSession(d)
           if (d.state === 'lobby') {
             navigate({ to: '/lobby/$sessionId', params: { sessionId } })
+          } else if (d.state === 'instructions' || d.state === 'playing') {
+            navigate({ to: '/game/$sessionId', params: { sessionId } })
           }
         })
         .catch(() => {})
@@ -36,7 +39,18 @@ function ResultsPage() {
     return () => clearInterval(interval)
   }, [sessionId, navigate])
 
-  async function playAgain() {
+  async function playSameGameAgain() {
+    if (!playerId) return
+    setReplaying(true)
+    await fetch('/api/game/host', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ sessionId, playerId, action: 'play-same-game' }),
+    })
+    navigate({ to: '/game/$sessionId', params: { sessionId } })
+  }
+
+  async function returnToLobby() {
     if (!playerId) return
     setResetting(true)
     await fetch('/api/game/host', {
@@ -110,17 +124,25 @@ function ResultsPage() {
         {isHost ? (
           <div className="space-y-3">
             <button
-              onClick={playAgain}
-              disabled={resetting}
+              onClick={playSameGameAgain}
+              disabled={replaying || resetting}
               className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 disabled:opacity-50 text-white font-bold py-4 rounded-2xl transition-all shadow-lg active:scale-95 text-lg"
             >
-              {resetting ? 'Resetting…' : '🔄 Play Again'}
+              {replaying ? 'Starting...' : 'Play Same Game Again'}
             </button>
             <button
-              onClick={() => navigate({ to: '/' })}
-              className="w-full bg-slate-700 hover:bg-slate-600 text-white font-semibold py-3 rounded-2xl transition-all"
+              onClick={returnToLobby}
+              disabled={replaying || resetting}
+              className="w-full bg-slate-700 hover:bg-slate-600 disabled:opacity-50 text-white font-semibold py-3 rounded-2xl transition-all"
             >
-              🏠 New Game
+              {resetting ? 'Resetting...' : 'Choose Different Game'}
+            </button>
+            <button
+              onClick={returnToLobby}
+              disabled={replaying || resetting}
+              className="w-full border border-slate-700 hover:border-slate-600 disabled:opacity-50 text-slate-300 font-semibold py-3 rounded-2xl transition-all"
+            >
+              Return To Lobby
             </button>
           </div>
         ) : (

@@ -1,4008 +1,608 @@
 {
   "chill": [
     {
-      "optA": "have your group chat read aloud with the whole group watching",
-      "optB": "have your camera roll judged by everyone with the whole group watching"
+      "optA": "host a house party with no music",
+      "optB": "attend a house party with only terrible music"
     },
     {
-      "optA": "have your group chat read aloud during a family function",
-      "optB": "have your camera roll judged by everyone during a family function"
+      "optA": "let the group see your food delivery history",
+      "optB": "let the group see your YouTube history"
     },
     {
-      "optA": "have your group chat read aloud on a first date",
-      "optB": "have your camera roll judged by everyone on a first date"
+      "optA": "always be the trip planner",
+      "optB": "always be the person everyone waits for"
     },
     {
-      "optA": "have your group chat read aloud while your phone is screen-sharing",
-      "optB": "have your camera roll judged by everyone while your phone is screen-sharing"
+      "optA": "lose your charger on every trip",
+      "optB": "forget your sunglasses on every trip"
     },
     {
-      "optA": "have your group chat read aloud after two drinks",
-      "optB": "have your camera roll judged by everyone after two drinks"
+      "optA": "sit through one awkward dinner",
+      "optB": "make one awkward phone call"
     },
     {
-      "optA": "have your group chat read aloud when your parents are nearby",
-      "optB": "have your camera roll judged by everyone when your parents are nearby"
+      "optA": "be known for bad selfies",
+      "optB": "be known for bad captions"
     },
     {
-      "optA": "have your group chat read aloud during a cousin wedding",
-      "optB": "have your camera roll judged by everyone during a cousin wedding"
+      "optA": "only drink chai for a month",
+      "optB": "only drink coffee for a month"
     },
     {
-      "optA": "have your group chat read aloud in the group chat",
-      "optB": "have your camera roll judged by everyone in the group chat"
+      "optA": "plan a perfect night with rain",
+      "optB": "plan a messy night with perfect weather"
     },
     {
-      "optA": "have your group chat read aloud at an office party",
-      "optB": "have your camera roll judged by everyone at an office party"
+      "optA": "share your screen-time report",
+      "optB": "share your saved reels"
     },
     {
-      "optA": "have your group chat read aloud during a road trip",
-      "optB": "have your camera roll judged by everyone during a road trip"
+      "optA": "be the aux person all night",
+      "optB": "be the bill-splitting person all night"
     },
     {
-      "optA": "have your group chat read aloud while ordering food",
-      "optB": "have your camera roll judged by everyone while ordering food"
+      "optA": "have every plan start early",
+      "optB": "have every plan end late"
     },
     {
-      "optA": "have your group chat read aloud at midnight",
-      "optB": "have your camera roll judged by everyone at midnight"
+      "optA": "eat the same party snack forever",
+      "optB": "never repeat a party snack"
     },
     {
-      "optA": "have your group chat read aloud when you are already embarrassed",
-      "optB": "have your camera roll judged by everyone when you are already embarrassed"
+      "optA": "be famous in your building",
+      "optB": "be famous in one cafe"
     },
     {
-      "optA": "have your group chat read aloud in front of your crush",
-      "optB": "have your camera roll judged by everyone in front of your crush"
+      "optA": "always reach first",
+      "optB": "always leave last"
     },
     {
-      "optA": "have your group chat read aloud during an IPL final",
-      "optB": "have your camera roll judged by everyone during an IPL final"
+      "optA": "have a perfect playlist and no speaker",
+      "optB": "have a loud speaker and no playlist"
     },
     {
-      "optA": "have your group chat read aloud on your birthday",
-      "optB": "have your camera roll judged by everyone on your birthday"
+      "optA": "take all group photos",
+      "optB": "be tagged in all group photos"
     },
     {
-      "optA": "have your group chat read aloud while everyone is recording",
-      "optB": "have your camera roll judged by everyone while everyone is recording"
+      "optA": "forget names instantly",
+      "optB": "remember everyone's embarrassing story"
     },
     {
-      "optA": "have your group chat read aloud during a silent room moment",
-      "optB": "have your camera roll judged by everyone during a silent room moment"
+      "optA": "live near every friend",
+      "optB": "live near every good restaurant"
     },
     {
-      "optA": "have your group chat read aloud at a reunion",
-      "optB": "have your camera roll judged by everyone at a reunion"
+      "optA": "be stuck in traffic with great company",
+      "optB": "reach early with awkward silence"
     },
     {
-      "optA": "have your group chat read aloud when the bill arrives",
-      "optB": "have your camera roll judged by everyone when the bill arrives"
+      "optA": "always choose the restaurant",
+      "optB": "never choose but always judge"
     },
     {
-      "optA": "have your group chat read aloud during a power cut",
-      "optB": "have your camera roll judged by everyone during a power cut"
+      "optA": "delete Instagram for a month",
+      "optB": "keep Instagram but never post"
     },
     {
-      "optA": "have your group chat read aloud on a video call",
-      "optB": "have your camera roll judged by everyone on a video call"
+      "optA": "have perfect party photos but no memories",
+      "optB": "have wild memories but zero photos"
     },
     {
-      "optA": "have your group chat read aloud inside a packed train",
-      "optB": "have your camera roll judged by everyone inside a packed train"
+      "optA": "be the friend who brings snacks",
+      "optB": "be the friend who brings gossip"
     },
     {
-      "optA": "have your group chat read aloud at a fancy restaurant",
-      "optB": "have your camera roll judged by everyone at a fancy restaurant"
+      "optA": "share your last ten searches",
+      "optB": "share your last ten reels"
     },
     {
-      "optA": "have your group chat read aloud while someone is gossiping",
-      "optB": "have your camera roll judged by everyone while someone is gossiping"
+      "optA": "always have low battery",
+      "optB": "always have low social battery"
     },
     {
-      "optA": "have your group chat read aloud during karaoke",
-      "optB": "have your camera roll judged by everyone during karaoke"
+      "optA": "go on a trip with overplanners",
+      "optB": "go on a trip with no planners"
     },
     {
-      "optA": "have your group chat read aloud at a family dinner",
-      "optB": "have your camera roll judged by everyone at a family dinner"
+      "optA": "hear every secret",
+      "optB": "have everyone trust you with no secrets"
     },
     {
-      "optA": "have your group chat read aloud while your ex is present",
-      "optB": "have your camera roll judged by everyone while your ex is present"
+      "optA": "never be late again",
+      "optB": "never wait for late people again"
     },
     {
-      "optA": "have your group chat read aloud when you are trying to look mature",
-      "optB": "have your camera roll judged by everyone when you are trying to look mature"
+      "optA": "be too overdressed forever",
+      "optB": "be slightly underdressed forever"
     },
     {
-      "optA": "have your group chat read aloud during a game night",
-      "optB": "have your camera roll judged by everyone during a game night"
+      "optA": "only take cabs at surge price",
+      "optB": "only take autos that cancel twice"
     },
     {
-      "optA": "have your group chat read aloud before an important meeting",
-      "optB": "have your camera roll judged by everyone before an important meeting"
+      "optA": "always be in charge of music",
+      "optB": "always be in charge of food"
     },
     {
-      "optA": "have your group chat read aloud after your phone dies",
-      "optB": "have your camera roll judged by everyone after your phone dies"
+      "optA": "never mute a group chat",
+      "optB": "never leave a group chat"
     },
     {
-      "optA": "have your group chat read aloud while stuck in rain",
-      "optB": "have your camera roll judged by everyone while stuck in rain"
+      "optA": "get a perfect table with bad food",
+      "optB": "get amazing food with terrible seating"
     },
     {
-      "optA": "have your group chat read aloud at a sangeet",
-      "optB": "have your camera roll judged by everyone at a sangeet"
+      "optA": "have your parents meet all your friends",
+      "optB": "have all your friends meet your boss"
     },
     {
-      "optA": "have your group chat read aloud while your sibling is listening",
-      "optB": "have your camera roll judged by everyone while your sibling is listening"
+      "optA": "be the first one sleepy",
+      "optB": "be the last one standing alone"
     },
     {
-      "optA": "have your group chat read aloud during a boring lecture",
-      "optB": "have your camera roll judged by everyone during a boring lecture"
+      "optA": "never take selfies again",
+      "optB": "only take selfies from one bad angle"
     },
     {
-      "optA": "have your group chat read aloud at a mall food court",
-      "optB": "have your camera roll judged by everyone at a mall food court"
+      "optA": "have people borrow your charger forever",
+      "optB": "have people borrow your headphones forever"
     },
     {
-      "optA": "have your group chat read aloud while meeting relatives",
-      "optB": "have your camera roll judged by everyone while meeting relatives"
+      "optA": "eat dinner too early",
+      "optB": "eat dinner too late"
     },
     {
-      "optA": "have your group chat read aloud during a festival visit",
-      "optB": "have your camera roll judged by everyone during a festival visit"
+      "optA": "host every pregame",
+      "optB": "clean after every pregame"
     },
     {
-      "optA": "have your group chat read aloud while trying to leave early",
-      "optB": "have your camera roll judged by everyone while trying to leave early"
+      "optA": "lose your favourite cafe",
+      "optB": "lose your favourite playlist"
     },
     {
-      "optA": "tell your crush the truth with the whole group watching",
-      "optB": "let your ex see your drafts with the whole group watching"
+      "optA": "always know the bill amount",
+      "optB": "always know the gossip amount"
     },
     {
-      "optA": "tell your crush the truth during a family function",
-      "optB": "let your ex see your drafts during a family function"
+      "optA": "be the punctual friend",
+      "optB": "be the fun friend"
     },
     {
-      "optA": "tell your crush the truth on a first date",
-      "optB": "let your ex see your drafts on a first date"
+      "optA": "have one great plan per month",
+      "optB": "have messy plans every weekend"
     },
     {
-      "optA": "tell your crush the truth while your phone is screen-sharing",
-      "optB": "let your ex see your drafts while your phone is screen-sharing"
+      "optA": "never get good lighting",
+      "optB": "never get good network"
     },
     {
-      "optA": "tell your crush the truth after two drinks",
-      "optB": "let your ex see your drafts after two drinks"
+      "optA": "always be camera-ready",
+      "optB": "always be comfortable"
     },
     {
-      "optA": "tell your crush the truth when your parents are nearby",
-      "optB": "let your ex see your drafts when your parents are nearby"
+      "optA": "have a quiet birthday",
+      "optB": "have a chaotic birthday"
     },
     {
-      "optA": "tell your crush the truth during a cousin wedding",
-      "optB": "let your ex see your drafts during a cousin wedding"
+      "optA": "be remembered for one iconic party moment",
+      "optB": "be known as reliably fun"
     },
     {
-      "optA": "tell your crush the truth in the group chat",
-      "optB": "let your ex see your drafts in the group chat"
+      "optA": "give up brunch",
+      "optB": "give up late-night snacks"
     },
     {
-      "optA": "tell your crush the truth at an office party",
-      "optB": "let your ex see your drafts at an office party"
+      "optA": "travel with your funniest friend",
+      "optB": "travel with your most responsible friend"
     },
     {
-      "optA": "tell your crush the truth during a road trip",
-      "optB": "let your ex see your drafts during a road trip"
-    },
-    {
-      "optA": "tell your crush the truth while ordering food",
-      "optB": "let your ex see your drafts while ordering food"
-    },
-    {
-      "optA": "tell your crush the truth at midnight",
-      "optB": "let your ex see your drafts at midnight"
-    },
-    {
-      "optA": "tell your crush the truth when you are already embarrassed",
-      "optB": "let your ex see your drafts when you are already embarrassed"
-    },
-    {
-      "optA": "tell your crush the truth in front of your crush",
-      "optB": "let your ex see your drafts in front of your crush"
-    },
-    {
-      "optA": "tell your crush the truth during an IPL final",
-      "optB": "let your ex see your drafts during an IPL final"
-    },
-    {
-      "optA": "tell your crush the truth on your birthday",
-      "optB": "let your ex see your drafts on your birthday"
-    },
-    {
-      "optA": "tell your crush the truth while everyone is recording",
-      "optB": "let your ex see your drafts while everyone is recording"
-    },
-    {
-      "optA": "tell your crush the truth during a silent room moment",
-      "optB": "let your ex see your drafts during a silent room moment"
-    },
-    {
-      "optA": "tell your crush the truth at a reunion",
-      "optB": "let your ex see your drafts at a reunion"
-    },
-    {
-      "optA": "tell your crush the truth when the bill arrives",
-      "optB": "let your ex see your drafts when the bill arrives"
-    },
-    {
-      "optA": "tell your crush the truth during a power cut",
-      "optB": "let your ex see your drafts during a power cut"
-    },
-    {
-      "optA": "tell your crush the truth on a video call",
-      "optB": "let your ex see your drafts on a video call"
-    },
-    {
-      "optA": "tell your crush the truth inside a packed train",
-      "optB": "let your ex see your drafts inside a packed train"
-    },
-    {
-      "optA": "tell your crush the truth at a fancy restaurant",
-      "optB": "let your ex see your drafts at a fancy restaurant"
-    },
-    {
-      "optA": "tell your crush the truth while someone is gossiping",
-      "optB": "let your ex see your drafts while someone is gossiping"
-    },
-    {
-      "optA": "tell your crush the truth during karaoke",
-      "optB": "let your ex see your drafts during karaoke"
-    },
-    {
-      "optA": "tell your crush the truth at a family dinner",
-      "optB": "let your ex see your drafts at a family dinner"
-    },
-    {
-      "optA": "tell your crush the truth while your ex is present",
-      "optB": "let your ex see your drafts while your ex is present"
-    },
-    {
-      "optA": "tell your crush the truth when you are trying to look mature",
-      "optB": "let your ex see your drafts when you are trying to look mature"
-    },
-    {
-      "optA": "tell your crush the truth during a game night",
-      "optB": "let your ex see your drafts during a game night"
-    },
-    {
-      "optA": "tell your crush the truth before an important meeting",
-      "optB": "let your ex see your drafts before an important meeting"
-    },
-    {
-      "optA": "tell your crush the truth after your phone dies",
-      "optB": "let your ex see your drafts after your phone dies"
-    },
-    {
-      "optA": "tell your crush the truth while stuck in rain",
-      "optB": "let your ex see your drafts while stuck in rain"
-    },
-    {
-      "optA": "tell your crush the truth at a sangeet",
-      "optB": "let your ex see your drafts at a sangeet"
-    },
-    {
-      "optA": "tell your crush the truth while your sibling is listening",
-      "optB": "let your ex see your drafts while your sibling is listening"
-    },
-    {
-      "optA": "tell your crush the truth during a boring lecture",
-      "optB": "let your ex see your drafts during a boring lecture"
-    },
-    {
-      "optA": "tell your crush the truth at a mall food court",
-      "optB": "let your ex see your drafts at a mall food court"
-    },
-    {
-      "optA": "tell your crush the truth while meeting relatives",
-      "optB": "let your ex see your drafts while meeting relatives"
-    },
-    {
-      "optA": "tell your crush the truth during a festival visit",
-      "optB": "let your ex see your drafts during a festival visit"
-    },
-    {
-      "optA": "tell your crush the truth while trying to leave early",
-      "optB": "let your ex see your drafts while trying to leave early"
-    },
-    {
-      "optA": "only eat street food for a month with the whole group watching",
-      "optB": "never eat street food again with the whole group watching"
-    },
-    {
-      "optA": "only eat street food for a month during a family function",
-      "optB": "never eat street food again during a family function"
-    },
-    {
-      "optA": "only eat street food for a month on a first date",
-      "optB": "never eat street food again on a first date"
-    },
-    {
-      "optA": "only eat street food for a month while your phone is screen-sharing",
-      "optB": "never eat street food again while your phone is screen-sharing"
-    },
-    {
-      "optA": "only eat street food for a month after two drinks",
-      "optB": "never eat street food again after two drinks"
-    },
-    {
-      "optA": "only eat street food for a month when your parents are nearby",
-      "optB": "never eat street food again when your parents are nearby"
-    },
-    {
-      "optA": "only eat street food for a month during a cousin wedding",
-      "optB": "never eat street food again during a cousin wedding"
-    },
-    {
-      "optA": "only eat street food for a month in the group chat",
-      "optB": "never eat street food again in the group chat"
-    },
-    {
-      "optA": "only eat street food for a month at an office party",
-      "optB": "never eat street food again at an office party"
-    },
-    {
-      "optA": "only eat street food for a month during a road trip",
-      "optB": "never eat street food again during a road trip"
-    },
-    {
-      "optA": "only eat street food for a month while ordering food",
-      "optB": "never eat street food again while ordering food"
-    },
-    {
-      "optA": "only eat street food for a month at midnight",
-      "optB": "never eat street food again at midnight"
-    },
-    {
-      "optA": "only eat street food for a month when you are already embarrassed",
-      "optB": "never eat street food again when you are already embarrassed"
-    },
-    {
-      "optA": "only eat street food for a month in front of your crush",
-      "optB": "never eat street food again in front of your crush"
-    },
-    {
-      "optA": "only eat street food for a month during an IPL final",
-      "optB": "never eat street food again during an IPL final"
-    },
-    {
-      "optA": "only eat street food for a month on your birthday",
-      "optB": "never eat street food again on your birthday"
-    },
-    {
-      "optA": "only eat street food for a month while everyone is recording",
-      "optB": "never eat street food again while everyone is recording"
-    },
-    {
-      "optA": "only eat street food for a month during a silent room moment",
-      "optB": "never eat street food again during a silent room moment"
-    },
-    {
-      "optA": "only eat street food for a month at a reunion",
-      "optB": "never eat street food again at a reunion"
-    },
-    {
-      "optA": "only eat street food for a month when the bill arrives",
-      "optB": "never eat street food again when the bill arrives"
-    },
-    {
-      "optA": "only eat street food for a month during a power cut",
-      "optB": "never eat street food again during a power cut"
-    },
-    {
-      "optA": "only eat street food for a month on a video call",
-      "optB": "never eat street food again on a video call"
-    },
-    {
-      "optA": "only eat street food for a month inside a packed train",
-      "optB": "never eat street food again inside a packed train"
-    },
-    {
-      "optA": "only eat street food for a month at a fancy restaurant",
-      "optB": "never eat street food again at a fancy restaurant"
-    },
-    {
-      "optA": "only eat street food for a month while someone is gossiping",
-      "optB": "never eat street food again while someone is gossiping"
-    },
-    {
-      "optA": "only eat street food for a month during karaoke",
-      "optB": "never eat street food again during karaoke"
-    },
-    {
-      "optA": "only eat street food for a month at a family dinner",
-      "optB": "never eat street food again at a family dinner"
-    },
-    {
-      "optA": "only eat street food for a month while your ex is present",
-      "optB": "never eat street food again while your ex is present"
-    },
-    {
-      "optA": "only eat street food for a month when you are trying to look mature",
-      "optB": "never eat street food again when you are trying to look mature"
-    },
-    {
-      "optA": "only eat street food for a month during a game night",
-      "optB": "never eat street food again during a game night"
-    },
-    {
-      "optA": "only eat street food for a month before an important meeting",
-      "optB": "never eat street food again before an important meeting"
-    },
-    {
-      "optA": "only eat street food for a month after your phone dies",
-      "optB": "never eat street food again after your phone dies"
-    },
-    {
-      "optA": "only eat street food for a month while stuck in rain",
-      "optB": "never eat street food again while stuck in rain"
-    },
-    {
-      "optA": "only eat street food for a month at a sangeet",
-      "optB": "never eat street food again at a sangeet"
-    },
-    {
-      "optA": "only eat street food for a month while your sibling is listening",
-      "optB": "never eat street food again while your sibling is listening"
-    },
-    {
-      "optA": "only eat street food for a month during a boring lecture",
-      "optB": "never eat street food again during a boring lecture"
-    },
-    {
-      "optA": "only eat street food for a month at a mall food court",
-      "optB": "never eat street food again at a mall food court"
-    },
-    {
-      "optA": "only eat street food for a month while meeting relatives",
-      "optB": "never eat street food again while meeting relatives"
-    },
-    {
-      "optA": "only eat street food for a month during a festival visit",
-      "optB": "never eat street food again during a festival visit"
-    },
-    {
-      "optA": "only eat street food for a month while trying to leave early",
-      "optB": "never eat street food again while trying to leave early"
-    },
-    {
-      "optA": "arrive too early forever with the whole group watching",
-      "optB": "be slightly late forever with the whole group watching"
-    },
-    {
-      "optA": "arrive too early forever during a family function",
-      "optB": "be slightly late forever during a family function"
-    },
-    {
-      "optA": "arrive too early forever on a first date",
-      "optB": "be slightly late forever on a first date"
-    },
-    {
-      "optA": "arrive too early forever while your phone is screen-sharing",
-      "optB": "be slightly late forever while your phone is screen-sharing"
-    },
-    {
-      "optA": "arrive too early forever after two drinks",
-      "optB": "be slightly late forever after two drinks"
-    },
-    {
-      "optA": "arrive too early forever when your parents are nearby",
-      "optB": "be slightly late forever when your parents are nearby"
-    },
-    {
-      "optA": "arrive too early forever during a cousin wedding",
-      "optB": "be slightly late forever during a cousin wedding"
-    },
-    {
-      "optA": "arrive too early forever in the group chat",
-      "optB": "be slightly late forever in the group chat"
-    },
-    {
-      "optA": "arrive too early forever at an office party",
-      "optB": "be slightly late forever at an office party"
-    },
-    {
-      "optA": "arrive too early forever during a road trip",
-      "optB": "be slightly late forever during a road trip"
-    },
-    {
-      "optA": "arrive too early forever while ordering food",
-      "optB": "be slightly late forever while ordering food"
-    },
-    {
-      "optA": "arrive too early forever at midnight",
-      "optB": "be slightly late forever at midnight"
-    },
-    {
-      "optA": "arrive too early forever when you are already embarrassed",
-      "optB": "be slightly late forever when you are already embarrassed"
-    },
-    {
-      "optA": "arrive too early forever in front of your crush",
-      "optB": "be slightly late forever in front of your crush"
-    },
-    {
-      "optA": "arrive too early forever during an IPL final",
-      "optB": "be slightly late forever during an IPL final"
-    },
-    {
-      "optA": "arrive too early forever on your birthday",
-      "optB": "be slightly late forever on your birthday"
-    },
-    {
-      "optA": "arrive too early forever while everyone is recording",
-      "optB": "be slightly late forever while everyone is recording"
-    },
-    {
-      "optA": "arrive too early forever during a silent room moment",
-      "optB": "be slightly late forever during a silent room moment"
-    },
-    {
-      "optA": "arrive too early forever at a reunion",
-      "optB": "be slightly late forever at a reunion"
-    },
-    {
-      "optA": "arrive too early forever when the bill arrives",
-      "optB": "be slightly late forever when the bill arrives"
-    },
-    {
-      "optA": "arrive too early forever during a power cut",
-      "optB": "be slightly late forever during a power cut"
-    },
-    {
-      "optA": "arrive too early forever on a video call",
-      "optB": "be slightly late forever on a video call"
-    },
-    {
-      "optA": "arrive too early forever inside a packed train",
-      "optB": "be slightly late forever inside a packed train"
-    },
-    {
-      "optA": "arrive too early forever at a fancy restaurant",
-      "optB": "be slightly late forever at a fancy restaurant"
-    },
-    {
-      "optA": "arrive too early forever while someone is gossiping",
-      "optB": "be slightly late forever while someone is gossiping"
-    },
-    {
-      "optA": "arrive too early forever during karaoke",
-      "optB": "be slightly late forever during karaoke"
-    },
-    {
-      "optA": "arrive too early forever at a family dinner",
-      "optB": "be slightly late forever at a family dinner"
-    },
-    {
-      "optA": "arrive too early forever while your ex is present",
-      "optB": "be slightly late forever while your ex is present"
-    },
-    {
-      "optA": "arrive too early forever when you are trying to look mature",
-      "optB": "be slightly late forever when you are trying to look mature"
-    },
-    {
-      "optA": "arrive too early forever during a game night",
-      "optB": "be slightly late forever during a game night"
-    },
-    {
-      "optA": "arrive too early forever before an important meeting",
-      "optB": "be slightly late forever before an important meeting"
-    },
-    {
-      "optA": "arrive too early forever after your phone dies",
-      "optB": "be slightly late forever after your phone dies"
-    },
-    {
-      "optA": "arrive too early forever while stuck in rain",
-      "optB": "be slightly late forever while stuck in rain"
-    },
-    {
-      "optA": "arrive too early forever at a sangeet",
-      "optB": "be slightly late forever at a sangeet"
-    },
-    {
-      "optA": "arrive too early forever while your sibling is listening",
-      "optB": "be slightly late forever while your sibling is listening"
-    },
-    {
-      "optA": "arrive too early forever during a boring lecture",
-      "optB": "be slightly late forever during a boring lecture"
-    },
-    {
-      "optA": "arrive too early forever at a mall food court",
-      "optB": "be slightly late forever at a mall food court"
-    },
-    {
-      "optA": "arrive too early forever while meeting relatives",
-      "optB": "be slightly late forever while meeting relatives"
-    },
-    {
-      "optA": "arrive too early forever during a festival visit",
-      "optB": "be slightly late forever during a festival visit"
-    },
-    {
-      "optA": "arrive too early forever while trying to leave early",
-      "optB": "be slightly late forever while trying to leave early"
-    },
-    {
-      "optA": "lose Instagram for a year with the whole group watching",
-      "optB": "lose online shopping for a year with the whole group watching"
-    },
-    {
-      "optA": "lose Instagram for a year during a family function",
-      "optB": "lose online shopping for a year during a family function"
-    },
-    {
-      "optA": "lose Instagram for a year on a first date",
-      "optB": "lose online shopping for a year on a first date"
-    },
-    {
-      "optA": "lose Instagram for a year while your phone is screen-sharing",
-      "optB": "lose online shopping for a year while your phone is screen-sharing"
-    },
-    {
-      "optA": "lose Instagram for a year after two drinks",
-      "optB": "lose online shopping for a year after two drinks"
-    },
-    {
-      "optA": "lose Instagram for a year when your parents are nearby",
-      "optB": "lose online shopping for a year when your parents are nearby"
-    },
-    {
-      "optA": "lose Instagram for a year during a cousin wedding",
-      "optB": "lose online shopping for a year during a cousin wedding"
-    },
-    {
-      "optA": "lose Instagram for a year in the group chat",
-      "optB": "lose online shopping for a year in the group chat"
-    },
-    {
-      "optA": "lose Instagram for a year at an office party",
-      "optB": "lose online shopping for a year at an office party"
-    },
-    {
-      "optA": "lose Instagram for a year during a road trip",
-      "optB": "lose online shopping for a year during a road trip"
-    },
-    {
-      "optA": "lose Instagram for a year while ordering food",
-      "optB": "lose online shopping for a year while ordering food"
-    },
-    {
-      "optA": "lose Instagram for a year at midnight",
-      "optB": "lose online shopping for a year at midnight"
-    },
-    {
-      "optA": "lose Instagram for a year when you are already embarrassed",
-      "optB": "lose online shopping for a year when you are already embarrassed"
-    },
-    {
-      "optA": "lose Instagram for a year in front of your crush",
-      "optB": "lose online shopping for a year in front of your crush"
-    },
-    {
-      "optA": "lose Instagram for a year during an IPL final",
-      "optB": "lose online shopping for a year during an IPL final"
-    },
-    {
-      "optA": "lose Instagram for a year on your birthday",
-      "optB": "lose online shopping for a year on your birthday"
-    },
-    {
-      "optA": "lose Instagram for a year while everyone is recording",
-      "optB": "lose online shopping for a year while everyone is recording"
-    },
-    {
-      "optA": "lose Instagram for a year during a silent room moment",
-      "optB": "lose online shopping for a year during a silent room moment"
-    },
-    {
-      "optA": "lose Instagram for a year at a reunion",
-      "optB": "lose online shopping for a year at a reunion"
-    },
-    {
-      "optA": "lose Instagram for a year when the bill arrives",
-      "optB": "lose online shopping for a year when the bill arrives"
-    },
-    {
-      "optA": "lose Instagram for a year during a power cut",
-      "optB": "lose online shopping for a year during a power cut"
-    },
-    {
-      "optA": "lose Instagram for a year on a video call",
-      "optB": "lose online shopping for a year on a video call"
-    },
-    {
-      "optA": "lose Instagram for a year inside a packed train",
-      "optB": "lose online shopping for a year inside a packed train"
-    },
-    {
-      "optA": "lose Instagram for a year at a fancy restaurant",
-      "optB": "lose online shopping for a year at a fancy restaurant"
-    },
-    {
-      "optA": "lose Instagram for a year while someone is gossiping",
-      "optB": "lose online shopping for a year while someone is gossiping"
-    },
-    {
-      "optA": "lose Instagram for a year during karaoke",
-      "optB": "lose online shopping for a year during karaoke"
-    },
-    {
-      "optA": "lose Instagram for a year at a family dinner",
-      "optB": "lose online shopping for a year at a family dinner"
-    },
-    {
-      "optA": "lose Instagram for a year while your ex is present",
-      "optB": "lose online shopping for a year while your ex is present"
-    },
-    {
-      "optA": "lose Instagram for a year when you are trying to look mature",
-      "optB": "lose online shopping for a year when you are trying to look mature"
-    },
-    {
-      "optA": "lose Instagram for a year during a game night",
-      "optB": "lose online shopping for a year during a game night"
-    },
-    {
-      "optA": "lose Instagram for a year before an important meeting",
-      "optB": "lose online shopping for a year before an important meeting"
-    },
-    {
-      "optA": "lose Instagram for a year after your phone dies",
-      "optB": "lose online shopping for a year after your phone dies"
-    },
-    {
-      "optA": "lose Instagram for a year while stuck in rain",
-      "optB": "lose online shopping for a year while stuck in rain"
-    },
-    {
-      "optA": "lose Instagram for a year at a sangeet",
-      "optB": "lose online shopping for a year at a sangeet"
-    },
-    {
-      "optA": "lose Instagram for a year while your sibling is listening",
-      "optB": "lose online shopping for a year while your sibling is listening"
-    },
-    {
-      "optA": "lose Instagram for a year during a boring lecture",
-      "optB": "lose online shopping for a year during a boring lecture"
-    },
-    {
-      "optA": "lose Instagram for a year at a mall food court",
-      "optB": "lose online shopping for a year at a mall food court"
-    },
-    {
-      "optA": "lose Instagram for a year while meeting relatives",
-      "optB": "lose online shopping for a year while meeting relatives"
-    },
-    {
-      "optA": "lose Instagram for a year during a festival visit",
-      "optB": "lose online shopping for a year during a festival visit"
-    },
-    {
-      "optA": "lose Instagram for a year while trying to leave early",
-      "optB": "lose online shopping for a year while trying to leave early"
-    },
-    {
-      "optA": "have parents see your search history with the whole group watching",
-      "optB": "have friends hear your voice notes with the whole group watching"
-    },
-    {
-      "optA": "have parents see your search history during a family function",
-      "optB": "have friends hear your voice notes during a family function"
-    },
-    {
-      "optA": "have parents see your search history on a first date",
-      "optB": "have friends hear your voice notes on a first date"
-    },
-    {
-      "optA": "have parents see your search history while your phone is screen-sharing",
-      "optB": "have friends hear your voice notes while your phone is screen-sharing"
-    },
-    {
-      "optA": "have parents see your search history after two drinks",
-      "optB": "have friends hear your voice notes after two drinks"
-    },
-    {
-      "optA": "have parents see your search history when your parents are nearby",
-      "optB": "have friends hear your voice notes when your parents are nearby"
-    },
-    {
-      "optA": "have parents see your search history during a cousin wedding",
-      "optB": "have friends hear your voice notes during a cousin wedding"
-    },
-    {
-      "optA": "have parents see your search history in the group chat",
-      "optB": "have friends hear your voice notes in the group chat"
-    },
-    {
-      "optA": "have parents see your search history at an office party",
-      "optB": "have friends hear your voice notes at an office party"
-    },
-    {
-      "optA": "have parents see your search history during a road trip",
-      "optB": "have friends hear your voice notes during a road trip"
-    },
-    {
-      "optA": "have parents see your search history while ordering food",
-      "optB": "have friends hear your voice notes while ordering food"
-    },
-    {
-      "optA": "have parents see your search history at midnight",
-      "optB": "have friends hear your voice notes at midnight"
-    },
-    {
-      "optA": "have parents see your search history when you are already embarrassed",
-      "optB": "have friends hear your voice notes when you are already embarrassed"
-    },
-    {
-      "optA": "have parents see your search history in front of your crush",
-      "optB": "have friends hear your voice notes in front of your crush"
-    },
-    {
-      "optA": "have parents see your search history during an IPL final",
-      "optB": "have friends hear your voice notes during an IPL final"
-    },
-    {
-      "optA": "have parents see your search history on your birthday",
-      "optB": "have friends hear your voice notes on your birthday"
-    },
-    {
-      "optA": "have parents see your search history while everyone is recording",
-      "optB": "have friends hear your voice notes while everyone is recording"
-    },
-    {
-      "optA": "have parents see your search history during a silent room moment",
-      "optB": "have friends hear your voice notes during a silent room moment"
-    },
-    {
-      "optA": "have parents see your search history at a reunion",
-      "optB": "have friends hear your voice notes at a reunion"
-    },
-    {
-      "optA": "have parents see your search history when the bill arrives",
-      "optB": "have friends hear your voice notes when the bill arrives"
-    },
-    {
-      "optA": "have parents see your search history during a power cut",
-      "optB": "have friends hear your voice notes during a power cut"
-    },
-    {
-      "optA": "have parents see your search history on a video call",
-      "optB": "have friends hear your voice notes on a video call"
-    },
-    {
-      "optA": "have parents see your search history inside a packed train",
-      "optB": "have friends hear your voice notes inside a packed train"
-    },
-    {
-      "optA": "have parents see your search history at a fancy restaurant",
-      "optB": "have friends hear your voice notes at a fancy restaurant"
-    },
-    {
-      "optA": "have parents see your search history while someone is gossiping",
-      "optB": "have friends hear your voice notes while someone is gossiping"
-    },
-    {
-      "optA": "have parents see your search history during karaoke",
-      "optB": "have friends hear your voice notes during karaoke"
-    },
-    {
-      "optA": "have parents see your search history at a family dinner",
-      "optB": "have friends hear your voice notes at a family dinner"
-    },
-    {
-      "optA": "have parents see your search history while your ex is present",
-      "optB": "have friends hear your voice notes while your ex is present"
-    },
-    {
-      "optA": "have parents see your search history when you are trying to look mature",
-      "optB": "have friends hear your voice notes when you are trying to look mature"
-    },
-    {
-      "optA": "have parents see your search history during a game night",
-      "optB": "have friends hear your voice notes during a game night"
-    },
-    {
-      "optA": "have parents see your search history before an important meeting",
-      "optB": "have friends hear your voice notes before an important meeting"
-    },
-    {
-      "optA": "have parents see your search history after your phone dies",
-      "optB": "have friends hear your voice notes after your phone dies"
-    },
-    {
-      "optA": "have parents see your search history while stuck in rain",
-      "optB": "have friends hear your voice notes while stuck in rain"
-    },
-    {
-      "optA": "have parents see your search history at a sangeet",
-      "optB": "have friends hear your voice notes at a sangeet"
-    },
-    {
-      "optA": "have parents see your search history while your sibling is listening",
-      "optB": "have friends hear your voice notes while your sibling is listening"
-    },
-    {
-      "optA": "have parents see your search history during a boring lecture",
-      "optB": "have friends hear your voice notes during a boring lecture"
-    },
-    {
-      "optA": "have parents see your search history at a mall food court",
-      "optB": "have friends hear your voice notes at a mall food court"
-    },
-    {
-      "optA": "have parents see your search history while meeting relatives",
-      "optB": "have friends hear your voice notes while meeting relatives"
-    },
-    {
-      "optA": "have parents see your search history during a festival visit",
-      "optB": "have friends hear your voice notes during a festival visit"
-    },
-    {
-      "optA": "have parents see your search history while trying to leave early",
-      "optB": "have friends hear your voice notes while trying to leave early"
-    },
-    {
-      "optA": "be famous for an embarrassing reason with the whole group watching",
-      "optB": "be unknown but rich with the whole group watching"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a family function",
-      "optB": "be unknown but rich during a family function"
-    },
-    {
-      "optA": "be famous for an embarrassing reason on a first date",
-      "optB": "be unknown but rich on a first date"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while your phone is screen-sharing",
-      "optB": "be unknown but rich while your phone is screen-sharing"
-    },
-    {
-      "optA": "be famous for an embarrassing reason after two drinks",
-      "optB": "be unknown but rich after two drinks"
-    },
-    {
-      "optA": "be famous for an embarrassing reason when your parents are nearby",
-      "optB": "be unknown but rich when your parents are nearby"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a cousin wedding",
-      "optB": "be unknown but rich during a cousin wedding"
-    },
-    {
-      "optA": "be famous for an embarrassing reason in the group chat",
-      "optB": "be unknown but rich in the group chat"
-    },
-    {
-      "optA": "be famous for an embarrassing reason at an office party",
-      "optB": "be unknown but rich at an office party"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a road trip",
-      "optB": "be unknown but rich during a road trip"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while ordering food",
-      "optB": "be unknown but rich while ordering food"
-    },
-    {
-      "optA": "be famous for an embarrassing reason at midnight",
-      "optB": "be unknown but rich at midnight"
-    },
-    {
-      "optA": "be famous for an embarrassing reason when you are already embarrassed",
-      "optB": "be unknown but rich when you are already embarrassed"
-    },
-    {
-      "optA": "be famous for an embarrassing reason in front of your crush",
-      "optB": "be unknown but rich in front of your crush"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during an IPL final",
-      "optB": "be unknown but rich during an IPL final"
-    },
-    {
-      "optA": "be famous for an embarrassing reason on your birthday",
-      "optB": "be unknown but rich on your birthday"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while everyone is recording",
-      "optB": "be unknown but rich while everyone is recording"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a silent room moment",
-      "optB": "be unknown but rich during a silent room moment"
-    },
-    {
-      "optA": "be famous for an embarrassing reason at a reunion",
-      "optB": "be unknown but rich at a reunion"
-    },
-    {
-      "optA": "be famous for an embarrassing reason when the bill arrives",
-      "optB": "be unknown but rich when the bill arrives"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a power cut",
-      "optB": "be unknown but rich during a power cut"
-    },
-    {
-      "optA": "be famous for an embarrassing reason on a video call",
-      "optB": "be unknown but rich on a video call"
-    },
-    {
-      "optA": "be famous for an embarrassing reason inside a packed train",
-      "optB": "be unknown but rich inside a packed train"
-    },
-    {
-      "optA": "be famous for an embarrassing reason at a fancy restaurant",
-      "optB": "be unknown but rich at a fancy restaurant"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while someone is gossiping",
-      "optB": "be unknown but rich while someone is gossiping"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during karaoke",
-      "optB": "be unknown but rich during karaoke"
-    },
-    {
-      "optA": "be famous for an embarrassing reason at a family dinner",
-      "optB": "be unknown but rich at a family dinner"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while your ex is present",
-      "optB": "be unknown but rich while your ex is present"
-    },
-    {
-      "optA": "be famous for an embarrassing reason when you are trying to look mature",
-      "optB": "be unknown but rich when you are trying to look mature"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a game night",
-      "optB": "be unknown but rich during a game night"
-    },
-    {
-      "optA": "be famous for an embarrassing reason before an important meeting",
-      "optB": "be unknown but rich before an important meeting"
-    },
-    {
-      "optA": "be famous for an embarrassing reason after your phone dies",
-      "optB": "be unknown but rich after your phone dies"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while stuck in rain",
-      "optB": "be unknown but rich while stuck in rain"
-    },
-    {
-      "optA": "be famous for an embarrassing reason at a sangeet",
-      "optB": "be unknown but rich at a sangeet"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while your sibling is listening",
-      "optB": "be unknown but rich while your sibling is listening"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a boring lecture",
-      "optB": "be unknown but rich during a boring lecture"
-    },
-    {
-      "optA": "be famous for an embarrassing reason at a mall food court",
-      "optB": "be unknown but rich at a mall food court"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while meeting relatives",
-      "optB": "be unknown but rich while meeting relatives"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a festival visit",
-      "optB": "be unknown but rich during a festival visit"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while trying to leave early",
-      "optB": "be unknown but rich while trying to leave early"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues with the whole group watching",
-      "optB": "always answer like a news anchor with the whole group watching"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during a family function",
-      "optB": "always answer like a news anchor during a family function"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues on a first date",
-      "optB": "always answer like a news anchor on a first date"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while your phone is screen-sharing",
-      "optB": "always answer like a news anchor while your phone is screen-sharing"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues after two drinks",
-      "optB": "always answer like a news anchor after two drinks"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues when your parents are nearby",
-      "optB": "always answer like a news anchor when your parents are nearby"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during a cousin wedding",
-      "optB": "always answer like a news anchor during a cousin wedding"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues in the group chat",
-      "optB": "always answer like a news anchor in the group chat"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues at an office party",
-      "optB": "always answer like a news anchor at an office party"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during a road trip",
-      "optB": "always answer like a news anchor during a road trip"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while ordering food",
-      "optB": "always answer like a news anchor while ordering food"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues at midnight",
-      "optB": "always answer like a news anchor at midnight"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues when you are already embarrassed",
-      "optB": "always answer like a news anchor when you are already embarrassed"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues in front of your crush",
-      "optB": "always answer like a news anchor in front of your crush"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during an IPL final",
-      "optB": "always answer like a news anchor during an IPL final"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues on your birthday",
-      "optB": "always answer like a news anchor on your birthday"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while everyone is recording",
-      "optB": "always answer like a news anchor while everyone is recording"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during a silent room moment",
-      "optB": "always answer like a news anchor during a silent room moment"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues at a reunion",
-      "optB": "always answer like a news anchor at a reunion"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues when the bill arrives",
-      "optB": "always answer like a news anchor when the bill arrives"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during a power cut",
-      "optB": "always answer like a news anchor during a power cut"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues on a video call",
-      "optB": "always answer like a news anchor on a video call"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues inside a packed train",
-      "optB": "always answer like a news anchor inside a packed train"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues at a fancy restaurant",
-      "optB": "always answer like a news anchor at a fancy restaurant"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while someone is gossiping",
-      "optB": "always answer like a news anchor while someone is gossiping"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during karaoke",
-      "optB": "always answer like a news anchor during karaoke"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues at a family dinner",
-      "optB": "always answer like a news anchor at a family dinner"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while your ex is present",
-      "optB": "always answer like a news anchor while your ex is present"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues when you are trying to look mature",
-      "optB": "always answer like a news anchor when you are trying to look mature"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during a game night",
-      "optB": "always answer like a news anchor during a game night"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues before an important meeting",
-      "optB": "always answer like a news anchor before an important meeting"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues after your phone dies",
-      "optB": "always answer like a news anchor after your phone dies"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while stuck in rain",
-      "optB": "always answer like a news anchor while stuck in rain"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues at a sangeet",
-      "optB": "always answer like a news anchor at a sangeet"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while your sibling is listening",
-      "optB": "always answer like a news anchor while your sibling is listening"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during a boring lecture",
-      "optB": "always answer like a news anchor during a boring lecture"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues at a mall food court",
-      "optB": "always answer like a news anchor at a mall food court"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while meeting relatives",
-      "optB": "always answer like a news anchor while meeting relatives"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during a festival visit",
-      "optB": "always answer like a news anchor during a festival visit"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while trying to leave early",
-      "optB": "always answer like a news anchor while trying to leave early"
-    },
-    {
-      "optA": "plan every trip with the whole group watching",
-      "optB": "pay for every failed plan with the whole group watching"
-    },
-    {
-      "optA": "plan every trip during a family function",
-      "optB": "pay for every failed plan during a family function"
-    },
-    {
-      "optA": "plan every trip on a first date",
-      "optB": "pay for every failed plan on a first date"
-    },
-    {
-      "optA": "plan every trip while your phone is screen-sharing",
-      "optB": "pay for every failed plan while your phone is screen-sharing"
-    },
-    {
-      "optA": "plan every trip after two drinks",
-      "optB": "pay for every failed plan after two drinks"
-    },
-    {
-      "optA": "plan every trip when your parents are nearby",
-      "optB": "pay for every failed plan when your parents are nearby"
-    },
-    {
-      "optA": "plan every trip during a cousin wedding",
-      "optB": "pay for every failed plan during a cousin wedding"
-    },
-    {
-      "optA": "plan every trip in the group chat",
-      "optB": "pay for every failed plan in the group chat"
-    },
-    {
-      "optA": "plan every trip at an office party",
-      "optB": "pay for every failed plan at an office party"
-    },
-    {
-      "optA": "plan every trip during a road trip",
-      "optB": "pay for every failed plan during a road trip"
-    },
-    {
-      "optA": "plan every trip while ordering food",
-      "optB": "pay for every failed plan while ordering food"
-    },
-    {
-      "optA": "plan every trip at midnight",
-      "optB": "pay for every failed plan at midnight"
-    },
-    {
-      "optA": "plan every trip when you are already embarrassed",
-      "optB": "pay for every failed plan when you are already embarrassed"
-    },
-    {
-      "optA": "plan every trip in front of your crush",
-      "optB": "pay for every failed plan in front of your crush"
-    },
-    {
-      "optA": "plan every trip during an IPL final",
-      "optB": "pay for every failed plan during an IPL final"
-    },
-    {
-      "optA": "plan every trip on your birthday",
-      "optB": "pay for every failed plan on your birthday"
-    },
-    {
-      "optA": "plan every trip while everyone is recording",
-      "optB": "pay for every failed plan while everyone is recording"
-    },
-    {
-      "optA": "plan every trip during a silent room moment",
-      "optB": "pay for every failed plan during a silent room moment"
-    },
-    {
-      "optA": "plan every trip at a reunion",
-      "optB": "pay for every failed plan at a reunion"
-    },
-    {
-      "optA": "plan every trip when the bill arrives",
-      "optB": "pay for every failed plan when the bill arrives"
-    },
-    {
-      "optA": "plan every trip during a power cut",
-      "optB": "pay for every failed plan during a power cut"
-    },
-    {
-      "optA": "plan every trip on a video call",
-      "optB": "pay for every failed plan on a video call"
-    },
-    {
-      "optA": "plan every trip inside a packed train",
-      "optB": "pay for every failed plan inside a packed train"
-    },
-    {
-      "optA": "plan every trip at a fancy restaurant",
-      "optB": "pay for every failed plan at a fancy restaurant"
-    },
-    {
-      "optA": "plan every trip while someone is gossiping",
-      "optB": "pay for every failed plan while someone is gossiping"
-    },
-    {
-      "optA": "plan every trip during karaoke",
-      "optB": "pay for every failed plan during karaoke"
-    },
-    {
-      "optA": "plan every trip at a family dinner",
-      "optB": "pay for every failed plan at a family dinner"
-    },
-    {
-      "optA": "plan every trip while your ex is present",
-      "optB": "pay for every failed plan while your ex is present"
-    },
-    {
-      "optA": "plan every trip when you are trying to look mature",
-      "optB": "pay for every failed plan when you are trying to look mature"
-    },
-    {
-      "optA": "plan every trip during a game night",
-      "optB": "pay for every failed plan during a game night"
-    },
-    {
-      "optA": "plan every trip before an important meeting",
-      "optB": "pay for every failed plan before an important meeting"
-    },
-    {
-      "optA": "plan every trip after your phone dies",
-      "optB": "pay for every failed plan after your phone dies"
-    },
-    {
-      "optA": "plan every trip while stuck in rain",
-      "optB": "pay for every failed plan while stuck in rain"
-    },
-    {
-      "optA": "plan every trip at a sangeet",
-      "optB": "pay for every failed plan at a sangeet"
-    },
-    {
-      "optA": "plan every trip while your sibling is listening",
-      "optB": "pay for every failed plan while your sibling is listening"
-    },
-    {
-      "optA": "plan every trip during a boring lecture",
-      "optB": "pay for every failed plan during a boring lecture"
-    },
-    {
-      "optA": "plan every trip at a mall food court",
-      "optB": "pay for every failed plan at a mall food court"
-    },
-    {
-      "optA": "plan every trip while meeting relatives",
-      "optB": "pay for every failed plan while meeting relatives"
-    },
-    {
-      "optA": "plan every trip during a festival visit",
-      "optB": "pay for every failed plan during a festival visit"
-    },
-    {
-      "optA": "plan every trip while trying to leave early",
-      "optB": "pay for every failed plan while trying to leave early"
-    },
-    {
-      "optA": "know who likes you with the whole group watching",
-      "optB": "know who finds you annoying with the whole group watching"
-    },
-    {
-      "optA": "know who likes you during a family function",
-      "optB": "know who finds you annoying during a family function"
-    },
-    {
-      "optA": "know who likes you on a first date",
-      "optB": "know who finds you annoying on a first date"
-    },
-    {
-      "optA": "know who likes you while your phone is screen-sharing",
-      "optB": "know who finds you annoying while your phone is screen-sharing"
-    },
-    {
-      "optA": "know who likes you after two drinks",
-      "optB": "know who finds you annoying after two drinks"
-    },
-    {
-      "optA": "know who likes you when your parents are nearby",
-      "optB": "know who finds you annoying when your parents are nearby"
-    },
-    {
-      "optA": "know who likes you during a cousin wedding",
-      "optB": "know who finds you annoying during a cousin wedding"
-    },
-    {
-      "optA": "know who likes you in the group chat",
-      "optB": "know who finds you annoying in the group chat"
-    },
-    {
-      "optA": "know who likes you at an office party",
-      "optB": "know who finds you annoying at an office party"
-    },
-    {
-      "optA": "know who likes you during a road trip",
-      "optB": "know who finds you annoying during a road trip"
-    },
-    {
-      "optA": "know who likes you while ordering food",
-      "optB": "know who finds you annoying while ordering food"
-    },
-    {
-      "optA": "know who likes you at midnight",
-      "optB": "know who finds you annoying at midnight"
-    },
-    {
-      "optA": "know who likes you when you are already embarrassed",
-      "optB": "know who finds you annoying when you are already embarrassed"
-    },
-    {
-      "optA": "know who likes you in front of your crush",
-      "optB": "know who finds you annoying in front of your crush"
-    },
-    {
-      "optA": "know who likes you during an IPL final",
-      "optB": "know who finds you annoying during an IPL final"
-    },
-    {
-      "optA": "know who likes you on your birthday",
-      "optB": "know who finds you annoying on your birthday"
-    },
-    {
-      "optA": "know who likes you while everyone is recording",
-      "optB": "know who finds you annoying while everyone is recording"
-    },
-    {
-      "optA": "know who likes you during a silent room moment",
-      "optB": "know who finds you annoying during a silent room moment"
-    },
-    {
-      "optA": "know who likes you at a reunion",
-      "optB": "know who finds you annoying at a reunion"
-    },
-    {
-      "optA": "know who likes you when the bill arrives",
-      "optB": "know who finds you annoying when the bill arrives"
-    },
-    {
-      "optA": "know who likes you during a power cut",
-      "optB": "know who finds you annoying during a power cut"
-    },
-    {
-      "optA": "know who likes you on a video call",
-      "optB": "know who finds you annoying on a video call"
-    },
-    {
-      "optA": "know who likes you inside a packed train",
-      "optB": "know who finds you annoying inside a packed train"
-    },
-    {
-      "optA": "know who likes you at a fancy restaurant",
-      "optB": "know who finds you annoying at a fancy restaurant"
-    },
-    {
-      "optA": "know who likes you while someone is gossiping",
-      "optB": "know who finds you annoying while someone is gossiping"
-    },
-    {
-      "optA": "know who likes you during karaoke",
-      "optB": "know who finds you annoying during karaoke"
-    },
-    {
-      "optA": "know who likes you at a family dinner",
-      "optB": "know who finds you annoying at a family dinner"
-    },
-    {
-      "optA": "know who likes you while your ex is present",
-      "optB": "know who finds you annoying while your ex is present"
-    },
-    {
-      "optA": "know who likes you when you are trying to look mature",
-      "optB": "know who finds you annoying when you are trying to look mature"
-    },
-    {
-      "optA": "know who likes you during a game night",
-      "optB": "know who finds you annoying during a game night"
-    },
-    {
-      "optA": "know who likes you before an important meeting",
-      "optB": "know who finds you annoying before an important meeting"
-    },
-    {
-      "optA": "know who likes you after your phone dies",
-      "optB": "know who finds you annoying after your phone dies"
-    },
-    {
-      "optA": "know who likes you while stuck in rain",
-      "optB": "know who finds you annoying while stuck in rain"
-    },
-    {
-      "optA": "know who likes you at a sangeet",
-      "optB": "know who finds you annoying at a sangeet"
-    },
-    {
-      "optA": "know who likes you while your sibling is listening",
-      "optB": "know who finds you annoying while your sibling is listening"
-    },
-    {
-      "optA": "know who likes you during a boring lecture",
-      "optB": "know who finds you annoying during a boring lecture"
-    },
-    {
-      "optA": "know who likes you at a mall food court",
-      "optB": "know who finds you annoying at a mall food court"
-    },
-    {
-      "optA": "know who likes you while meeting relatives",
-      "optB": "know who finds you annoying while meeting relatives"
-    },
-    {
-      "optA": "know who likes you during a festival visit",
-      "optB": "know who finds you annoying during a festival visit"
-    },
-    {
-      "optA": "know who likes you while trying to leave early",
-      "optB": "know who finds you annoying while trying to leave early"
+      "optA": "never lose your keys",
+      "optB": "never lose your dignity"
     }
   ],
   "savage": [
     {
-      "optA": "have your group chat read aloud with the whole group watching",
-      "optB": "have your camera roll judged by everyone with the whole group watching"
+      "optA": "have your group chat read aloud",
+      "optB": "have your private story reactions read aloud"
     },
     {
-      "optA": "have your group chat read aloud during a family function",
-      "optB": "have your camera roll judged by everyone during a family function"
+      "optA": "get honest feedback from your friends",
+      "optB": "get honest feedback from your exes"
     },
     {
-      "optA": "have your group chat read aloud on a first date",
-      "optB": "have your camera roll judged by everyone on a first date"
+      "optA": "always know when people are lying",
+      "optB": "always know when people are bored of you"
     },
     {
-      "optA": "have your group chat read aloud while your phone is screen-sharing",
-      "optB": "have your camera roll judged by everyone while your phone is screen-sharing"
+      "optA": "be exposed for your worst excuse",
+      "optB": "be exposed for your worst opinion"
     },
     {
-      "optA": "have your group chat read aloud after two drinks",
-      "optB": "have your camera roll judged by everyone after two drinks"
+      "optA": "date someone exactly like you",
+      "optB": "work for someone exactly like you"
     },
     {
-      "optA": "have your group chat read aloud when your parents are nearby",
-      "optB": "have your camera roll judged by everyone when your parents are nearby"
+      "optA": "lose every argument publicly",
+      "optB": "win every argument and lose every friend"
     },
     {
-      "optA": "have your group chat read aloud during a cousin wedding",
-      "optB": "have your camera roll judged by everyone during a cousin wedding"
+      "optA": "have your Notes app projected",
+      "optB": "have your search history projected"
     },
     {
-      "optA": "have your group chat read aloud in the group chat",
-      "optB": "have your camera roll judged by everyone in the group chat"
+      "optA": "never gossip again",
+      "optB": "never hear gossip again"
     },
     {
-      "optA": "have your group chat read aloud at an office party",
-      "optB": "have your camera roll judged by everyone at an office party"
+      "optA": "be called dramatic by your calmest friend",
+      "optB": "be called boring by your most chaotic friend"
     },
     {
-      "optA": "have your group chat read aloud during a road trip",
-      "optB": "have your camera roll judged by everyone during a road trip"
+      "optA": "always send the first apology",
+      "optB": "always receive the fake apology"
     },
     {
-      "optA": "have your group chat read aloud while ordering food",
-      "optB": "have your camera roll judged by everyone while ordering food"
+      "optA": "have no filter for one night",
+      "optB": "have everyone else have no filter about you"
     },
     {
-      "optA": "have your group chat read aloud at midnight",
-      "optB": "have your camera roll judged by everyone at midnight"
+      "optA": "reveal your worst red flag",
+      "optB": "reveal your most fake green flag"
     },
     {
-      "optA": "have your group chat read aloud when you are already embarrassed",
-      "optB": "have your camera roll judged by everyone when you are already embarrassed"
+      "optA": "be stuck with your own advice",
+      "optB": "be judged by your own standards"
     },
     {
-      "optA": "have your group chat read aloud in front of your crush",
-      "optB": "have your camera roll judged by everyone in front of your crush"
+      "optA": "never say I am fine again",
+      "optB": "have everyone know when you are not fine"
     },
     {
-      "optA": "have your group chat read aloud during an IPL final",
-      "optB": "have your camera roll judged by everyone during an IPL final"
+      "optA": "get roasted for your dating history",
+      "optB": "get roasted for your spending history"
     },
     {
-      "optA": "have your group chat read aloud on your birthday",
-      "optB": "have your camera roll judged by everyone on your birthday"
+      "optA": "have your last five deleted texts restored",
+      "optB": "have your last five drafts sent"
     },
     {
-      "optA": "have your group chat read aloud while everyone is recording",
-      "optB": "have your camera roll judged by everyone while everyone is recording"
+      "optA": "be unable to lie",
+      "optB": "be unable to hide your facial reactions"
     },
     {
-      "optA": "have your group chat read aloud during a silent room moment",
-      "optB": "have your camera roll judged by everyone during a silent room moment"
+      "optA": "hear what friends say when you leave",
+      "optB": "hear what you sound like when you vent"
     },
     {
-      "optA": "have your group chat read aloud at a reunion",
-      "optB": "have your camera roll judged by everyone at a reunion"
+      "optA": "be known as unreliable",
+      "optB": "be known as exhausting"
     },
     {
-      "optA": "have your group chat read aloud when the bill arrives",
-      "optB": "have your camera roll judged by everyone when the bill arrives"
+      "optA": "lose your mystery",
+      "optB": "lose your moral high ground"
     },
     {
-      "optA": "have your group chat read aloud during a power cut",
-      "optB": "have your camera roll judged by everyone during a power cut"
+      "optA": "read out your close friends list",
+      "optB": "read out your muted accounts"
     },
     {
-      "optA": "have your group chat read aloud on a video call",
-      "optB": "have your camera roll judged by everyone on a video call"
+      "optA": "apologize to everyone you ghosted",
+      "optB": "explain everyone you kept on read"
     },
     {
-      "optA": "have your group chat read aloud inside a packed train",
-      "optB": "have your camera roll judged by everyone inside a packed train"
+      "optA": "be judged by your last breakup",
+      "optB": "be judged by your last friendship fallout"
     },
     {
-      "optA": "have your group chat read aloud at a fancy restaurant",
-      "optB": "have your camera roll judged by everyone at a fancy restaurant"
+      "optA": "have every lie fact-checked",
+      "optB": "have every excuse ranked"
     },
     {
-      "optA": "have your group chat read aloud while someone is gossiping",
-      "optB": "have your camera roll judged by everyone while someone is gossiping"
+      "optA": "be too self-aware to deny your flaws",
+      "optB": "be too confident to notice them"
     },
     {
-      "optA": "have your group chat read aloud during karaoke",
-      "optB": "have your camera roll judged by everyone during karaoke"
+      "optA": "lose the ability to vague-post",
+      "optB": "lose the ability to stalk silently"
     },
     {
-      "optA": "have your group chat read aloud at a family dinner",
-      "optB": "have your camera roll judged by everyone at a family dinner"
+      "optA": "have friends review your apology style",
+      "optB": "have friends review your conflict style"
     },
     {
-      "optA": "have your group chat read aloud while your ex is present",
-      "optB": "have your camera roll judged by everyone while your ex is present"
+      "optA": "be forced to take your own advice",
+      "optB": "be forced to date your own standards"
     },
     {
-      "optA": "have your group chat read aloud when you are trying to look mature",
-      "optB": "have your camera roll judged by everyone when you are trying to look mature"
+      "optA": "have your worst decision narrated live",
+      "optB": "have your worst decision reenacted by friends"
     },
     {
-      "optA": "have your group chat read aloud during a game night",
-      "optB": "have your camera roll judged by everyone during a game night"
+      "optA": "never say low-key again",
+      "optB": "never say vibes again"
     },
     {
-      "optA": "have your group chat read aloud before an important meeting",
-      "optB": "have your camera roll judged by everyone before an important meeting"
+      "optA": "be honest about who annoys you",
+      "optB": "hear who you annoy"
     },
     {
-      "optA": "have your group chat read aloud after your phone dies",
-      "optB": "have your camera roll judged by everyone after your phone dies"
+      "optA": "lose every fake boundary",
+      "optB": "lose every fake excuse"
     },
     {
-      "optA": "have your group chat read aloud while stuck in rain",
-      "optB": "have your camera roll judged by everyone while stuck in rain"
+      "optA": "be exposed by your calendar",
+      "optB": "be exposed by your camera roll"
     },
     {
-      "optA": "have your group chat read aloud at a sangeet",
-      "optB": "have your camera roll judged by everyone at a sangeet"
+      "optA": "have a public performance review as a friend",
+      "optB": "have a public performance review as a partner"
     },
     {
-      "optA": "have your group chat read aloud while your sibling is listening",
-      "optB": "have your camera roll judged by everyone while your sibling is listening"
+      "optA": "always know who is mad at you",
+      "optB": "always know why they are mad"
     },
     {
-      "optA": "have your group chat read aloud during a boring lecture",
-      "optB": "have your camera roll judged by everyone during a boring lecture"
+      "optA": "have screenshots used in your defense",
+      "optB": "have screenshots used against you"
     },
     {
-      "optA": "have your group chat read aloud at a mall food court",
-      "optB": "have your camera roll judged by everyone at a mall food court"
+      "optA": "be called out every time you seek attention",
+      "optB": "be ignored every time you seek attention"
     },
     {
-      "optA": "have your group chat read aloud while meeting relatives",
-      "optB": "have your camera roll judged by everyone while meeting relatives"
+      "optA": "hear your ex describe you honestly",
+      "optB": "hear your best friend describe you honestly"
     },
     {
-      "optA": "have your group chat read aloud during a festival visit",
-      "optB": "have your camera roll judged by everyone during a festival visit"
+      "optA": "be unable to overexplain",
+      "optB": "be unable to avoid conflict"
     },
     {
-      "optA": "have your group chat read aloud while trying to leave early",
-      "optB": "have your camera roll judged by everyone while trying to leave early"
+      "optA": "lose your victim card",
+      "optB": "lose your charm discount"
     },
     {
-      "optA": "tell your crush the truth with the whole group watching",
-      "optB": "let your ex see your drafts with the whole group watching"
+      "optA": "be judged by your last story post",
+      "optB": "be judged by your last drunk text"
     },
     {
-      "optA": "tell your crush the truth during a family function",
-      "optB": "let your ex see your drafts during a family function"
+      "optA": "tell the truth when asked thoughts?",
+      "optB": "never be asked for thoughts again"
     },
     {
-      "optA": "tell your crush the truth on a first date",
-      "optB": "let your ex see your drafts on a first date"
+      "optA": "get exposed for hypocrisy",
+      "optB": "get exposed for insecurity"
     },
     {
-      "optA": "tell your crush the truth while your phone is screen-sharing",
-      "optB": "let your ex see your drafts while your phone is screen-sharing"
+      "optA": "stop being mysterious",
+      "optB": "stop being dramatic"
     },
     {
-      "optA": "tell your crush the truth after two drinks",
-      "optB": "let your ex see your drafts after two drinks"
+      "optA": "be forced into emotional clarity",
+      "optB": "be forced into financial clarity"
     },
     {
-      "optA": "tell your crush the truth when your parents are nearby",
-      "optB": "let your ex see your drafts when your parents are nearby"
+      "optA": "make every private opinion public",
+      "optB": "make every public performance honest"
     },
     {
-      "optA": "tell your crush the truth during a cousin wedding",
-      "optB": "let your ex see your drafts during a cousin wedding"
+      "optA": "be remembered for your worst take",
+      "optB": "be remembered for your worst text"
     },
     {
-      "optA": "tell your crush the truth in the group chat",
-      "optB": "let your ex see your drafts in the group chat"
+      "optA": "never blame timing again",
+      "optB": "never blame other people again"
     },
     {
-      "optA": "tell your crush the truth at an office party",
-      "optB": "let your ex see your drafts at an office party"
+      "optA": "admit you were the problem once",
+      "optB": "be told when you are the problem every time"
     },
     {
-      "optA": "tell your crush the truth during a road trip",
-      "optB": "let your ex see your drafts during a road trip"
-    },
-    {
-      "optA": "tell your crush the truth while ordering food",
-      "optB": "let your ex see your drafts while ordering food"
-    },
-    {
-      "optA": "tell your crush the truth at midnight",
-      "optB": "let your ex see your drafts at midnight"
-    },
-    {
-      "optA": "tell your crush the truth when you are already embarrassed",
-      "optB": "let your ex see your drafts when you are already embarrassed"
-    },
-    {
-      "optA": "tell your crush the truth in front of your crush",
-      "optB": "let your ex see your drafts in front of your crush"
-    },
-    {
-      "optA": "tell your crush the truth during an IPL final",
-      "optB": "let your ex see your drafts during an IPL final"
-    },
-    {
-      "optA": "tell your crush the truth on your birthday",
-      "optB": "let your ex see your drafts on your birthday"
-    },
-    {
-      "optA": "tell your crush the truth while everyone is recording",
-      "optB": "let your ex see your drafts while everyone is recording"
-    },
-    {
-      "optA": "tell your crush the truth during a silent room moment",
-      "optB": "let your ex see your drafts during a silent room moment"
-    },
-    {
-      "optA": "tell your crush the truth at a reunion",
-      "optB": "let your ex see your drafts at a reunion"
-    },
-    {
-      "optA": "tell your crush the truth when the bill arrives",
-      "optB": "let your ex see your drafts when the bill arrives"
-    },
-    {
-      "optA": "tell your crush the truth during a power cut",
-      "optB": "let your ex see your drafts during a power cut"
-    },
-    {
-      "optA": "tell your crush the truth on a video call",
-      "optB": "let your ex see your drafts on a video call"
-    },
-    {
-      "optA": "tell your crush the truth inside a packed train",
-      "optB": "let your ex see your drafts inside a packed train"
-    },
-    {
-      "optA": "tell your crush the truth at a fancy restaurant",
-      "optB": "let your ex see your drafts at a fancy restaurant"
-    },
-    {
-      "optA": "tell your crush the truth while someone is gossiping",
-      "optB": "let your ex see your drafts while someone is gossiping"
-    },
-    {
-      "optA": "tell your crush the truth during karaoke",
-      "optB": "let your ex see your drafts during karaoke"
-    },
-    {
-      "optA": "tell your crush the truth at a family dinner",
-      "optB": "let your ex see your drafts at a family dinner"
-    },
-    {
-      "optA": "tell your crush the truth while your ex is present",
-      "optB": "let your ex see your drafts while your ex is present"
-    },
-    {
-      "optA": "tell your crush the truth when you are trying to look mature",
-      "optB": "let your ex see your drafts when you are trying to look mature"
-    },
-    {
-      "optA": "tell your crush the truth during a game night",
-      "optB": "let your ex see your drafts during a game night"
-    },
-    {
-      "optA": "tell your crush the truth before an important meeting",
-      "optB": "let your ex see your drafts before an important meeting"
-    },
-    {
-      "optA": "tell your crush the truth after your phone dies",
-      "optB": "let your ex see your drafts after your phone dies"
-    },
-    {
-      "optA": "tell your crush the truth while stuck in rain",
-      "optB": "let your ex see your drafts while stuck in rain"
-    },
-    {
-      "optA": "tell your crush the truth at a sangeet",
-      "optB": "let your ex see your drafts at a sangeet"
-    },
-    {
-      "optA": "tell your crush the truth while your sibling is listening",
-      "optB": "let your ex see your drafts while your sibling is listening"
-    },
-    {
-      "optA": "tell your crush the truth during a boring lecture",
-      "optB": "let your ex see your drafts during a boring lecture"
-    },
-    {
-      "optA": "tell your crush the truth at a mall food court",
-      "optB": "let your ex see your drafts at a mall food court"
-    },
-    {
-      "optA": "tell your crush the truth while meeting relatives",
-      "optB": "let your ex see your drafts while meeting relatives"
-    },
-    {
-      "optA": "tell your crush the truth during a festival visit",
-      "optB": "let your ex see your drafts during a festival visit"
-    },
-    {
-      "optA": "tell your crush the truth while trying to leave early",
-      "optB": "let your ex see your drafts while trying to leave early"
-    },
-    {
-      "optA": "only eat street food for a month with the whole group watching",
-      "optB": "never eat street food again with the whole group watching"
-    },
-    {
-      "optA": "only eat street food for a month during a family function",
-      "optB": "never eat street food again during a family function"
-    },
-    {
-      "optA": "only eat street food for a month on a first date",
-      "optB": "never eat street food again on a first date"
-    },
-    {
-      "optA": "only eat street food for a month while your phone is screen-sharing",
-      "optB": "never eat street food again while your phone is screen-sharing"
-    },
-    {
-      "optA": "only eat street food for a month after two drinks",
-      "optB": "never eat street food again after two drinks"
-    },
-    {
-      "optA": "only eat street food for a month when your parents are nearby",
-      "optB": "never eat street food again when your parents are nearby"
-    },
-    {
-      "optA": "only eat street food for a month during a cousin wedding",
-      "optB": "never eat street food again during a cousin wedding"
-    },
-    {
-      "optA": "only eat street food for a month in the group chat",
-      "optB": "never eat street food again in the group chat"
-    },
-    {
-      "optA": "only eat street food for a month at an office party",
-      "optB": "never eat street food again at an office party"
-    },
-    {
-      "optA": "only eat street food for a month during a road trip",
-      "optB": "never eat street food again during a road trip"
-    },
-    {
-      "optA": "only eat street food for a month while ordering food",
-      "optB": "never eat street food again while ordering food"
-    },
-    {
-      "optA": "only eat street food for a month at midnight",
-      "optB": "never eat street food again at midnight"
-    },
-    {
-      "optA": "only eat street food for a month when you are already embarrassed",
-      "optB": "never eat street food again when you are already embarrassed"
-    },
-    {
-      "optA": "only eat street food for a month in front of your crush",
-      "optB": "never eat street food again in front of your crush"
-    },
-    {
-      "optA": "only eat street food for a month during an IPL final",
-      "optB": "never eat street food again during an IPL final"
-    },
-    {
-      "optA": "only eat street food for a month on your birthday",
-      "optB": "never eat street food again on your birthday"
-    },
-    {
-      "optA": "only eat street food for a month while everyone is recording",
-      "optB": "never eat street food again while everyone is recording"
-    },
-    {
-      "optA": "only eat street food for a month during a silent room moment",
-      "optB": "never eat street food again during a silent room moment"
-    },
-    {
-      "optA": "only eat street food for a month at a reunion",
-      "optB": "never eat street food again at a reunion"
-    },
-    {
-      "optA": "only eat street food for a month when the bill arrives",
-      "optB": "never eat street food again when the bill arrives"
-    },
-    {
-      "optA": "only eat street food for a month during a power cut",
-      "optB": "never eat street food again during a power cut"
-    },
-    {
-      "optA": "only eat street food for a month on a video call",
-      "optB": "never eat street food again on a video call"
-    },
-    {
-      "optA": "only eat street food for a month inside a packed train",
-      "optB": "never eat street food again inside a packed train"
-    },
-    {
-      "optA": "only eat street food for a month at a fancy restaurant",
-      "optB": "never eat street food again at a fancy restaurant"
-    },
-    {
-      "optA": "only eat street food for a month while someone is gossiping",
-      "optB": "never eat street food again while someone is gossiping"
-    },
-    {
-      "optA": "only eat street food for a month during karaoke",
-      "optB": "never eat street food again during karaoke"
-    },
-    {
-      "optA": "only eat street food for a month at a family dinner",
-      "optB": "never eat street food again at a family dinner"
-    },
-    {
-      "optA": "only eat street food for a month while your ex is present",
-      "optB": "never eat street food again while your ex is present"
-    },
-    {
-      "optA": "only eat street food for a month when you are trying to look mature",
-      "optB": "never eat street food again when you are trying to look mature"
-    },
-    {
-      "optA": "only eat street food for a month during a game night",
-      "optB": "never eat street food again during a game night"
-    },
-    {
-      "optA": "only eat street food for a month before an important meeting",
-      "optB": "never eat street food again before an important meeting"
-    },
-    {
-      "optA": "only eat street food for a month after your phone dies",
-      "optB": "never eat street food again after your phone dies"
-    },
-    {
-      "optA": "only eat street food for a month while stuck in rain",
-      "optB": "never eat street food again while stuck in rain"
-    },
-    {
-      "optA": "only eat street food for a month at a sangeet",
-      "optB": "never eat street food again at a sangeet"
-    },
-    {
-      "optA": "only eat street food for a month while your sibling is listening",
-      "optB": "never eat street food again while your sibling is listening"
-    },
-    {
-      "optA": "only eat street food for a month during a boring lecture",
-      "optB": "never eat street food again during a boring lecture"
-    },
-    {
-      "optA": "only eat street food for a month at a mall food court",
-      "optB": "never eat street food again at a mall food court"
-    },
-    {
-      "optA": "only eat street food for a month while meeting relatives",
-      "optB": "never eat street food again while meeting relatives"
-    },
-    {
-      "optA": "only eat street food for a month during a festival visit",
-      "optB": "never eat street food again during a festival visit"
-    },
-    {
-      "optA": "only eat street food for a month while trying to leave early",
-      "optB": "never eat street food again while trying to leave early"
-    },
-    {
-      "optA": "arrive too early forever with the whole group watching",
-      "optB": "be slightly late forever with the whole group watching"
-    },
-    {
-      "optA": "arrive too early forever during a family function",
-      "optB": "be slightly late forever during a family function"
-    },
-    {
-      "optA": "arrive too early forever on a first date",
-      "optB": "be slightly late forever on a first date"
-    },
-    {
-      "optA": "arrive too early forever while your phone is screen-sharing",
-      "optB": "be slightly late forever while your phone is screen-sharing"
-    },
-    {
-      "optA": "arrive too early forever after two drinks",
-      "optB": "be slightly late forever after two drinks"
-    },
-    {
-      "optA": "arrive too early forever when your parents are nearby",
-      "optB": "be slightly late forever when your parents are nearby"
-    },
-    {
-      "optA": "arrive too early forever during a cousin wedding",
-      "optB": "be slightly late forever during a cousin wedding"
-    },
-    {
-      "optA": "arrive too early forever in the group chat",
-      "optB": "be slightly late forever in the group chat"
-    },
-    {
-      "optA": "arrive too early forever at an office party",
-      "optB": "be slightly late forever at an office party"
-    },
-    {
-      "optA": "arrive too early forever during a road trip",
-      "optB": "be slightly late forever during a road trip"
-    },
-    {
-      "optA": "arrive too early forever while ordering food",
-      "optB": "be slightly late forever while ordering food"
-    },
-    {
-      "optA": "arrive too early forever at midnight",
-      "optB": "be slightly late forever at midnight"
-    },
-    {
-      "optA": "arrive too early forever when you are already embarrassed",
-      "optB": "be slightly late forever when you are already embarrassed"
-    },
-    {
-      "optA": "arrive too early forever in front of your crush",
-      "optB": "be slightly late forever in front of your crush"
-    },
-    {
-      "optA": "arrive too early forever during an IPL final",
-      "optB": "be slightly late forever during an IPL final"
-    },
-    {
-      "optA": "arrive too early forever on your birthday",
-      "optB": "be slightly late forever on your birthday"
-    },
-    {
-      "optA": "arrive too early forever while everyone is recording",
-      "optB": "be slightly late forever while everyone is recording"
-    },
-    {
-      "optA": "arrive too early forever during a silent room moment",
-      "optB": "be slightly late forever during a silent room moment"
-    },
-    {
-      "optA": "arrive too early forever at a reunion",
-      "optB": "be slightly late forever at a reunion"
-    },
-    {
-      "optA": "arrive too early forever when the bill arrives",
-      "optB": "be slightly late forever when the bill arrives"
-    },
-    {
-      "optA": "arrive too early forever during a power cut",
-      "optB": "be slightly late forever during a power cut"
-    },
-    {
-      "optA": "arrive too early forever on a video call",
-      "optB": "be slightly late forever on a video call"
-    },
-    {
-      "optA": "arrive too early forever inside a packed train",
-      "optB": "be slightly late forever inside a packed train"
-    },
-    {
-      "optA": "arrive too early forever at a fancy restaurant",
-      "optB": "be slightly late forever at a fancy restaurant"
-    },
-    {
-      "optA": "arrive too early forever while someone is gossiping",
-      "optB": "be slightly late forever while someone is gossiping"
-    },
-    {
-      "optA": "arrive too early forever during karaoke",
-      "optB": "be slightly late forever during karaoke"
-    },
-    {
-      "optA": "arrive too early forever at a family dinner",
-      "optB": "be slightly late forever at a family dinner"
-    },
-    {
-      "optA": "arrive too early forever while your ex is present",
-      "optB": "be slightly late forever while your ex is present"
-    },
-    {
-      "optA": "arrive too early forever when you are trying to look mature",
-      "optB": "be slightly late forever when you are trying to look mature"
-    },
-    {
-      "optA": "arrive too early forever during a game night",
-      "optB": "be slightly late forever during a game night"
-    },
-    {
-      "optA": "arrive too early forever before an important meeting",
-      "optB": "be slightly late forever before an important meeting"
-    },
-    {
-      "optA": "arrive too early forever after your phone dies",
-      "optB": "be slightly late forever after your phone dies"
-    },
-    {
-      "optA": "arrive too early forever while stuck in rain",
-      "optB": "be slightly late forever while stuck in rain"
-    },
-    {
-      "optA": "arrive too early forever at a sangeet",
-      "optB": "be slightly late forever at a sangeet"
-    },
-    {
-      "optA": "arrive too early forever while your sibling is listening",
-      "optB": "be slightly late forever while your sibling is listening"
-    },
-    {
-      "optA": "arrive too early forever during a boring lecture",
-      "optB": "be slightly late forever during a boring lecture"
-    },
-    {
-      "optA": "arrive too early forever at a mall food court",
-      "optB": "be slightly late forever at a mall food court"
-    },
-    {
-      "optA": "arrive too early forever while meeting relatives",
-      "optB": "be slightly late forever while meeting relatives"
-    },
-    {
-      "optA": "arrive too early forever during a festival visit",
-      "optB": "be slightly late forever during a festival visit"
-    },
-    {
-      "optA": "arrive too early forever while trying to leave early",
-      "optB": "be slightly late forever while trying to leave early"
-    },
-    {
-      "optA": "lose Instagram for a year with the whole group watching",
-      "optB": "lose online shopping for a year with the whole group watching"
-    },
-    {
-      "optA": "lose Instagram for a year during a family function",
-      "optB": "lose online shopping for a year during a family function"
-    },
-    {
-      "optA": "lose Instagram for a year on a first date",
-      "optB": "lose online shopping for a year on a first date"
-    },
-    {
-      "optA": "lose Instagram for a year while your phone is screen-sharing",
-      "optB": "lose online shopping for a year while your phone is screen-sharing"
-    },
-    {
-      "optA": "lose Instagram for a year after two drinks",
-      "optB": "lose online shopping for a year after two drinks"
-    },
-    {
-      "optA": "lose Instagram for a year when your parents are nearby",
-      "optB": "lose online shopping for a year when your parents are nearby"
-    },
-    {
-      "optA": "lose Instagram for a year during a cousin wedding",
-      "optB": "lose online shopping for a year during a cousin wedding"
-    },
-    {
-      "optA": "lose Instagram for a year in the group chat",
-      "optB": "lose online shopping for a year in the group chat"
-    },
-    {
-      "optA": "lose Instagram for a year at an office party",
-      "optB": "lose online shopping for a year at an office party"
-    },
-    {
-      "optA": "lose Instagram for a year during a road trip",
-      "optB": "lose online shopping for a year during a road trip"
-    },
-    {
-      "optA": "lose Instagram for a year while ordering food",
-      "optB": "lose online shopping for a year while ordering food"
-    },
-    {
-      "optA": "lose Instagram for a year at midnight",
-      "optB": "lose online shopping for a year at midnight"
-    },
-    {
-      "optA": "lose Instagram for a year when you are already embarrassed",
-      "optB": "lose online shopping for a year when you are already embarrassed"
-    },
-    {
-      "optA": "lose Instagram for a year in front of your crush",
-      "optB": "lose online shopping for a year in front of your crush"
-    },
-    {
-      "optA": "lose Instagram for a year during an IPL final",
-      "optB": "lose online shopping for a year during an IPL final"
-    },
-    {
-      "optA": "lose Instagram for a year on your birthday",
-      "optB": "lose online shopping for a year on your birthday"
-    },
-    {
-      "optA": "lose Instagram for a year while everyone is recording",
-      "optB": "lose online shopping for a year while everyone is recording"
-    },
-    {
-      "optA": "lose Instagram for a year during a silent room moment",
-      "optB": "lose online shopping for a year during a silent room moment"
-    },
-    {
-      "optA": "lose Instagram for a year at a reunion",
-      "optB": "lose online shopping for a year at a reunion"
-    },
-    {
-      "optA": "lose Instagram for a year when the bill arrives",
-      "optB": "lose online shopping for a year when the bill arrives"
-    },
-    {
-      "optA": "lose Instagram for a year during a power cut",
-      "optB": "lose online shopping for a year during a power cut"
-    },
-    {
-      "optA": "lose Instagram for a year on a video call",
-      "optB": "lose online shopping for a year on a video call"
-    },
-    {
-      "optA": "lose Instagram for a year inside a packed train",
-      "optB": "lose online shopping for a year inside a packed train"
-    },
-    {
-      "optA": "lose Instagram for a year at a fancy restaurant",
-      "optB": "lose online shopping for a year at a fancy restaurant"
-    },
-    {
-      "optA": "lose Instagram for a year while someone is gossiping",
-      "optB": "lose online shopping for a year while someone is gossiping"
-    },
-    {
-      "optA": "lose Instagram for a year during karaoke",
-      "optB": "lose online shopping for a year during karaoke"
-    },
-    {
-      "optA": "lose Instagram for a year at a family dinner",
-      "optB": "lose online shopping for a year at a family dinner"
-    },
-    {
-      "optA": "lose Instagram for a year while your ex is present",
-      "optB": "lose online shopping for a year while your ex is present"
-    },
-    {
-      "optA": "lose Instagram for a year when you are trying to look mature",
-      "optB": "lose online shopping for a year when you are trying to look mature"
-    },
-    {
-      "optA": "lose Instagram for a year during a game night",
-      "optB": "lose online shopping for a year during a game night"
-    },
-    {
-      "optA": "lose Instagram for a year before an important meeting",
-      "optB": "lose online shopping for a year before an important meeting"
-    },
-    {
-      "optA": "lose Instagram for a year after your phone dies",
-      "optB": "lose online shopping for a year after your phone dies"
-    },
-    {
-      "optA": "lose Instagram for a year while stuck in rain",
-      "optB": "lose online shopping for a year while stuck in rain"
-    },
-    {
-      "optA": "lose Instagram for a year at a sangeet",
-      "optB": "lose online shopping for a year at a sangeet"
-    },
-    {
-      "optA": "lose Instagram for a year while your sibling is listening",
-      "optB": "lose online shopping for a year while your sibling is listening"
-    },
-    {
-      "optA": "lose Instagram for a year during a boring lecture",
-      "optB": "lose online shopping for a year during a boring lecture"
-    },
-    {
-      "optA": "lose Instagram for a year at a mall food court",
-      "optB": "lose online shopping for a year at a mall food court"
-    },
-    {
-      "optA": "lose Instagram for a year while meeting relatives",
-      "optB": "lose online shopping for a year while meeting relatives"
-    },
-    {
-      "optA": "lose Instagram for a year during a festival visit",
-      "optB": "lose online shopping for a year during a festival visit"
-    },
-    {
-      "optA": "lose Instagram for a year while trying to leave early",
-      "optB": "lose online shopping for a year while trying to leave early"
-    },
-    {
-      "optA": "have parents see your search history with the whole group watching",
-      "optB": "have friends hear your voice notes with the whole group watching"
-    },
-    {
-      "optA": "have parents see your search history during a family function",
-      "optB": "have friends hear your voice notes during a family function"
-    },
-    {
-      "optA": "have parents see your search history on a first date",
-      "optB": "have friends hear your voice notes on a first date"
-    },
-    {
-      "optA": "have parents see your search history while your phone is screen-sharing",
-      "optB": "have friends hear your voice notes while your phone is screen-sharing"
-    },
-    {
-      "optA": "have parents see your search history after two drinks",
-      "optB": "have friends hear your voice notes after two drinks"
-    },
-    {
-      "optA": "have parents see your search history when your parents are nearby",
-      "optB": "have friends hear your voice notes when your parents are nearby"
-    },
-    {
-      "optA": "have parents see your search history during a cousin wedding",
-      "optB": "have friends hear your voice notes during a cousin wedding"
-    },
-    {
-      "optA": "have parents see your search history in the group chat",
-      "optB": "have friends hear your voice notes in the group chat"
-    },
-    {
-      "optA": "have parents see your search history at an office party",
-      "optB": "have friends hear your voice notes at an office party"
-    },
-    {
-      "optA": "have parents see your search history during a road trip",
-      "optB": "have friends hear your voice notes during a road trip"
-    },
-    {
-      "optA": "have parents see your search history while ordering food",
-      "optB": "have friends hear your voice notes while ordering food"
-    },
-    {
-      "optA": "have parents see your search history at midnight",
-      "optB": "have friends hear your voice notes at midnight"
-    },
-    {
-      "optA": "have parents see your search history when you are already embarrassed",
-      "optB": "have friends hear your voice notes when you are already embarrassed"
-    },
-    {
-      "optA": "have parents see your search history in front of your crush",
-      "optB": "have friends hear your voice notes in front of your crush"
-    },
-    {
-      "optA": "have parents see your search history during an IPL final",
-      "optB": "have friends hear your voice notes during an IPL final"
-    },
-    {
-      "optA": "have parents see your search history on your birthday",
-      "optB": "have friends hear your voice notes on your birthday"
-    },
-    {
-      "optA": "have parents see your search history while everyone is recording",
-      "optB": "have friends hear your voice notes while everyone is recording"
-    },
-    {
-      "optA": "have parents see your search history during a silent room moment",
-      "optB": "have friends hear your voice notes during a silent room moment"
-    },
-    {
-      "optA": "have parents see your search history at a reunion",
-      "optB": "have friends hear your voice notes at a reunion"
-    },
-    {
-      "optA": "have parents see your search history when the bill arrives",
-      "optB": "have friends hear your voice notes when the bill arrives"
-    },
-    {
-      "optA": "have parents see your search history during a power cut",
-      "optB": "have friends hear your voice notes during a power cut"
-    },
-    {
-      "optA": "have parents see your search history on a video call",
-      "optB": "have friends hear your voice notes on a video call"
-    },
-    {
-      "optA": "have parents see your search history inside a packed train",
-      "optB": "have friends hear your voice notes inside a packed train"
-    },
-    {
-      "optA": "have parents see your search history at a fancy restaurant",
-      "optB": "have friends hear your voice notes at a fancy restaurant"
-    },
-    {
-      "optA": "have parents see your search history while someone is gossiping",
-      "optB": "have friends hear your voice notes while someone is gossiping"
-    },
-    {
-      "optA": "have parents see your search history during karaoke",
-      "optB": "have friends hear your voice notes during karaoke"
-    },
-    {
-      "optA": "have parents see your search history at a family dinner",
-      "optB": "have friends hear your voice notes at a family dinner"
-    },
-    {
-      "optA": "have parents see your search history while your ex is present",
-      "optB": "have friends hear your voice notes while your ex is present"
-    },
-    {
-      "optA": "have parents see your search history when you are trying to look mature",
-      "optB": "have friends hear your voice notes when you are trying to look mature"
-    },
-    {
-      "optA": "have parents see your search history during a game night",
-      "optB": "have friends hear your voice notes during a game night"
-    },
-    {
-      "optA": "have parents see your search history before an important meeting",
-      "optB": "have friends hear your voice notes before an important meeting"
-    },
-    {
-      "optA": "have parents see your search history after your phone dies",
-      "optB": "have friends hear your voice notes after your phone dies"
-    },
-    {
-      "optA": "have parents see your search history while stuck in rain",
-      "optB": "have friends hear your voice notes while stuck in rain"
-    },
-    {
-      "optA": "have parents see your search history at a sangeet",
-      "optB": "have friends hear your voice notes at a sangeet"
-    },
-    {
-      "optA": "have parents see your search history while your sibling is listening",
-      "optB": "have friends hear your voice notes while your sibling is listening"
-    },
-    {
-      "optA": "have parents see your search history during a boring lecture",
-      "optB": "have friends hear your voice notes during a boring lecture"
-    },
-    {
-      "optA": "have parents see your search history at a mall food court",
-      "optB": "have friends hear your voice notes at a mall food court"
-    },
-    {
-      "optA": "have parents see your search history while meeting relatives",
-      "optB": "have friends hear your voice notes while meeting relatives"
-    },
-    {
-      "optA": "have parents see your search history during a festival visit",
-      "optB": "have friends hear your voice notes during a festival visit"
-    },
-    {
-      "optA": "have parents see your search history while trying to leave early",
-      "optB": "have friends hear your voice notes while trying to leave early"
-    },
-    {
-      "optA": "be famous for an embarrassing reason with the whole group watching",
-      "optB": "be unknown but rich with the whole group watching"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a family function",
-      "optB": "be unknown but rich during a family function"
-    },
-    {
-      "optA": "be famous for an embarrassing reason on a first date",
-      "optB": "be unknown but rich on a first date"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while your phone is screen-sharing",
-      "optB": "be unknown but rich while your phone is screen-sharing"
-    },
-    {
-      "optA": "be famous for an embarrassing reason after two drinks",
-      "optB": "be unknown but rich after two drinks"
-    },
-    {
-      "optA": "be famous for an embarrassing reason when your parents are nearby",
-      "optB": "be unknown but rich when your parents are nearby"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a cousin wedding",
-      "optB": "be unknown but rich during a cousin wedding"
-    },
-    {
-      "optA": "be famous for an embarrassing reason in the group chat",
-      "optB": "be unknown but rich in the group chat"
-    },
-    {
-      "optA": "be famous for an embarrassing reason at an office party",
-      "optB": "be unknown but rich at an office party"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a road trip",
-      "optB": "be unknown but rich during a road trip"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while ordering food",
-      "optB": "be unknown but rich while ordering food"
-    },
-    {
-      "optA": "be famous for an embarrassing reason at midnight",
-      "optB": "be unknown but rich at midnight"
-    },
-    {
-      "optA": "be famous for an embarrassing reason when you are already embarrassed",
-      "optB": "be unknown but rich when you are already embarrassed"
-    },
-    {
-      "optA": "be famous for an embarrassing reason in front of your crush",
-      "optB": "be unknown but rich in front of your crush"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during an IPL final",
-      "optB": "be unknown but rich during an IPL final"
-    },
-    {
-      "optA": "be famous for an embarrassing reason on your birthday",
-      "optB": "be unknown but rich on your birthday"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while everyone is recording",
-      "optB": "be unknown but rich while everyone is recording"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a silent room moment",
-      "optB": "be unknown but rich during a silent room moment"
-    },
-    {
-      "optA": "be famous for an embarrassing reason at a reunion",
-      "optB": "be unknown but rich at a reunion"
-    },
-    {
-      "optA": "be famous for an embarrassing reason when the bill arrives",
-      "optB": "be unknown but rich when the bill arrives"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a power cut",
-      "optB": "be unknown but rich during a power cut"
-    },
-    {
-      "optA": "be famous for an embarrassing reason on a video call",
-      "optB": "be unknown but rich on a video call"
-    },
-    {
-      "optA": "be famous for an embarrassing reason inside a packed train",
-      "optB": "be unknown but rich inside a packed train"
-    },
-    {
-      "optA": "be famous for an embarrassing reason at a fancy restaurant",
-      "optB": "be unknown but rich at a fancy restaurant"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while someone is gossiping",
-      "optB": "be unknown but rich while someone is gossiping"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during karaoke",
-      "optB": "be unknown but rich during karaoke"
-    },
-    {
-      "optA": "be famous for an embarrassing reason at a family dinner",
-      "optB": "be unknown but rich at a family dinner"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while your ex is present",
-      "optB": "be unknown but rich while your ex is present"
-    },
-    {
-      "optA": "be famous for an embarrassing reason when you are trying to look mature",
-      "optB": "be unknown but rich when you are trying to look mature"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a game night",
-      "optB": "be unknown but rich during a game night"
-    },
-    {
-      "optA": "be famous for an embarrassing reason before an important meeting",
-      "optB": "be unknown but rich before an important meeting"
-    },
-    {
-      "optA": "be famous for an embarrassing reason after your phone dies",
-      "optB": "be unknown but rich after your phone dies"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while stuck in rain",
-      "optB": "be unknown but rich while stuck in rain"
-    },
-    {
-      "optA": "be famous for an embarrassing reason at a sangeet",
-      "optB": "be unknown but rich at a sangeet"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while your sibling is listening",
-      "optB": "be unknown but rich while your sibling is listening"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a boring lecture",
-      "optB": "be unknown but rich during a boring lecture"
-    },
-    {
-      "optA": "be famous for an embarrassing reason at a mall food court",
-      "optB": "be unknown but rich at a mall food court"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while meeting relatives",
-      "optB": "be unknown but rich while meeting relatives"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a festival visit",
-      "optB": "be unknown but rich during a festival visit"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while trying to leave early",
-      "optB": "be unknown but rich while trying to leave early"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues with the whole group watching",
-      "optB": "always answer like a news anchor with the whole group watching"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during a family function",
-      "optB": "always answer like a news anchor during a family function"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues on a first date",
-      "optB": "always answer like a news anchor on a first date"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while your phone is screen-sharing",
-      "optB": "always answer like a news anchor while your phone is screen-sharing"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues after two drinks",
-      "optB": "always answer like a news anchor after two drinks"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues when your parents are nearby",
-      "optB": "always answer like a news anchor when your parents are nearby"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during a cousin wedding",
-      "optB": "always answer like a news anchor during a cousin wedding"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues in the group chat",
-      "optB": "always answer like a news anchor in the group chat"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues at an office party",
-      "optB": "always answer like a news anchor at an office party"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during a road trip",
-      "optB": "always answer like a news anchor during a road trip"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while ordering food",
-      "optB": "always answer like a news anchor while ordering food"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues at midnight",
-      "optB": "always answer like a news anchor at midnight"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues when you are already embarrassed",
-      "optB": "always answer like a news anchor when you are already embarrassed"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues in front of your crush",
-      "optB": "always answer like a news anchor in front of your crush"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during an IPL final",
-      "optB": "always answer like a news anchor during an IPL final"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues on your birthday",
-      "optB": "always answer like a news anchor on your birthday"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while everyone is recording",
-      "optB": "always answer like a news anchor while everyone is recording"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during a silent room moment",
-      "optB": "always answer like a news anchor during a silent room moment"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues at a reunion",
-      "optB": "always answer like a news anchor at a reunion"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues when the bill arrives",
-      "optB": "always answer like a news anchor when the bill arrives"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during a power cut",
-      "optB": "always answer like a news anchor during a power cut"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues on a video call",
-      "optB": "always answer like a news anchor on a video call"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues inside a packed train",
-      "optB": "always answer like a news anchor inside a packed train"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues at a fancy restaurant",
-      "optB": "always answer like a news anchor at a fancy restaurant"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while someone is gossiping",
-      "optB": "always answer like a news anchor while someone is gossiping"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during karaoke",
-      "optB": "always answer like a news anchor during karaoke"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues at a family dinner",
-      "optB": "always answer like a news anchor at a family dinner"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while your ex is present",
-      "optB": "always answer like a news anchor while your ex is present"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues when you are trying to look mature",
-      "optB": "always answer like a news anchor when you are trying to look mature"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during a game night",
-      "optB": "always answer like a news anchor during a game night"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues before an important meeting",
-      "optB": "always answer like a news anchor before an important meeting"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues after your phone dies",
-      "optB": "always answer like a news anchor after your phone dies"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while stuck in rain",
-      "optB": "always answer like a news anchor while stuck in rain"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues at a sangeet",
-      "optB": "always answer like a news anchor at a sangeet"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while your sibling is listening",
-      "optB": "always answer like a news anchor while your sibling is listening"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during a boring lecture",
-      "optB": "always answer like a news anchor during a boring lecture"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues at a mall food court",
-      "optB": "always answer like a news anchor at a mall food court"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while meeting relatives",
-      "optB": "always answer like a news anchor while meeting relatives"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues during a festival visit",
-      "optB": "always answer like a news anchor during a festival visit"
-    },
-    {
-      "optA": "always speak in Bollywood dialogues while trying to leave early",
-      "optB": "always answer like a news anchor while trying to leave early"
-    },
-    {
-      "optA": "plan every trip with the whole group watching",
-      "optB": "pay for every failed plan with the whole group watching"
-    },
-    {
-      "optA": "plan every trip during a family function",
-      "optB": "pay for every failed plan during a family function"
-    },
-    {
-      "optA": "plan every trip on a first date",
-      "optB": "pay for every failed plan on a first date"
-    },
-    {
-      "optA": "plan every trip while your phone is screen-sharing",
-      "optB": "pay for every failed plan while your phone is screen-sharing"
-    },
-    {
-      "optA": "plan every trip after two drinks",
-      "optB": "pay for every failed plan after two drinks"
-    },
-    {
-      "optA": "plan every trip when your parents are nearby",
-      "optB": "pay for every failed plan when your parents are nearby"
-    },
-    {
-      "optA": "plan every trip during a cousin wedding",
-      "optB": "pay for every failed plan during a cousin wedding"
-    },
-    {
-      "optA": "plan every trip in the group chat",
-      "optB": "pay for every failed plan in the group chat"
-    },
-    {
-      "optA": "plan every trip at an office party",
-      "optB": "pay for every failed plan at an office party"
-    },
-    {
-      "optA": "plan every trip during a road trip",
-      "optB": "pay for every failed plan during a road trip"
-    },
-    {
-      "optA": "plan every trip while ordering food",
-      "optB": "pay for every failed plan while ordering food"
-    },
-    {
-      "optA": "plan every trip at midnight",
-      "optB": "pay for every failed plan at midnight"
-    },
-    {
-      "optA": "plan every trip when you are already embarrassed",
-      "optB": "pay for every failed plan when you are already embarrassed"
-    },
-    {
-      "optA": "plan every trip in front of your crush",
-      "optB": "pay for every failed plan in front of your crush"
-    },
-    {
-      "optA": "plan every trip during an IPL final",
-      "optB": "pay for every failed plan during an IPL final"
-    },
-    {
-      "optA": "plan every trip on your birthday",
-      "optB": "pay for every failed plan on your birthday"
-    },
-    {
-      "optA": "plan every trip while everyone is recording",
-      "optB": "pay for every failed plan while everyone is recording"
-    },
-    {
-      "optA": "plan every trip during a silent room moment",
-      "optB": "pay for every failed plan during a silent room moment"
-    },
-    {
-      "optA": "plan every trip at a reunion",
-      "optB": "pay for every failed plan at a reunion"
-    },
-    {
-      "optA": "plan every trip when the bill arrives",
-      "optB": "pay for every failed plan when the bill arrives"
-    },
-    {
-      "optA": "plan every trip during a power cut",
-      "optB": "pay for every failed plan during a power cut"
-    },
-    {
-      "optA": "plan every trip on a video call",
-      "optB": "pay for every failed plan on a video call"
-    },
-    {
-      "optA": "plan every trip inside a packed train",
-      "optB": "pay for every failed plan inside a packed train"
-    },
-    {
-      "optA": "plan every trip at a fancy restaurant",
-      "optB": "pay for every failed plan at a fancy restaurant"
-    },
-    {
-      "optA": "plan every trip while someone is gossiping",
-      "optB": "pay for every failed plan while someone is gossiping"
-    },
-    {
-      "optA": "plan every trip during karaoke",
-      "optB": "pay for every failed plan during karaoke"
-    },
-    {
-      "optA": "plan every trip at a family dinner",
-      "optB": "pay for every failed plan at a family dinner"
-    },
-    {
-      "optA": "plan every trip while your ex is present",
-      "optB": "pay for every failed plan while your ex is present"
-    },
-    {
-      "optA": "plan every trip when you are trying to look mature",
-      "optB": "pay for every failed plan when you are trying to look mature"
-    },
-    {
-      "optA": "plan every trip during a game night",
-      "optB": "pay for every failed plan during a game night"
+      "optA": "have your self-improvement era audited",
+      "optB": "have your dating era audited"
     }
   ],
   "nsfw": [
     {
-      "optA": "have your group chat read aloud with the whole group watching",
-      "optB": "have your camera roll judged by everyone with the whole group watching"
+      "optA": "accidentally like an old crush photo",
+      "optB": "accidentally send a risky text to the wrong chat"
     },
     {
-      "optA": "have your group chat read aloud during a family function",
-      "optB": "have your camera roll judged by everyone during a family function"
+      "optA": "go on a great date with no chemistry",
+      "optB": "have great chemistry with zero future"
     },
     {
-      "optA": "have your group chat read aloud on a first date",
-      "optB": "have your camera roll judged by everyone on a first date"
+      "optA": "date your exact type forever",
+      "optB": "date someone healthy but not your type"
     },
     {
-      "optA": "have your group chat read aloud while your phone is screen-sharing",
-      "optB": "have your camera roll judged by everyone while your phone is screen-sharing"
+      "optA": "have your flirting rated by friends",
+      "optB": "have your dating-app profile rated by friends"
     },
     {
-      "optA": "have your group chat read aloud after two drinks",
-      "optB": "have your camera roll judged by everyone after two drinks"
+      "optA": "get ghosted after a perfect date",
+      "optB": "get a closure paragraph after a terrible date"
     },
     {
-      "optA": "have your group chat read aloud when your parents are nearby",
-      "optB": "have your camera roll judged by everyone when your parents are nearby"
+      "optA": "soft-launch too early",
+      "optB": "never be posted at all"
     },
     {
-      "optA": "have your group chat read aloud during a cousin wedding",
-      "optB": "have your camera roll judged by everyone during a cousin wedding"
+      "optA": "only attract emotionally unavailable people",
+      "optB": "only attract people who overshare immediately"
     },
     {
-      "optA": "have your group chat read aloud in the group chat",
-      "optB": "have your camera roll judged by everyone in the group chat"
+      "optA": "have an ex at every party",
+      "optB": "have a crush at every party"
     },
     {
-      "optA": "have your group chat read aloud at an office party",
-      "optB": "have your camera roll judged by everyone at an office party"
+      "optA": "always make the first move",
+      "optB": "always wait and overthink"
     },
     {
-      "optA": "have your group chat read aloud during a road trip",
-      "optB": "have your camera roll judged by everyone during a road trip"
+      "optA": "be someone's rebound",
+      "optB": "be someone's lesson"
     },
     {
-      "optA": "have your group chat read aloud while ordering food",
-      "optB": "have your camera roll judged by everyone while ordering food"
+      "optA": "have flawless rizz online",
+      "optB": "have flawless rizz in person"
     },
     {
-      "optA": "have your group chat read aloud at midnight",
-      "optB": "have your camera roll judged by everyone at midnight"
+      "optA": "fall for a friend",
+      "optB": "friend-zone someone perfect on paper"
     },
     {
-      "optA": "have your group chat read aloud when you are already embarrassed",
-      "optB": "have your camera roll judged by everyone when you are already embarrassed"
+      "optA": "get caught stalking a profile",
+      "optB": "get caught rehearsing a text"
     },
     {
-      "optA": "have your group chat read aloud in front of your crush",
-      "optB": "have your camera roll judged by everyone in front of your crush"
+      "optA": "be in a secret situationship",
+      "optB": "be publicly single with private chaos"
     },
     {
-      "optA": "have your group chat read aloud during an IPL final",
-      "optB": "have your camera roll judged by everyone during an IPL final"
+      "optA": "have one unforgettable club romance",
+      "optB": "have one peaceful slow-burn romance"
     },
     {
-      "optA": "have your group chat read aloud on your birthday",
-      "optB": "have your camera roll judged by everyone on your birthday"
+      "optA": "date someone with your humor",
+      "optB": "date someone with your ambition"
     },
     {
-      "optA": "have your group chat read aloud while everyone is recording",
-      "optB": "have your camera roll judged by everyone while everyone is recording"
+      "optA": "always know when someone likes you",
+      "optB": "always know when someone is losing interest"
     },
     {
-      "optA": "have your group chat read aloud during a silent room moment",
-      "optB": "have your camera roll judged by everyone during a silent room moment"
+      "optA": "receive a risky text during dinner",
+      "optB": "receive a risky text in front of family"
     },
     {
-      "optA": "have your group chat read aloud at a reunion",
-      "optB": "have your camera roll judged by everyone at a reunion"
+      "optA": "be too easy to impress",
+      "optB": "be impossible to impress"
     },
     {
-      "optA": "have your group chat read aloud when the bill arrives",
-      "optB": "have your camera roll judged by everyone when the bill arrives"
+      "optA": "choose spark and stress",
+      "optB": "choose calm and curiosity"
     },
     {
-      "optA": "have your group chat read aloud during a power cut",
-      "optB": "have your camera roll judged by everyone during a power cut"
+      "optA": "have an ex review your current choices",
+      "optB": "have your current crush review your ex choices"
     },
     {
-      "optA": "have your group chat read aloud on a video call",
-      "optB": "have your camera roll judged by everyone on a video call"
+      "optA": "never stalk a crush again",
+      "optB": "never decode a text again"
     },
     {
-      "optA": "have your group chat read aloud inside a packed train",
-      "optB": "have your camera roll judged by everyone inside a packed train"
+      "optA": "be posted by the wrong person",
+      "optB": "not be posted by the right person"
     },
     {
-      "optA": "have your group chat read aloud at a fancy restaurant",
-      "optB": "have your camera roll judged by everyone at a fancy restaurant"
+      "optA": "fall for a red flag with great banter",
+      "optB": "fall for a green flag with no jokes"
     },
     {
-      "optA": "have your group chat read aloud while someone is gossiping",
-      "optB": "have your camera roll judged by everyone while someone is gossiping"
+      "optA": "have every first date be boring",
+      "optB": "have every first date be too intense"
     },
     {
-      "optA": "have your group chat read aloud during karaoke",
-      "optB": "have your camera roll judged by everyone during karaoke"
+      "optA": "get a drunk confession",
+      "optB": "send a sober confession"
     },
     {
-      "optA": "have your group chat read aloud at a family dinner",
-      "optB": "have your camera roll judged by everyone at a family dinner"
+      "optA": "date someone your friends hate",
+      "optB": "date someone your parents love too much"
     },
     {
-      "optA": "have your group chat read aloud while your ex is present",
-      "optB": "have your camera roll judged by everyone while your ex is present"
+      "optA": "be loved loudly by the wrong person",
+      "optB": "be loved quietly by the right person"
     },
     {
-      "optA": "have your group chat read aloud when you are trying to look mature",
-      "optB": "have your camera roll judged by everyone when you are trying to look mature"
+      "optA": "always know why they ghosted",
+      "optB": "never get ghosted but always get mixed signals"
     },
     {
-      "optA": "have your group chat read aloud during a game night",
-      "optB": "have your camera roll judged by everyone during a game night"
+      "optA": "make eye contact and panic",
+      "optB": "send the text and panic"
     },
     {
-      "optA": "have your group chat read aloud before an important meeting",
-      "optB": "have your camera roll judged by everyone before an important meeting"
+      "optA": "be everyone's crush but nobody's priority",
+      "optB": "be one person's priority and nobody's crush"
     },
     {
-      "optA": "have your group chat read aloud after your phone dies",
-      "optB": "have your camera roll judged by everyone after your phone dies"
+      "optA": "have your ex at your wedding",
+      "optB": "have your crush at your breakup party"
     },
     {
-      "optA": "have your group chat read aloud while stuck in rain",
-      "optB": "have your camera roll judged by everyone while stuck in rain"
+      "optA": "catch feelings too fast",
+      "optB": "realize feelings too late"
     },
     {
-      "optA": "have your group chat read aloud at a sangeet",
-      "optB": "have your camera roll judged by everyone at a sangeet"
+      "optA": "date for comfort",
+      "optB": "date for chemistry"
     },
     {
-      "optA": "have your group chat read aloud while your sibling is listening",
-      "optB": "have your camera roll judged by everyone while your sibling is listening"
+      "optA": "never get butterflies again",
+      "optB": "always get butterflies for chaos"
     },
     {
-      "optA": "have your group chat read aloud during a boring lecture",
-      "optB": "have your camera roll judged by everyone during a boring lecture"
+      "optA": "be too honest on a first date",
+      "optB": "be too mysterious forever"
     },
     {
-      "optA": "have your group chat read aloud at a mall food court",
-      "optB": "have your camera roll judged by everyone at a mall food court"
+      "optA": "have friends choose your next date",
+      "optB": "have your ex choose your next date"
     },
     {
-      "optA": "have your group chat read aloud while meeting relatives",
-      "optB": "have your camera roll judged by everyone while meeting relatives"
+      "optA": "be remembered as the almost",
+      "optB": "be remembered as the lesson"
     },
     {
-      "optA": "have your group chat read aloud during a festival visit",
-      "optB": "have your camera roll judged by everyone during a festival visit"
+      "optA": "only meet people through apps",
+      "optB": "only meet people through messy friend circles"
     },
     {
-      "optA": "have your group chat read aloud while trying to leave early",
-      "optB": "have your camera roll judged by everyone while trying to leave early"
+      "optA": "have one stable boring love story",
+      "optB": "have ten dramatic almost-stories"
     },
     {
-      "optA": "tell your crush the truth with the whole group watching",
-      "optB": "let your ex see your drafts with the whole group watching"
+      "optA": "always be the crush",
+      "optB": "always be the confidant"
     },
     {
-      "optA": "tell your crush the truth during a family function",
-      "optB": "let your ex see your drafts during a family function"
+      "optA": "send a bold DM",
+      "optB": "make a bold move in person"
     },
     {
-      "optA": "tell your crush the truth on a first date",
-      "optB": "let your ex see your drafts on a first date"
+      "optA": "have no game but good intentions",
+      "optB": "have great game but terrible judgment"
     },
     {
-      "optA": "tell your crush the truth while your phone is screen-sharing",
-      "optB": "let your ex see your drafts while your phone is screen-sharing"
+      "optA": "get attached after a great conversation",
+      "optB": "get attached after a great kiss"
     },
     {
-      "optA": "tell your crush the truth after two drinks",
-      "optB": "let your ex see your drafts after two drinks"
+      "optA": "be someone's secret",
+      "optB": "be someone's content"
     },
     {
-      "optA": "tell your crush the truth when your parents are nearby",
-      "optB": "let your ex see your drafts when your parents are nearby"
+      "optA": "always attract avoidant people",
+      "optB": "always become avoidant yourself"
     },
     {
-      "optA": "tell your crush the truth during a cousin wedding",
-      "optB": "let your ex see your drafts during a cousin wedding"
+      "optA": "have your type exposed",
+      "optB": "have your standards exposed"
     },
     {
-      "optA": "tell your crush the truth in the group chat",
-      "optB": "let your ex see your drafts in the group chat"
+      "optA": "choose late-night chemistry",
+      "optB": "choose morning-after respect"
     },
     {
-      "optA": "tell your crush the truth at an office party",
-      "optB": "let your ex see your drafts at an office party"
+      "optA": "have your dating-app chats projected",
+      "optB": "have your crush-search history projected"
     },
     {
-      "optA": "tell your crush the truth during a road trip",
-      "optB": "let your ex see your drafts during a road trip"
-    },
-    {
-      "optA": "tell your crush the truth while ordering food",
-      "optB": "let your ex see your drafts while ordering food"
-    },
-    {
-      "optA": "tell your crush the truth at midnight",
-      "optB": "let your ex see your drafts at midnight"
-    },
-    {
-      "optA": "tell your crush the truth when you are already embarrassed",
-      "optB": "let your ex see your drafts when you are already embarrassed"
-    },
-    {
-      "optA": "tell your crush the truth in front of your crush",
-      "optB": "let your ex see your drafts in front of your crush"
-    },
-    {
-      "optA": "tell your crush the truth during an IPL final",
-      "optB": "let your ex see your drafts during an IPL final"
-    },
-    {
-      "optA": "tell your crush the truth on your birthday",
-      "optB": "let your ex see your drafts on your birthday"
-    },
-    {
-      "optA": "tell your crush the truth while everyone is recording",
-      "optB": "let your ex see your drafts while everyone is recording"
-    },
-    {
-      "optA": "tell your crush the truth during a silent room moment",
-      "optB": "let your ex see your drafts during a silent room moment"
-    },
-    {
-      "optA": "tell your crush the truth at a reunion",
-      "optB": "let your ex see your drafts at a reunion"
-    },
-    {
-      "optA": "tell your crush the truth when the bill arrives",
-      "optB": "let your ex see your drafts when the bill arrives"
-    },
-    {
-      "optA": "tell your crush the truth during a power cut",
-      "optB": "let your ex see your drafts during a power cut"
-    },
-    {
-      "optA": "tell your crush the truth on a video call",
-      "optB": "let your ex see your drafts on a video call"
-    },
-    {
-      "optA": "tell your crush the truth inside a packed train",
-      "optB": "let your ex see your drafts inside a packed train"
-    },
-    {
-      "optA": "tell your crush the truth at a fancy restaurant",
-      "optB": "let your ex see your drafts at a fancy restaurant"
-    },
-    {
-      "optA": "tell your crush the truth while someone is gossiping",
-      "optB": "let your ex see your drafts while someone is gossiping"
-    },
-    {
-      "optA": "tell your crush the truth during karaoke",
-      "optB": "let your ex see your drafts during karaoke"
-    },
-    {
-      "optA": "tell your crush the truth at a family dinner",
-      "optB": "let your ex see your drafts at a family dinner"
-    },
-    {
-      "optA": "tell your crush the truth while your ex is present",
-      "optB": "let your ex see your drafts while your ex is present"
-    },
-    {
-      "optA": "tell your crush the truth when you are trying to look mature",
-      "optB": "let your ex see your drafts when you are trying to look mature"
-    },
-    {
-      "optA": "tell your crush the truth during a game night",
-      "optB": "let your ex see your drafts during a game night"
-    },
-    {
-      "optA": "tell your crush the truth before an important meeting",
-      "optB": "let your ex see your drafts before an important meeting"
-    },
-    {
-      "optA": "tell your crush the truth after your phone dies",
-      "optB": "let your ex see your drafts after your phone dies"
-    },
-    {
-      "optA": "tell your crush the truth while stuck in rain",
-      "optB": "let your ex see your drafts while stuck in rain"
-    },
-    {
-      "optA": "tell your crush the truth at a sangeet",
-      "optB": "let your ex see your drafts at a sangeet"
-    },
-    {
-      "optA": "tell your crush the truth while your sibling is listening",
-      "optB": "let your ex see your drafts while your sibling is listening"
-    },
-    {
-      "optA": "tell your crush the truth during a boring lecture",
-      "optB": "let your ex see your drafts during a boring lecture"
-    },
-    {
-      "optA": "tell your crush the truth at a mall food court",
-      "optB": "let your ex see your drafts at a mall food court"
-    },
-    {
-      "optA": "tell your crush the truth while meeting relatives",
-      "optB": "let your ex see your drafts while meeting relatives"
-    },
-    {
-      "optA": "tell your crush the truth during a festival visit",
-      "optB": "let your ex see your drafts during a festival visit"
-    },
-    {
-      "optA": "tell your crush the truth while trying to leave early",
-      "optB": "let your ex see your drafts while trying to leave early"
-    },
-    {
-      "optA": "only eat street food for a month with the whole group watching",
-      "optB": "never eat street food again with the whole group watching"
-    },
-    {
-      "optA": "only eat street food for a month during a family function",
-      "optB": "never eat street food again during a family function"
-    },
-    {
-      "optA": "only eat street food for a month on a first date",
-      "optB": "never eat street food again on a first date"
-    },
-    {
-      "optA": "only eat street food for a month while your phone is screen-sharing",
-      "optB": "never eat street food again while your phone is screen-sharing"
-    },
-    {
-      "optA": "only eat street food for a month after two drinks",
-      "optB": "never eat street food again after two drinks"
-    },
-    {
-      "optA": "only eat street food for a month when your parents are nearby",
-      "optB": "never eat street food again when your parents are nearby"
-    },
-    {
-      "optA": "only eat street food for a month during a cousin wedding",
-      "optB": "never eat street food again during a cousin wedding"
-    },
-    {
-      "optA": "only eat street food for a month in the group chat",
-      "optB": "never eat street food again in the group chat"
-    },
-    {
-      "optA": "only eat street food for a month at an office party",
-      "optB": "never eat street food again at an office party"
-    },
-    {
-      "optA": "only eat street food for a month during a road trip",
-      "optB": "never eat street food again during a road trip"
-    },
-    {
-      "optA": "only eat street food for a month while ordering food",
-      "optB": "never eat street food again while ordering food"
-    },
-    {
-      "optA": "only eat street food for a month at midnight",
-      "optB": "never eat street food again at midnight"
-    },
-    {
-      "optA": "only eat street food for a month when you are already embarrassed",
-      "optB": "never eat street food again when you are already embarrassed"
-    },
-    {
-      "optA": "only eat street food for a month in front of your crush",
-      "optB": "never eat street food again in front of your crush"
-    },
-    {
-      "optA": "only eat street food for a month during an IPL final",
-      "optB": "never eat street food again during an IPL final"
-    },
-    {
-      "optA": "only eat street food for a month on your birthday",
-      "optB": "never eat street food again on your birthday"
-    },
-    {
-      "optA": "only eat street food for a month while everyone is recording",
-      "optB": "never eat street food again while everyone is recording"
-    },
-    {
-      "optA": "only eat street food for a month during a silent room moment",
-      "optB": "never eat street food again during a silent room moment"
-    },
-    {
-      "optA": "only eat street food for a month at a reunion",
-      "optB": "never eat street food again at a reunion"
-    },
-    {
-      "optA": "only eat street food for a month when the bill arrives",
-      "optB": "never eat street food again when the bill arrives"
-    },
-    {
-      "optA": "only eat street food for a month during a power cut",
-      "optB": "never eat street food again during a power cut"
-    },
-    {
-      "optA": "only eat street food for a month on a video call",
-      "optB": "never eat street food again on a video call"
-    },
-    {
-      "optA": "only eat street food for a month inside a packed train",
-      "optB": "never eat street food again inside a packed train"
-    },
-    {
-      "optA": "only eat street food for a month at a fancy restaurant",
-      "optB": "never eat street food again at a fancy restaurant"
-    },
-    {
-      "optA": "only eat street food for a month while someone is gossiping",
-      "optB": "never eat street food again while someone is gossiping"
-    },
-    {
-      "optA": "only eat street food for a month during karaoke",
-      "optB": "never eat street food again during karaoke"
-    },
-    {
-      "optA": "only eat street food for a month at a family dinner",
-      "optB": "never eat street food again at a family dinner"
-    },
-    {
-      "optA": "only eat street food for a month while your ex is present",
-      "optB": "never eat street food again while your ex is present"
-    },
-    {
-      "optA": "only eat street food for a month when you are trying to look mature",
-      "optB": "never eat street food again when you are trying to look mature"
-    },
-    {
-      "optA": "only eat street food for a month during a game night",
-      "optB": "never eat street food again during a game night"
-    },
-    {
-      "optA": "only eat street food for a month before an important meeting",
-      "optB": "never eat street food again before an important meeting"
-    },
-    {
-      "optA": "only eat street food for a month after your phone dies",
-      "optB": "never eat street food again after your phone dies"
-    },
-    {
-      "optA": "only eat street food for a month while stuck in rain",
-      "optB": "never eat street food again while stuck in rain"
-    },
-    {
-      "optA": "only eat street food for a month at a sangeet",
-      "optB": "never eat street food again at a sangeet"
-    },
-    {
-      "optA": "only eat street food for a month while your sibling is listening",
-      "optB": "never eat street food again while your sibling is listening"
-    },
-    {
-      "optA": "only eat street food for a month during a boring lecture",
-      "optB": "never eat street food again during a boring lecture"
-    },
-    {
-      "optA": "only eat street food for a month at a mall food court",
-      "optB": "never eat street food again at a mall food court"
-    },
-    {
-      "optA": "only eat street food for a month while meeting relatives",
-      "optB": "never eat street food again while meeting relatives"
-    },
-    {
-      "optA": "only eat street food for a month during a festival visit",
-      "optB": "never eat street food again during a festival visit"
-    },
-    {
-      "optA": "only eat street food for a month while trying to leave early",
-      "optB": "never eat street food again while trying to leave early"
-    },
-    {
-      "optA": "arrive too early forever with the whole group watching",
-      "optB": "be slightly late forever with the whole group watching"
-    },
-    {
-      "optA": "arrive too early forever during a family function",
-      "optB": "be slightly late forever during a family function"
-    },
-    {
-      "optA": "arrive too early forever on a first date",
-      "optB": "be slightly late forever on a first date"
-    },
-    {
-      "optA": "arrive too early forever while your phone is screen-sharing",
-      "optB": "be slightly late forever while your phone is screen-sharing"
-    },
-    {
-      "optA": "arrive too early forever after two drinks",
-      "optB": "be slightly late forever after two drinks"
-    },
-    {
-      "optA": "arrive too early forever when your parents are nearby",
-      "optB": "be slightly late forever when your parents are nearby"
-    },
-    {
-      "optA": "arrive too early forever during a cousin wedding",
-      "optB": "be slightly late forever during a cousin wedding"
-    },
-    {
-      "optA": "arrive too early forever in the group chat",
-      "optB": "be slightly late forever in the group chat"
-    },
-    {
-      "optA": "arrive too early forever at an office party",
-      "optB": "be slightly late forever at an office party"
-    },
-    {
-      "optA": "arrive too early forever during a road trip",
-      "optB": "be slightly late forever during a road trip"
-    },
-    {
-      "optA": "arrive too early forever while ordering food",
-      "optB": "be slightly late forever while ordering food"
-    },
-    {
-      "optA": "arrive too early forever at midnight",
-      "optB": "be slightly late forever at midnight"
-    },
-    {
-      "optA": "arrive too early forever when you are already embarrassed",
-      "optB": "be slightly late forever when you are already embarrassed"
-    },
-    {
-      "optA": "arrive too early forever in front of your crush",
-      "optB": "be slightly late forever in front of your crush"
-    },
-    {
-      "optA": "arrive too early forever during an IPL final",
-      "optB": "be slightly late forever during an IPL final"
-    },
-    {
-      "optA": "arrive too early forever on your birthday",
-      "optB": "be slightly late forever on your birthday"
-    },
-    {
-      "optA": "arrive too early forever while everyone is recording",
-      "optB": "be slightly late forever while everyone is recording"
-    },
-    {
-      "optA": "arrive too early forever during a silent room moment",
-      "optB": "be slightly late forever during a silent room moment"
-    },
-    {
-      "optA": "arrive too early forever at a reunion",
-      "optB": "be slightly late forever at a reunion"
-    },
-    {
-      "optA": "arrive too early forever when the bill arrives",
-      "optB": "be slightly late forever when the bill arrives"
-    },
-    {
-      "optA": "arrive too early forever during a power cut",
-      "optB": "be slightly late forever during a power cut"
-    },
-    {
-      "optA": "arrive too early forever on a video call",
-      "optB": "be slightly late forever on a video call"
-    },
-    {
-      "optA": "arrive too early forever inside a packed train",
-      "optB": "be slightly late forever inside a packed train"
-    },
-    {
-      "optA": "arrive too early forever at a fancy restaurant",
-      "optB": "be slightly late forever at a fancy restaurant"
-    },
-    {
-      "optA": "arrive too early forever while someone is gossiping",
-      "optB": "be slightly late forever while someone is gossiping"
-    },
-    {
-      "optA": "arrive too early forever during karaoke",
-      "optB": "be slightly late forever during karaoke"
-    },
-    {
-      "optA": "arrive too early forever at a family dinner",
-      "optB": "be slightly late forever at a family dinner"
-    },
-    {
-      "optA": "arrive too early forever while your ex is present",
-      "optB": "be slightly late forever while your ex is present"
-    },
-    {
-      "optA": "arrive too early forever when you are trying to look mature",
-      "optB": "be slightly late forever when you are trying to look mature"
-    },
-    {
-      "optA": "arrive too early forever during a game night",
-      "optB": "be slightly late forever during a game night"
-    },
-    {
-      "optA": "arrive too early forever before an important meeting",
-      "optB": "be slightly late forever before an important meeting"
-    },
-    {
-      "optA": "arrive too early forever after your phone dies",
-      "optB": "be slightly late forever after your phone dies"
-    },
-    {
-      "optA": "arrive too early forever while stuck in rain",
-      "optB": "be slightly late forever while stuck in rain"
-    },
-    {
-      "optA": "arrive too early forever at a sangeet",
-      "optB": "be slightly late forever at a sangeet"
-    },
-    {
-      "optA": "arrive too early forever while your sibling is listening",
-      "optB": "be slightly late forever while your sibling is listening"
-    },
-    {
-      "optA": "arrive too early forever during a boring lecture",
-      "optB": "be slightly late forever during a boring lecture"
-    },
-    {
-      "optA": "arrive too early forever at a mall food court",
-      "optB": "be slightly late forever at a mall food court"
-    },
-    {
-      "optA": "arrive too early forever while meeting relatives",
-      "optB": "be slightly late forever while meeting relatives"
-    },
-    {
-      "optA": "arrive too early forever during a festival visit",
-      "optB": "be slightly late forever during a festival visit"
-    },
-    {
-      "optA": "arrive too early forever while trying to leave early",
-      "optB": "be slightly late forever while trying to leave early"
-    },
-    {
-      "optA": "lose Instagram for a year with the whole group watching",
-      "optB": "lose online shopping for a year with the whole group watching"
-    },
-    {
-      "optA": "lose Instagram for a year during a family function",
-      "optB": "lose online shopping for a year during a family function"
-    },
-    {
-      "optA": "lose Instagram for a year on a first date",
-      "optB": "lose online shopping for a year on a first date"
-    },
-    {
-      "optA": "lose Instagram for a year while your phone is screen-sharing",
-      "optB": "lose online shopping for a year while your phone is screen-sharing"
-    },
-    {
-      "optA": "lose Instagram for a year after two drinks",
-      "optB": "lose online shopping for a year after two drinks"
-    },
-    {
-      "optA": "lose Instagram for a year when your parents are nearby",
-      "optB": "lose online shopping for a year when your parents are nearby"
-    },
-    {
-      "optA": "lose Instagram for a year during a cousin wedding",
-      "optB": "lose online shopping for a year during a cousin wedding"
-    },
-    {
-      "optA": "lose Instagram for a year in the group chat",
-      "optB": "lose online shopping for a year in the group chat"
-    },
-    {
-      "optA": "lose Instagram for a year at an office party",
-      "optB": "lose online shopping for a year at an office party"
-    },
-    {
-      "optA": "lose Instagram for a year during a road trip",
-      "optB": "lose online shopping for a year during a road trip"
-    },
-    {
-      "optA": "lose Instagram for a year while ordering food",
-      "optB": "lose online shopping for a year while ordering food"
-    },
-    {
-      "optA": "lose Instagram for a year at midnight",
-      "optB": "lose online shopping for a year at midnight"
-    },
-    {
-      "optA": "lose Instagram for a year when you are already embarrassed",
-      "optB": "lose online shopping for a year when you are already embarrassed"
-    },
-    {
-      "optA": "lose Instagram for a year in front of your crush",
-      "optB": "lose online shopping for a year in front of your crush"
-    },
-    {
-      "optA": "lose Instagram for a year during an IPL final",
-      "optB": "lose online shopping for a year during an IPL final"
-    },
-    {
-      "optA": "lose Instagram for a year on your birthday",
-      "optB": "lose online shopping for a year on your birthday"
-    },
-    {
-      "optA": "lose Instagram for a year while everyone is recording",
-      "optB": "lose online shopping for a year while everyone is recording"
-    },
-    {
-      "optA": "lose Instagram for a year during a silent room moment",
-      "optB": "lose online shopping for a year during a silent room moment"
-    },
-    {
-      "optA": "lose Instagram for a year at a reunion",
-      "optB": "lose online shopping for a year at a reunion"
-    },
-    {
-      "optA": "lose Instagram for a year when the bill arrives",
-      "optB": "lose online shopping for a year when the bill arrives"
-    },
-    {
-      "optA": "lose Instagram for a year during a power cut",
-      "optB": "lose online shopping for a year during a power cut"
-    },
-    {
-      "optA": "lose Instagram for a year on a video call",
-      "optB": "lose online shopping for a year on a video call"
-    },
-    {
-      "optA": "lose Instagram for a year inside a packed train",
-      "optB": "lose online shopping for a year inside a packed train"
-    },
-    {
-      "optA": "lose Instagram for a year at a fancy restaurant",
-      "optB": "lose online shopping for a year at a fancy restaurant"
-    },
-    {
-      "optA": "lose Instagram for a year while someone is gossiping",
-      "optB": "lose online shopping for a year while someone is gossiping"
-    },
-    {
-      "optA": "lose Instagram for a year during karaoke",
-      "optB": "lose online shopping for a year during karaoke"
-    },
-    {
-      "optA": "lose Instagram for a year at a family dinner",
-      "optB": "lose online shopping for a year at a family dinner"
-    },
-    {
-      "optA": "lose Instagram for a year while your ex is present",
-      "optB": "lose online shopping for a year while your ex is present"
-    },
-    {
-      "optA": "lose Instagram for a year when you are trying to look mature",
-      "optB": "lose online shopping for a year when you are trying to look mature"
-    },
-    {
-      "optA": "lose Instagram for a year during a game night",
-      "optB": "lose online shopping for a year during a game night"
-    },
-    {
-      "optA": "lose Instagram for a year before an important meeting",
-      "optB": "lose online shopping for a year before an important meeting"
-    },
-    {
-      "optA": "lose Instagram for a year after your phone dies",
-      "optB": "lose online shopping for a year after your phone dies"
-    },
-    {
-      "optA": "lose Instagram for a year while stuck in rain",
-      "optB": "lose online shopping for a year while stuck in rain"
-    },
-    {
-      "optA": "lose Instagram for a year at a sangeet",
-      "optB": "lose online shopping for a year at a sangeet"
-    },
-    {
-      "optA": "lose Instagram for a year while your sibling is listening",
-      "optB": "lose online shopping for a year while your sibling is listening"
-    },
-    {
-      "optA": "lose Instagram for a year during a boring lecture",
-      "optB": "lose online shopping for a year during a boring lecture"
-    },
-    {
-      "optA": "lose Instagram for a year at a mall food court",
-      "optB": "lose online shopping for a year at a mall food court"
-    },
-    {
-      "optA": "lose Instagram for a year while meeting relatives",
-      "optB": "lose online shopping for a year while meeting relatives"
-    },
-    {
-      "optA": "lose Instagram for a year during a festival visit",
-      "optB": "lose online shopping for a year during a festival visit"
-    },
-    {
-      "optA": "lose Instagram for a year while trying to leave early",
-      "optB": "lose online shopping for a year while trying to leave early"
-    },
-    {
-      "optA": "have parents see your search history with the whole group watching",
-      "optB": "have friends hear your voice notes with the whole group watching"
-    },
-    {
-      "optA": "have parents see your search history during a family function",
-      "optB": "have friends hear your voice notes during a family function"
-    },
-    {
-      "optA": "have parents see your search history on a first date",
-      "optB": "have friends hear your voice notes on a first date"
-    },
-    {
-      "optA": "have parents see your search history while your phone is screen-sharing",
-      "optB": "have friends hear your voice notes while your phone is screen-sharing"
-    },
-    {
-      "optA": "have parents see your search history after two drinks",
-      "optB": "have friends hear your voice notes after two drinks"
-    },
-    {
-      "optA": "have parents see your search history when your parents are nearby",
-      "optB": "have friends hear your voice notes when your parents are nearby"
-    },
-    {
-      "optA": "have parents see your search history during a cousin wedding",
-      "optB": "have friends hear your voice notes during a cousin wedding"
-    },
-    {
-      "optA": "have parents see your search history in the group chat",
-      "optB": "have friends hear your voice notes in the group chat"
-    },
-    {
-      "optA": "have parents see your search history at an office party",
-      "optB": "have friends hear your voice notes at an office party"
-    },
-    {
-      "optA": "have parents see your search history during a road trip",
-      "optB": "have friends hear your voice notes during a road trip"
-    },
-    {
-      "optA": "have parents see your search history while ordering food",
-      "optB": "have friends hear your voice notes while ordering food"
-    },
-    {
-      "optA": "have parents see your search history at midnight",
-      "optB": "have friends hear your voice notes at midnight"
-    },
-    {
-      "optA": "have parents see your search history when you are already embarrassed",
-      "optB": "have friends hear your voice notes when you are already embarrassed"
-    },
-    {
-      "optA": "have parents see your search history in front of your crush",
-      "optB": "have friends hear your voice notes in front of your crush"
-    },
-    {
-      "optA": "have parents see your search history during an IPL final",
-      "optB": "have friends hear your voice notes during an IPL final"
-    },
-    {
-      "optA": "have parents see your search history on your birthday",
-      "optB": "have friends hear your voice notes on your birthday"
-    },
-    {
-      "optA": "have parents see your search history while everyone is recording",
-      "optB": "have friends hear your voice notes while everyone is recording"
-    },
-    {
-      "optA": "have parents see your search history during a silent room moment",
-      "optB": "have friends hear your voice notes during a silent room moment"
-    },
-    {
-      "optA": "have parents see your search history at a reunion",
-      "optB": "have friends hear your voice notes at a reunion"
-    },
-    {
-      "optA": "have parents see your search history when the bill arrives",
-      "optB": "have friends hear your voice notes when the bill arrives"
-    },
-    {
-      "optA": "have parents see your search history during a power cut",
-      "optB": "have friends hear your voice notes during a power cut"
-    },
-    {
-      "optA": "have parents see your search history on a video call",
-      "optB": "have friends hear your voice notes on a video call"
-    },
-    {
-      "optA": "have parents see your search history inside a packed train",
-      "optB": "have friends hear your voice notes inside a packed train"
-    },
-    {
-      "optA": "have parents see your search history at a fancy restaurant",
-      "optB": "have friends hear your voice notes at a fancy restaurant"
-    },
-    {
-      "optA": "have parents see your search history while someone is gossiping",
-      "optB": "have friends hear your voice notes while someone is gossiping"
-    },
-    {
-      "optA": "have parents see your search history during karaoke",
-      "optB": "have friends hear your voice notes during karaoke"
-    },
-    {
-      "optA": "have parents see your search history at a family dinner",
-      "optB": "have friends hear your voice notes at a family dinner"
-    },
-    {
-      "optA": "have parents see your search history while your ex is present",
-      "optB": "have friends hear your voice notes while your ex is present"
-    },
-    {
-      "optA": "have parents see your search history when you are trying to look mature",
-      "optB": "have friends hear your voice notes when you are trying to look mature"
-    },
-    {
-      "optA": "have parents see your search history during a game night",
-      "optB": "have friends hear your voice notes during a game night"
-    },
-    {
-      "optA": "have parents see your search history before an important meeting",
-      "optB": "have friends hear your voice notes before an important meeting"
-    },
-    {
-      "optA": "have parents see your search history after your phone dies",
-      "optB": "have friends hear your voice notes after your phone dies"
-    },
-    {
-      "optA": "have parents see your search history while stuck in rain",
-      "optB": "have friends hear your voice notes while stuck in rain"
-    },
-    {
-      "optA": "have parents see your search history at a sangeet",
-      "optB": "have friends hear your voice notes at a sangeet"
-    },
-    {
-      "optA": "have parents see your search history while your sibling is listening",
-      "optB": "have friends hear your voice notes while your sibling is listening"
-    },
-    {
-      "optA": "have parents see your search history during a boring lecture",
-      "optB": "have friends hear your voice notes during a boring lecture"
-    },
-    {
-      "optA": "have parents see your search history at a mall food court",
-      "optB": "have friends hear your voice notes at a mall food court"
-    },
-    {
-      "optA": "have parents see your search history while meeting relatives",
-      "optB": "have friends hear your voice notes while meeting relatives"
-    },
-    {
-      "optA": "have parents see your search history during a festival visit",
-      "optB": "have friends hear your voice notes during a festival visit"
-    },
-    {
-      "optA": "have parents see your search history while trying to leave early",
-      "optB": "have friends hear your voice notes while trying to leave early"
-    },
-    {
-      "optA": "be famous for an embarrassing reason with the whole group watching",
-      "optB": "be unknown but rich with the whole group watching"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a family function",
-      "optB": "be unknown but rich during a family function"
-    },
-    {
-      "optA": "be famous for an embarrassing reason on a first date",
-      "optB": "be unknown but rich on a first date"
-    },
-    {
-      "optA": "be famous for an embarrassing reason while your phone is screen-sharing",
-      "optB": "be unknown but rich while your phone is screen-sharing"
-    },
-    {
-      "optA": "be famous for an embarrassing reason after two drinks",
-      "optB": "be unknown but rich after two drinks"
-    },
-    {
-      "optA": "be famous for an embarrassing reason when your parents are nearby",
-      "optB": "be unknown but rich when your parents are nearby"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a cousin wedding",
-      "optB": "be unknown but rich during a cousin wedding"
-    },
-    {
-      "optA": "be famous for an embarrassing reason in the group chat",
-      "optB": "be unknown but rich in the group chat"
-    },
-    {
-      "optA": "be famous for an embarrassing reason at an office party",
-      "optB": "be unknown but rich at an office party"
-    },
-    {
-      "optA": "be famous for an embarrassing reason during a road trip",
-      "optB": "be unknown but rich during a road trip"
+      "optA": "be unable to flirt",
+      "optB": "be unable to stop flirting"
     }
   ]
 }

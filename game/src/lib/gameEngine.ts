@@ -1,9 +1,9 @@
 import type { GameMode, GameSession } from './game'
 import {
-  TRUTHS,
-  DARES,
-  RAPID_FIRE_QUESTIONS,
-  QUIZ_QUESTIONS,
+  getDares,
+  getQuizQuestions,
+  getRapidFireQuestions,
+  getTruths,
   shuffleArray,
 } from './questions'
 import {
@@ -37,16 +37,16 @@ function buildIndexPool(total: number, count: number, session: GameSession, idFo
   return ordered.slice(0, Math.min(count, total))
 }
 
-function tdPromptId(item: { type: 'truth' | 'dare'; index: number }) {
-  return `td:${item.type}:${item.index}`
+function tdPromptId(tone: Tone, item: { type: 'truth' | 'dare'; index: number }) {
+  return `td:${tone}:${item.type}:${item.index}`
 }
 
-function quizPromptId(index: number) {
-  return `quiz:${index}`
+function quizPromptId(tone: Tone, index: number) {
+  return `quiz:${tone}:${index}`
 }
 
-function rapidFirePromptId(index: number) {
-  return `rapid-fire:${index}`
+function rapidFirePromptId(tone: Tone, index: number) {
+  return `rapid-fire:${tone}:${index}`
 }
 
 function dhamaalPromptId(mode: DhamaalMode, tone: Tone, index: number) {
@@ -65,12 +65,15 @@ function getDhamaalPrompts(mode: DhamaalMode, tone: Tone) {
 }
 
 function buildTDPool(session: GameSession, count: number): Array<{ type: 'truth' | 'dare'; index: number }> {
+  const tone = session.tone || 'chill'
+  const truths = getTruths(tone)
+  const dares = getDares(tone)
   const used = new Set(ensureUsedPromptIds(session))
-  const truthItems = Array.from({ length: TRUTHS.length }, (_, index) => ({ type: 'truth' as const, index }))
-  const dareItems = Array.from({ length: DARES.length }, (_, index) => ({ type: 'dare' as const, index }))
+  const truthItems = Array.from({ length: truths.length }, (_, index) => ({ type: 'truth' as const, index }))
+  const dareItems = Array.from({ length: dares.length }, (_, index) => ({ type: 'dare' as const, index }))
   const allItems = [...truthItems, ...dareItems]
-  const unusedItems = allItems.filter(item => !used.has(tdPromptId(item)))
-  const usedItems = allItems.filter(item => used.has(tdPromptId(item)))
+  const unusedItems = allItems.filter(item => !used.has(tdPromptId(tone, item)))
+  const usedItems = allItems.filter(item => used.has(tdPromptId(tone, item)))
   return [...shuffleArray(unusedItems), ...shuffleArray(usedItems)].slice(0, Math.min(count, allItems.length))
 }
 
@@ -84,8 +87,7 @@ export function resetActiveRoundState(session: GameSession) {
   session.currentActItOut = null
 }
 
-export function prepareModePools(session: GameSession, mode: GameMode) {
-  ensureUsedPromptIds(session)
+export function resetRoundProgress(session: GameSession) {
   session.questionIndex = 0
   session.currentPlayerIndex = 0
   session.currentTDIndex = 0
@@ -97,16 +99,41 @@ export function prepareModePools(session: GameSession, mode: GameMode) {
   session.dhamaalPool = []
   session.tdPool = []
   resetActiveRoundState(session)
+}
+
+export function resetScores(session: GameSession) {
+  session.players.forEach(player => {
+    player.score = 0
+  })
+}
+
+export function finishGameNow(session: GameSession) {
+  if (session.gameMode === 'rapid-fire' && session.rapidFire && !session.rapidFire.completed) {
+    completeRapidFire(session)
+    return
+  }
+
+  session.state = 'results'
+  resetActiveRoundState(session)
+}
+
+export function prepareModePools(session: GameSession, mode: GameMode) {
+  ensureUsedPromptIds(session)
+  resetRoundProgress(session)
 
   if (mode === 'truth-or-dare') {
     session.tdPool = buildTDPool(session, session.totalQuestions)
     session.totalQuestions = session.tdPool.length
   } else if (mode === 'quiz-up') {
-    session.quizIndexes = buildIndexPool(QUIZ_QUESTIONS.length, session.totalQuestions, session, quizPromptId)
+    const tone = session.tone || 'chill'
+    const questions = getQuizQuestions(tone)
+    session.quizIndexes = buildIndexPool(questions.length, session.totalQuestions, session, index => quizPromptId(tone, index))
     session.quizQueueIndexes = session.quizIndexes
     session.totalQuestions = session.quizIndexes.length
   } else if (mode === 'rapid-fire') {
-    session.questionIndexes = buildIndexPool(RAPID_FIRE_QUESTIONS.length, session.totalQuestions, session, rapidFirePromptId)
+    const tone = session.tone || 'chill'
+    const questions = getRapidFireQuestions(tone)
+    session.questionIndexes = buildIndexPool(questions.length, session.totalQuestions, session, index => rapidFirePromptId(tone, index))
     session.totalQuestions = session.questionIndexes.length
   } else if (DHAMAAL_MODES.includes(mode as DhamaalMode)) {
     const dhamaalMode = mode as DhamaalMode
@@ -119,14 +146,17 @@ export function prepareModePools(session: GameSession, mode: GameMode) {
 }
 
 export function buildCurrentTDQuestion(session: GameSession) {
+  const tone = session.tone || 'chill'
+  const truths = getTruths(tone)
+  const dares = getDares(tone)
   const target = session.players[session.currentPlayerIndex]
   const currentIndex = session.currentTDIndex ?? session.questionIndex
   const poolItem = session.tdPool?.[currentIndex]
   if (!target || !poolItem) return null
 
-  markPromptUsed(session, tdPromptId(poolItem))
+  markPromptUsed(session, tdPromptId(tone, poolItem))
   if (poolItem.type === 'dare') {
-    const dare = DARES[poolItem.index]
+    const dare = dares[poolItem.index]
     return {
       type: 'dare' as const,
       text: dare.text,
@@ -138,7 +168,7 @@ export function buildCurrentTDQuestion(session: GameSession) {
 
   return {
     type: 'truth' as const,
-    text: TRUTHS[poolItem.index],
+    text: truths[poolItem.index],
     drinkPenalty: 0,
     targetPlayerId: target.id,
     targetPlayerName: target.name,
@@ -146,11 +176,13 @@ export function buildCurrentTDQuestion(session: GameSession) {
 }
 
 export function buildCurrentQuizQuestion(session: GameSession): GameSession['currentQuizQuestion'] {
+  const tone = session.tone || 'chill'
+  const questions = getQuizQuestions(tone)
   const indexes = session.quizIndexes?.length ? session.quizIndexes : session.quizQueueIndexes
   const idx = indexes[session.questionIndex]
   if (idx === undefined) return null
-  const q = QUIZ_QUESTIONS[idx]
-  markPromptUsed(session, quizPromptId(idx))
+  const q = questions[idx]
+  markPromptUsed(session, quizPromptId(tone, idx))
   return {
     text: q.text,
     options: q.options,
@@ -164,15 +196,17 @@ export function buildCurrentQuizQuestion(session: GameSession): GameSession['cur
 
 export function buildRapidFireState(session: GameSession): GameSession['rapidFire'] {
   if (session.players.length < 2) return null
+  const tone = session.tone || 'chill'
+  const questions = getRapidFireQuestions(tone)
   const shuffled = shuffleArray([...Array(session.players.length).keys()])
   const p1Idx = shuffled[0]
   const p2Idx = shuffled.find(index => index !== p1Idx) ?? (p1Idx === 0 ? 1 : 0)
   const questionIndexes = session.questionIndexes?.length
     ? session.questionIndexes
-    : buildIndexPool(RAPID_FIRE_QUESTIONS.length, session.totalQuestions, session, rapidFirePromptId)
+    : buildIndexPool(questions.length, session.totalQuestions, session, index => rapidFirePromptId(tone, index))
   const firstIndex = questionIndexes[0]
   if (firstIndex === undefined) return null
-  markPromptUsed(session, rapidFirePromptId(firstIndex))
+  markPromptUsed(session, rapidFirePromptId(tone, firstIndex))
 
   return {
     player1Id: session.players[p1Idx].id,
@@ -183,7 +217,7 @@ export function buildRapidFireState(session: GameSession): GameSession['rapidFir
     durationMs: 120000,
     score1: 0,
     score2: 0,
-    currentQuestion: RAPID_FIRE_QUESTIONS[firstIndex],
+    currentQuestion: questions[firstIndex],
     questionIndexes,
     questionIndex: 0,
     ended: false,
@@ -194,6 +228,8 @@ export function buildRapidFireState(session: GameSession): GameSession['rapidFir
 export function advanceRapidFireQuestion(session: GameSession) {
   const rf = session.rapidFire
   if (!rf) return
+  const tone = session.tone || 'chill'
+  const questions = getRapidFireQuestions(tone)
   const nextQuestionIndex = rf.questionIndex + 1
   const nextPromptIndex = rf.questionIndexes[nextQuestionIndex]
   if (nextPromptIndex === undefined) {
@@ -201,8 +237,8 @@ export function advanceRapidFireQuestion(session: GameSession) {
     return
   }
   rf.questionIndex = nextQuestionIndex
-  rf.currentQuestion = RAPID_FIRE_QUESTIONS[nextPromptIndex]
-  markPromptUsed(session, rapidFirePromptId(nextPromptIndex))
+  rf.currentQuestion = questions[nextPromptIndex]
+  markPromptUsed(session, rapidFirePromptId(tone, nextPromptIndex))
 }
 
 export function buildCurrentDhamaalPrompt(session: GameSession) {

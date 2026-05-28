@@ -59,6 +59,47 @@ function useGameAction(sessionId: string, playerId: string, onAction: () => void
   return { send, loading }
 }
 
+function HostEndGameButton({
+  session,
+  playerId,
+  sessionId,
+  onAction,
+}: {
+  session: GameSession
+  playerId: string
+  sessionId: string
+  onAction: () => void
+}) {
+  const [ending, setEnding] = useState(false)
+  const isHost = session.hostId === playerId
+  if (!isHost) return null
+
+  async function endGame() {
+    if (ending) return
+    setEnding(true)
+    try {
+      await fetch('/api/game/host', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ sessionId, playerId, action: 'end-game' }),
+      })
+      onAction()
+    } finally {
+      setEnding(false)
+    }
+  }
+
+  return (
+    <button
+      onClick={endGame}
+      disabled={ending}
+      className="w-full border border-red-500/30 bg-red-950/30 hover:bg-red-950/50 disabled:opacity-50 text-red-200 font-bold py-3 rounded-2xl transition-all active:scale-95"
+    >
+      {ending ? 'Ending...' : 'End Game'}
+    </button>
+  )
+}
+
 // ---- Instructions Screen ----
 function InstructionsScreen({
   session,
@@ -154,8 +195,6 @@ function InstructionsScreen({
   }
 
   const toneLabel = session.tone === 'nsfw' ? '🔞 NSFW' : session.tone === 'savage' ? '🔥 Savage' : '😄 Chill'
-  const isDhamaalMode = ['most-likely-to', 'would-you-rather', 'fake-it', 'act-it-out'].includes(mode)
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-950 to-slate-900 flex flex-col items-center justify-center p-4">
       <div className="w-full max-w-md space-y-4">
@@ -163,11 +202,9 @@ function InstructionsScreen({
           <div className="text-5xl mb-2">{info.icon}</div>
           <h1 className="text-3xl font-black text-white">{info.label}</h1>
           <p className="text-purple-300 text-sm mt-1">How to play</p>
-          {isDhamaalMode && (
-            <div className="mt-2 inline-flex items-center gap-1 bg-slate-800/60 rounded-full px-3 py-1 text-xs text-slate-300">
-              Tone: {toneLabel}
-            </div>
-          )}
+          <div className="mt-2 inline-flex items-center gap-1 bg-slate-800/60 rounded-full px-3 py-1 text-xs text-slate-300">
+            Tone: {toneLabel}
+          </div>
         </div>
 
         <div className="bg-slate-800/80 border border-slate-700/50 rounded-2xl p-5 space-y-4">
@@ -337,6 +374,7 @@ function TruthOrDareScreen({
           </div>
         )}
 
+        <HostEndGameButton session={session} playerId={playerId} sessionId={sessionId} onAction={onAction} />
         <Leaderboard players={session.players} />
       </div>
     </div>
@@ -384,7 +422,6 @@ function RapidFireScreen({
   if (!rf) return null
 
   const isPlayer = playerId === rf.player1Id || playerId === rf.player2Id
-  const isHost = session.hostId === playerId
   const timerColor = timeLeft <= 10 ? 'text-red-400' : timeLeft <= 20 ? 'text-yellow-400' : 'text-green-400'
 
   async function answer() {
@@ -393,15 +430,6 @@ function RapidFireScreen({
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ sessionId, playerId, action: 'rf-answer' }),
-    })
-    onAction()
-  }
-
-  async function forceEnd() {
-    await fetch('/api/game/action', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ sessionId, playerId, action: 'rf-end' }),
     })
     onAction()
   }
@@ -452,15 +480,7 @@ function RapidFireScreen({
           </div>
         )}
 
-        {isHost && (
-          <button
-            onClick={forceEnd}
-            className="w-full text-xs text-slate-500 hover:text-slate-400 border border-slate-700 rounded-xl py-2 transition-colors"
-          >
-            Host: End Rapid Fire early
-          </button>
-        )}
-
+        <HostEndGameButton session={session} playerId={playerId} sessionId={sessionId} onAction={onAction} />
         <Leaderboard players={session.players} />
       </div>
     </div>
@@ -616,6 +636,7 @@ function QuizScreen({
           </div>
         )}
 
+        <HostEndGameButton session={session} playerId={playerId} sessionId={sessionId} onAction={onAction} />
         <Leaderboard players={session.players} />
       </div>
     </div>
@@ -739,6 +760,7 @@ function MostLikelyToScreen({
           </>
         )}
 
+        <HostEndGameButton session={session} playerId={playerId} sessionId={sessionId} onAction={onAction} />
         <Leaderboard players={session.players} />
       </div>
     </div>
@@ -881,6 +903,7 @@ function WouldYouRatherScreen({
           </div>
         )}
 
+        <HostEndGameButton session={session} playerId={playerId} sessionId={sessionId} onAction={onAction} />
         <Leaderboard players={session.players} />
       </div>
     </div>
@@ -1059,6 +1082,7 @@ function FakeItScreen({
           </>
         )}
 
+        <HostEndGameButton session={session} playerId={playerId} sessionId={sessionId} onAction={onAction} />
         <Leaderboard players={session.players} />
       </div>
     </div>
@@ -1254,6 +1278,7 @@ function ActItOutScreen({
           </>
         )}
 
+        <HostEndGameButton session={session} playerId={playerId} sessionId={sessionId} onAction={onAction} />
         <Leaderboard players={session.players} />
       </div>
     </div>

@@ -1,11 +1,14 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { getSession, saveSession } from '../../../lib/game'
+import { getSession, getTotalQuestionsForMode, saveSession } from '../../../lib/game'
 import {
   advanceDhamaalMode,
   advanceQuizQuestion,
   advanceRapidFireQuestion,
   advanceTruthOrDare,
-  resetActiveRoundState,
+  finishGameNow,
+  prepareModePools,
+  resetRoundProgress,
+  resetScores,
 } from '../../../lib/gameEngine'
 import type { Tone } from '../../../lib/dhamaalPrompts'
 
@@ -65,7 +68,7 @@ export const Route = createFileRoute('/api/game/host')({
 
           // --- END GAME ---
           if (action === 'end-game') {
-            session.state = 'results'
+            finishGameNow(session)
             await saveSession(session)
             return Response.json(session)
           }
@@ -89,21 +92,20 @@ export const Route = createFileRoute('/api/game/host')({
           // --- RESET TO LOBBY ---
           if (action === 'reset') {
             session.state = 'lobby'
-            session.questionIndex = 0
-            session.currentPlayerIndex = 0
-            session.currentTDQuestion = null
-            session.rapidFire = null
-            session.currentQuizQuestion = null
-            session.quizQueueIndexes = []
-            session.quizIndexes = []
-            session.tdPool = []
-            session.currentTDIndex = 0
-            session.questionIndexes = []
-            session.dhamaalPool = []
-            session.promptIndexes = []
-            session.currentPromptIndex = 0
-            resetActiveRoundState(session)
-            session.players.forEach(p => { p.score = 0 })
+            resetRoundProgress(session)
+            resetScores(session)
+            await saveSession(session)
+            return Response.json(session)
+          }
+
+          // --- PLAY SAME GAME AGAIN ---
+          if (action === 'play-same-game') {
+            const mode = session.gameMode
+            if (!mode) return Response.json({ error: 'No game mode selected' }, { status: 400 })
+            resetScores(session)
+            session.totalQuestions = getTotalQuestionsForMode(mode, session.players.length)
+            prepareModePools(session, mode)
+            session.state = 'instructions'
             await saveSession(session)
             return Response.json(session)
           }

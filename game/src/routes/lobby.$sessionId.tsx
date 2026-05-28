@@ -140,7 +140,7 @@ function LobbyPage() {
   const isHost = session.hostId === playerId
   const currentMode = session.gameMode || 'truth-or-dare'
   const currentTone = session.tone || 'chill'
-  const showToneSelector = DHAMAAL_MODES.includes(currentMode)
+  const showToneSelector = true
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-950 to-slate-900 flex flex-col items-center justify-center p-4">
@@ -224,7 +224,7 @@ function LobbyPage() {
           </div>
         )}
 
-        {/* Tone Selector (host only, dhamaal modes) */}
+        {/* Tone Selector (host only) */}
         {isHost && showToneSelector && (
           <div className="bg-slate-800/80 border border-slate-700/50 rounded-2xl p-5">
             <h2 className="text-sm font-semibold text-slate-400 uppercase tracking-widest mb-3">Tone</h2>
