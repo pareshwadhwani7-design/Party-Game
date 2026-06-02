@@ -63,6 +63,7 @@ export const Route = createFileRoute('/api/game/action')({
           if (action === 'ack-instructions') {
             if (playerId !== session.hostId) return Response.json(session)
             if (session.state !== 'instructions') return Response.json(session)
+            if (session.gameMode === 'mafia') return Response.json(session)
 
             beginPlaying(session)
 

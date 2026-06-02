@@ -1,4 +1,5 @@
 import type { GameMode, GameSession } from './game'
+import { createDefaultMafiaState } from './mafia'
 import {
   getDares,
   getQuizQuestions,
@@ -98,6 +99,7 @@ export function resetRoundProgress(session: GameSession) {
   session.promptIndexes = []
   session.dhamaalPool = []
   session.tdPool = []
+  session.mafia = null
   resetActiveRoundState(session)
 }
 
@@ -135,6 +137,8 @@ export function prepareModePools(session: GameSession, mode: GameMode) {
     const questions = getRapidFireQuestions(tone)
     session.questionIndexes = buildIndexPool(questions.length, session.totalQuestions, session, index => rapidFirePromptId(tone, index))
     session.totalQuestions = session.questionIndexes.length
+  } else if (mode === 'mafia') {
+    session.mafia = createDefaultMafiaState()
   } else if (DHAMAAL_MODES.includes(mode as DhamaalMode)) {
     const dhamaalMode = mode as DhamaalMode
     const tone = session.tone || 'chill'

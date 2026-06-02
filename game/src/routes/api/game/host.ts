@@ -11,12 +11,40 @@ import {
   resetScores,
 } from '../../../lib/gameEngine'
 import type { Tone } from '../../../lib/dhamaalPrompts'
+import {
+  assignRandomMafiaRoles,
+  createDefaultMafiaState,
+  getVisibleMafiaPlayerIds,
+  normalizeManualMafiaAssignments,
+  normalizeRoleCounts,
+  sanitizeMafiaStateForPlayer,
+  type MafiaAssignmentMode,
+} from '../../../lib/mafia'
 
 type HostBody = {
   sessionId: string
   playerId: string
   action: string
   data?: Record<string, unknown>
+}
+
+function sessionViewForPlayer(session: NonNullable<Awaited<ReturnType<typeof getSession>>>, playerId: string) {
+  if (session.gameMode === 'mafia' && session.mafia) {
+    const visiblePlayerIds = getVisibleMafiaPlayerIds(session.mafia, session.players, playerId)
+    const hidePlayerIds = session.mafia.phase === 'assigned'
+    return {
+      ...session,
+      hostId: playerId === session.hostId ? session.hostId : 'hidden-host',
+      players: hidePlayerIds
+        ? session.players.map((player, index) => ({
+          ...player,
+          id: visiblePlayerIds.has(player.id) ? player.id : `hidden-player-${index}`,
+        }))
+        : session.players,
+      mafia: sanitizeMafiaStateForPlayer(session.mafia, session.players, playerId),
+    }
+  }
+  return session
 }
 
 export const Route = createFileRoute('/api/game/host')({
@@ -96,6 +124,82 @@ export const Route = createFileRoute('/api/game/host')({
             resetScores(session)
             await saveSession(session)
             return Response.json(session)
+          }
+
+          // --- MAFIA: UPDATE CONFIG ---
+          if (action === 'mafia-update-config') {
+            if (session.gameMode !== 'mafia') return Response.json({ error: 'Not a Mafia game' }, { status: 400 })
+            const mafia = session.mafia || createDefaultMafiaState()
+            mafia.phase = 'setup'
+            mafia.roleCounts = normalizeRoleCounts((data?.roleCounts as Record<string, number>) || mafia.roleCounts)
+            mafia.assignmentMode = ((data?.assignmentMode as MafiaAssignmentMode) || mafia.assignmentMode) === 'god' ? 'god' : 'random'
+            mafia.assignments = {}
+            session.mafia = mafia
+            session.state = 'instructions'
+            await saveSession(session)
+            return Response.json(sessionViewForPlayer(session, playerId))
+          }
+
+          // --- MAFIA: RANDOM ASSIGNMENT ---
+          if (action === 'mafia-random-assign') {
+            if (session.gameMode !== 'mafia') return Response.json({ error: 'Not a Mafia game' }, { status: 400 })
+            const mafia = session.mafia || createDefaultMafiaState()
+            mafia.assignmentMode = 'random'
+            mafia.roleCounts = normalizeRoleCounts((data?.roleCounts as Record<string, number>) || mafia.roleCounts)
+            mafia.assignments = assignRandomMafiaRoles(session.players, mafia.roleCounts)
+            mafia.phase = 'assigned'
+            mafia.assignedAt = Date.now()
+            session.mafia = mafia
+            session.state = 'playing'
+            await saveSession(session)
+            return Response.json(sessionViewForPlayer(session, playerId))
+          }
+
+          // --- MAFIA: GOD MODE ASSIGNMENT ---
+          if (action === 'mafia-god-assign') {
+            if (session.gameMode !== 'mafia') return Response.json({ error: 'Not a Mafia game' }, { status: 400 })
+            const mafia = session.mafia || createDefaultMafiaState()
+            mafia.assignmentMode = 'god'
+            mafia.roleCounts = normalizeRoleCounts((data?.roleCounts as Record<string, number>) || mafia.roleCounts)
+            mafia.assignments = normalizeManualMafiaAssignments(
+              session.players,
+              (data?.assignments as Record<string, string>) || {},
+            )
+            mafia.phase = 'assigned'
+            mafia.assignedAt = Date.now()
+            session.mafia = mafia
+            session.state = 'playing'
+            await saveSession(session)
+            return Response.json(sessionViewForPlayer(session, playerId))
+          }
+
+          // --- MAFIA: RESTART ASSIGNMENT ---
+          if (action === 'mafia-restart-assignment') {
+            if (session.gameMode !== 'mafia' || !session.mafia) return Response.json({ error: 'Not a Mafia game' }, { status: 400 })
+            if (session.mafia.assignmentMode === 'random') {
+              session.mafia.assignments = assignRandomMafiaRoles(session.players, session.mafia.roleCounts)
+              session.mafia.phase = 'assigned'
+              session.mafia.assignedAt = Date.now()
+              session.state = 'playing'
+            } else {
+              session.mafia.phase = 'setup'
+              session.mafia.assignments = {}
+              session.state = 'instructions'
+            }
+            await saveSession(session)
+            return Response.json(sessionViewForPlayer(session, playerId))
+          }
+
+          // --- MAFIA: RECONFIGURE ROLES ---
+          if (action === 'mafia-reconfigure') {
+            if (session.gameMode !== 'mafia') return Response.json({ error: 'Not a Mafia game' }, { status: 400 })
+            const mafia = session.mafia || createDefaultMafiaState()
+            mafia.phase = 'setup'
+            mafia.assignments = {}
+            session.mafia = mafia
+            session.state = 'instructions'
+            await saveSession(session)
+            return Response.json(sessionViewForPlayer(session, playerId))
           }
 
           // --- PLAY SAME GAME AGAIN ---

@@ -1,7 +1,8 @@
 import { getStore } from '@netlify/blobs'
 import type { Tone } from './dhamaalPrompts'
+import type { MafiaState } from './mafia'
 
-export type GameMode = 'truth-or-dare' | 'rapid-fire' | 'quiz-up' | 'most-likely-to' | 'would-you-rather' | 'fake-it' | 'act-it-out'
+export type GameMode = 'truth-or-dare' | 'rapid-fire' | 'quiz-up' | 'most-likely-to' | 'would-you-rather' | 'fake-it' | 'act-it-out' | 'mafia'
 export type SessionState = 'lobby' | 'instructions' | 'playing' | 'results' | 'ended'
 
 export interface Player {
@@ -115,6 +116,7 @@ export interface GameSession {
   currentWYR: WYRState | null
   currentFakeIt: FakeItState | null
   currentActItOut: ActItOutState | null
+  mafia: MafiaState | null
   createdAt: number
   updatedAt: number
 }
@@ -184,6 +186,7 @@ export function createNewSession(hostId: string, hostName: string): GameSession 
     currentWYR: null,
     currentFakeIt: null,
     currentActItOut: null,
+    mafia: null,
     createdAt: Date.now(),
     updatedAt: Date.now(),
   }
@@ -197,6 +200,7 @@ export function getTotalQuestionsForMode(mode: GameMode, playerCount: number): n
   if (mode === 'would-you-rather') return 25
   if (mode === 'fake-it') return Math.max(playerCount * 3, 20)
   if (mode === 'act-it-out') return Math.max(playerCount * 3, 20)
+  if (mode === 'mafia') return 0
   return 10
 }
 
@@ -208,4 +212,5 @@ export const GAME_MODES: Record<GameMode, { label: string; icon: string; descrip
   'would-you-rather': { label: 'Would You Rather', icon: '⚖️', description: 'No safe option here' },
   'fake-it': { label: 'Fake It', icon: '🤥', description: "Convince 'em you're the expert" },
   'act-it-out': { label: 'Act It Out', icon: '🎬', description: 'No words, pure vibes' },
+  mafia: { label: 'Mafia', icon: '🕵️', description: 'Private role distributor for offline Mafia' },
 }

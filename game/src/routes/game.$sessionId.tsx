@@ -1,6 +1,16 @@
 import { createFileRoute, useNavigate } from '@tanstack/react-router'
 import { useEffect, useState, useCallback, useRef } from 'react'
 import { GameSession, GAME_MODES } from '../lib/game'
+import {
+  createDefaultMafiaState,
+  getEffectiveRoleCounts,
+  getMafiaRole,
+  getMafiaTeammates,
+  getSelectedRoleCount,
+  MAFIA_ROLES,
+  type MafiaAlignment,
+  type MafiaAssignmentMode,
+} from '../lib/mafia'
 
 export const Route = createFileRoute('/game/$sessionId')({
   component: GamePage,
@@ -1285,6 +1295,386 @@ function ActItOutScreen({
   )
 }
 
+// ---- Mafia Role Distributor ----
+const MAFIA_ALIGNMENTS: MafiaAlignment[] = ['Village', 'Mafia', 'Neutral / Chaos']
+
+function RoleDetails({ roleId, compact = false }: { roleId: string; compact?: boolean }) {
+  const role = getMafiaRole(roleId)
+  const alignmentStyle =
+    role.alignment === 'Mafia'
+      ? 'text-red-300 bg-red-500/10 border-red-500/30'
+      : role.alignment === 'Village'
+        ? 'text-emerald-300 bg-emerald-500/10 border-emerald-500/30'
+        : 'text-yellow-300 bg-yellow-500/10 border-yellow-500/30'
+
+  return (
+    <div className={`${compact ? 'rounded-xl p-3' : 'rounded-2xl p-4'} bg-slate-800/70 border border-slate-700/50 space-y-3`}>
+      <div className="flex items-start justify-between gap-3">
+        <div>
+          <h3 className="text-white font-black text-lg">{role.name}</h3>
+          <span className={`mt-1 inline-flex rounded-full border px-2 py-0.5 text-[11px] font-bold ${alignmentStyle}`}>
+            {role.alignment}
+          </span>
+        </div>
+      </div>
+      <div className="space-y-2 text-sm">
+        <div>
+          <p className="text-slate-500 text-[11px] uppercase tracking-widest">Objective</p>
+          <p className="text-slate-300 leading-snug">{role.objective}</p>
+        </div>
+        <div>
+          <p className="text-slate-500 text-[11px] uppercase tracking-widest">Powers</p>
+          <p className="text-slate-300 leading-snug">{role.powers}</p>
+        </div>
+        <div>
+          <p className="text-slate-500 text-[11px] uppercase tracking-widest">Strategy</p>
+          <p className="text-slate-300 leading-snug">{role.strategy}</p>
+        </div>
+        <div>
+          <p className="text-slate-500 text-[11px] uppercase tracking-widest">Notes</p>
+          <p className="text-slate-400 leading-snug">{role.notes}</p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function MafiaSetupScreen({
+  session,
+  playerId,
+  sessionId,
+  onAction,
+}: {
+  session: GameSession
+  playerId: string
+  sessionId: string
+  onAction: () => void
+}) {
+  const mafia = session.mafia || createDefaultMafiaState()
+  const isHost = session.hostId === playerId
+  const [roleCounts, setRoleCounts] = useState<Record<string, number>>(mafia.roleCounts)
+  const [assignmentMode, setAssignmentMode] = useState<MafiaAssignmentMode>(mafia.assignmentMode)
+  const [manualAssignments, setManualAssignments] = useState<Record<string, string>>({})
+  const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    setRoleCounts(mafia.roleCounts)
+    setAssignmentMode(mafia.assignmentMode)
+    setManualAssignments(session.players.reduce<Record<string, string>>((assignments, player) => {
+      assignments[player.id] = mafia.assignments[player.id] || 'villager'
+      return assignments
+    }, {}))
+  }, [mafia.assignmentMode, mafia.assignments, mafia.roleCounts, session.players])
+
+  const playerCount = session.players.length
+  const selectedCount = getSelectedRoleCount(roleCounts)
+  const effectiveCounts = getEffectiveRoleCounts(roleCounts, playerCount)
+  const effectiveCount = getSelectedRoleCount(effectiveCounts)
+  const autoVillagers = Math.max(0, playerCount - selectedCount)
+  const overAllocated = selectedCount > playerCount
+
+  function updateRoleCount(roleId: string, delta: number) {
+    setRoleCounts(current => ({
+      ...current,
+      [roleId]: Math.max(0, (current[roleId] || 0) + delta),
+    }))
+  }
+
+  async function sendHostAction(action: string, data?: Record<string, unknown>) {
+    setLoading(true)
+    try {
+      await fetch('/api/game/host', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ sessionId, playerId, action, data }),
+      })
+      onAction()
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  if (!isHost) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-950 to-slate-900 flex flex-col items-center p-4">
+        <div className="w-full max-w-md space-y-4 py-8">
+          <div className="text-center">
+            <div className="text-5xl mb-2">🕵️</div>
+            <h1 className="text-3xl font-black text-white">Mafia</h1>
+            <p className="text-slate-400 text-sm mt-1">Host is configuring roles...</p>
+          </div>
+          <div className="bg-slate-800/80 border border-slate-700/50 rounded-2xl p-5 text-center">
+            <p className="text-slate-300 text-sm leading-relaxed">
+              This mode only distributes private roles. Once everyone reveals their own role, play Mafia offline in the room.
+            </p>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-950 to-slate-900 flex flex-col items-center p-4">
+      <div className="w-full max-w-3xl space-y-4 py-6">
+        <div className="text-center">
+          <div className="text-5xl mb-2">🕵️</div>
+          <h1 className="text-3xl font-black text-white">Mafia Setup</h1>
+          <p className="text-slate-400 text-sm mt-1">Configure roles, assign privately, then play offline.</p>
+        </div>
+
+        <div className="grid gap-3 sm:grid-cols-3">
+          <div className="bg-slate-800/80 border border-slate-700/50 rounded-2xl p-4 text-center">
+            <p className="text-slate-500 text-xs uppercase tracking-widest">Players</p>
+            <p className="text-white text-3xl font-black">{playerCount}</p>
+          </div>
+          <div className={`border rounded-2xl p-4 text-center ${overAllocated ? 'bg-red-950/40 border-red-500/40' : 'bg-slate-800/80 border-slate-700/50'}`}>
+            <p className="text-slate-500 text-xs uppercase tracking-widest">Assigned Roles</p>
+            <p className={`text-3xl font-black ${overAllocated ? 'text-red-300' : 'text-white'}`}>{effectiveCount}</p>
+          </div>
+          <div className="bg-slate-800/80 border border-slate-700/50 rounded-2xl p-4 text-center">
+            <p className="text-slate-500 text-xs uppercase tracking-widest">Auto Villagers</p>
+            <p className="text-white text-3xl font-black">{autoVillagers}</p>
+          </div>
+        </div>
+
+        {overAllocated && (
+          <div className="bg-red-950/40 border border-red-500/40 rounded-2xl p-4 text-red-200 text-sm">
+            You have more selected roles than players. The app will still allow it, but extra roles will not be assigned in random mode.
+          </div>
+        )}
+
+        <div className="bg-slate-800/80 border border-slate-700/50 rounded-2xl p-5">
+          <h2 className="text-sm font-semibold text-slate-400 uppercase tracking-widest mb-3">Assignment Mode</h2>
+          <div className="grid grid-cols-2 gap-3">
+            {(['random', 'god'] as MafiaAssignmentMode[]).map(mode => (
+              <button
+                key={mode}
+                onClick={() => setAssignmentMode(mode)}
+                className={`rounded-xl border-2 p-4 text-left transition-all ${
+                  assignmentMode === mode
+                    ? 'border-purple-500 bg-purple-500/15 text-white'
+                    : 'border-slate-600 bg-slate-700/30 text-slate-300 hover:border-slate-500'
+                }`}
+              >
+                <p className="font-bold">{mode === 'random' ? 'Random Assignment' : 'God Mode Assignment'}</p>
+                <p className="text-xs text-slate-400 mt-1">
+                  {mode === 'random' ? 'Shuffle players and roles automatically.' : 'Manually choose every player role.'}
+                </p>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="bg-slate-800/80 border border-slate-700/50 rounded-2xl p-5">
+          <h2 className="text-sm font-semibold text-slate-400 uppercase tracking-widest mb-4">Role Counts</h2>
+          <div className="space-y-5">
+            {MAFIA_ALIGNMENTS.map(alignment => (
+              <div key={alignment}>
+                <h3 className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">{alignment}</h3>
+                <div className="grid gap-2 sm:grid-cols-2">
+                  {MAFIA_ROLES.filter(role => role.alignment === alignment).map(role => (
+                    <div key={role.id} className="flex items-center gap-3 rounded-xl bg-slate-700/40 border border-slate-600/50 px-3 py-2">
+                      <div className="flex-1 min-w-0">
+                        <p className="text-white font-semibold text-sm">{role.name}</p>
+                        <p className="text-slate-400 text-xs truncate">{role.objective}</p>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <button
+                          onClick={() => updateRoleCount(role.id, -1)}
+                          className="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-600"
+                        >
+                          -
+                        </button>
+                        <span className="w-6 text-center text-white font-bold">{roleCounts[role.id] || 0}</span>
+                        <button
+                          onClick={() => updateRoleCount(role.id, 1)}
+                          className="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-600"
+                        >
+                          +
+                        </button>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {assignmentMode === 'god' && (
+          <div className="bg-slate-800/80 border border-slate-700/50 rounded-2xl p-5">
+            <h2 className="text-sm font-semibold text-slate-400 uppercase tracking-widest mb-3">Manual Assignments</h2>
+            <div className="space-y-2">
+              {session.players.map(player => (
+                <label key={player.id} className="flex items-center gap-3 rounded-xl bg-slate-700/40 px-3 py-3">
+                  <span className="text-white font-semibold flex-1 truncate">{player.name}</span>
+                  <select
+                    value={manualAssignments[player.id] || 'villager'}
+                    onChange={event => setManualAssignments(current => ({ ...current, [player.id]: event.target.value }))}
+                    className="bg-slate-900 border border-slate-600 rounded-lg px-2 py-2 text-sm text-white"
+                  >
+                    {MAFIA_ROLES.map(role => (
+                      <option key={role.id} value={role.id}>{role.name}</option>
+                    ))}
+                  </select>
+                </label>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <div className="grid gap-3 sm:grid-cols-2">
+          <button
+            onClick={() => assignmentMode === 'random'
+              ? sendHostAction('mafia-random-assign', { roleCounts })
+              : sendHostAction('mafia-god-assign', { roleCounts, assignments: manualAssignments })}
+            disabled={loading}
+            className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 disabled:opacity-50 text-white font-bold py-4 rounded-2xl transition-all shadow-lg active:scale-95 text-lg"
+          >
+            {loading ? 'Assigning...' : 'Assign Roles'}
+          </button>
+          <button
+            onClick={() => sendHostAction('reset')}
+            disabled={loading}
+            className="bg-slate-700 hover:bg-slate-600 disabled:opacity-50 text-white font-bold py-4 rounded-2xl transition-all"
+          >
+            Return To Lobby
+          </button>
+        </div>
+
+        <div className="space-y-4">
+          <h2 className="text-sm font-semibold text-slate-400 uppercase tracking-widest">Role Guide</h2>
+          <div className="grid gap-3 md:grid-cols-2">
+            {MAFIA_ROLES.map(role => <RoleDetails key={role.id} roleId={role.id} compact />)}
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function MafiaRevealScreen({
+  session,
+  playerId,
+  sessionId,
+  onAction,
+}: {
+  session: GameSession
+  playerId: string
+  sessionId: string
+  onAction: () => void
+}) {
+  const mafia = session.mafia
+  const [revealed, setRevealed] = useState(false)
+  const [loading, setLoading] = useState(false)
+  const isHost = session.hostId === playerId
+
+  if (!mafia || mafia.phase !== 'assigned') return <MafiaSetupScreen session={session} playerId={playerId} sessionId={sessionId} onAction={onAction} />
+
+  const roleId = mafia.assignments[playerId] || 'villager'
+  const role = getMafiaRole(roleId)
+  const teammates = getMafiaTeammates(playerId, session.players, mafia.assignments)
+
+  async function sendHostAction(action: string) {
+    setLoading(true)
+    try {
+      await fetch('/api/game/host', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ sessionId, playerId, action }),
+      })
+      onAction()
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-950 to-slate-900 flex flex-col items-center p-4">
+      <div className="w-full max-w-md space-y-4 py-8">
+        <div className="text-center">
+          <div className="text-5xl mb-2">🕵️</div>
+          <h1 className="text-3xl font-black text-white">Mafia Roles</h1>
+          <p className="text-slate-400 text-sm mt-1">Reveal privately. Then play offline.</p>
+        </div>
+
+        {!revealed ? (
+          <div className="bg-slate-800/80 border border-slate-700/50 rounded-2xl p-6 text-center space-y-4">
+            <p className="text-slate-300 text-sm">
+              Make sure only you can see this screen before revealing your role.
+            </p>
+            <button
+              onClick={() => setRevealed(true)}
+              className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-4 rounded-2xl transition-all shadow-lg active:scale-95 text-lg"
+            >
+              Reveal My Role
+            </button>
+          </div>
+        ) : (
+          <>
+            <RoleDetails roleId={role.id} />
+            {role.alignment === 'Mafia' && (
+              <div className="bg-red-950/30 border border-red-500/30 rounded-2xl p-4">
+                <p className="text-red-300 text-xs font-bold uppercase tracking-widest mb-2">Mafia Teammates</p>
+                {teammates.length ? (
+                  <div className="space-y-2">
+                    {teammates.map(teammate => (
+                      <div key={teammate.id} className="rounded-xl bg-red-500/10 px-3 py-2 text-red-100 font-semibold">
+                        {teammate.name} - {getMafiaRole(mafia.assignments[teammate.id]).name}
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-red-100 text-sm">No other Mafia-aligned teammates in this assignment.</p>
+                )}
+              </div>
+            )}
+            <button
+              onClick={() => setRevealed(false)}
+              className="w-full bg-slate-700 hover:bg-slate-600 text-white font-bold py-3 rounded-2xl transition-all"
+            >
+              Hide Role
+            </button>
+            <button
+              onClick={() => setRevealed(true)}
+              className="w-full border border-slate-700 hover:border-slate-600 text-slate-300 font-bold py-3 rounded-2xl transition-all"
+            >
+              View My Role Again
+            </button>
+          </>
+        )}
+
+        {isHost && (
+          <div className="bg-slate-800/80 border border-slate-700/50 rounded-2xl p-4 space-y-2">
+            <p className="text-slate-500 text-xs uppercase tracking-widest">Host Actions</p>
+            <button
+              onClick={() => sendHostAction('mafia-restart-assignment')}
+              disabled={loading}
+              className="w-full bg-slate-700 hover:bg-slate-600 disabled:opacity-50 text-white font-semibold py-3 rounded-xl transition-all"
+            >
+              Restart Assignment
+            </button>
+            <button
+              onClick={() => sendHostAction('mafia-reconfigure')}
+              disabled={loading}
+              className="w-full bg-slate-700 hover:bg-slate-600 disabled:opacity-50 text-white font-semibold py-3 rounded-xl transition-all"
+            >
+              Reconfigure Roles
+            </button>
+            <button
+              onClick={() => sendHostAction('reset')}
+              disabled={loading}
+              className="w-full border border-slate-700 hover:border-slate-600 disabled:opacity-50 text-slate-300 font-semibold py-3 rounded-xl transition-all"
+            >
+              Return To Lobby
+            </button>
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
 // ---- Main Game Page ----
 function GamePage() {
   const { sessionId } = Route.useParams()
@@ -1299,17 +1689,22 @@ function GamePage() {
 
   const fetchState = useCallback(async () => {
     try {
-      const res = await fetch(`/api/game/state/${sessionId}`)
+      const stateUrl = playerId
+        ? `/api/game/state/${sessionId}?playerId=${encodeURIComponent(playerId)}`
+        : `/api/game/state/${sessionId}`
+      const res = await fetch(stateUrl)
       if (!res.ok) { setError('Session not found'); return }
       const data: GameSession = await res.json()
       setSession(data)
-      if (data.state === 'results' || data.state === 'ended') {
+      if (data.state === 'lobby') {
+        navigate({ to: '/lobby/$sessionId', params: { sessionId } })
+      } else if (data.state === 'results' || data.state === 'ended') {
         navigate({ to: '/results/$sessionId', params: { sessionId } })
       }
     } catch {
       setError('Connection error')
     }
-  }, [sessionId, navigate])
+  }, [sessionId, playerId, navigate])
 
   useEffect(() => {
     fetchState()
@@ -1341,7 +1736,10 @@ function GamePage() {
 
   const props = { session, playerId, sessionId, onAction: fetchState }
 
-  if (session.state === 'instructions') return <InstructionsScreen {...props} />
+  if (session.state === 'instructions') {
+    if (session.gameMode === 'mafia') return <MafiaSetupScreen {...props} />
+    return <InstructionsScreen {...props} />
+  }
 
   if (session.state === 'playing') {
     if (session.gameMode === 'truth-or-dare') return <TruthOrDareScreen {...props} />
@@ -1351,6 +1749,7 @@ function GamePage() {
     if (session.gameMode === 'would-you-rather') return <WouldYouRatherScreen {...props} />
     if (session.gameMode === 'fake-it') return <FakeItScreen {...props} />
     if (session.gameMode === 'act-it-out') return <ActItOutScreen {...props} />
+    if (session.gameMode === 'mafia') return <MafiaRevealScreen {...props} />
   }
 
   return (
