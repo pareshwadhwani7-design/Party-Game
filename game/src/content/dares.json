@@ -1,608 +1,608 @@
 {
   "chill": [
     {
-      "text": "Give a dramatic acceptance speech for being the most unserious adult in the room.",
+      "text": "Read your last safe group-chat message like a courtroom confession.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Let the group pick your official party nickname for the next three rounds.",
       "drinkPenalty": 1
     },
     {
-      "text": "Read your last food delivery search and explain the emotional context.",
+      "text": "Post a harmless story poll chosen by the group.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Send a voice note to a friend saying, 'I have become self-aware,' then stop.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Give everyone here a one-word personality review.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Open your screen-time report and reveal the top app.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Let the group write a clean Instagram caption for your next post.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Do a fake influencer review of the room you are in.",
       "drinkPenalty": 1
     },
     {
-      "text": "Let the group choose your temporary nickname for the next two rounds.",
+      "text": "Read your most recent safe note title dramatically.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Give a 20-second TED Talk on why you are not the problem.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Let someone choose an emoji you must use in your next reply to anyone.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Narrate your last food order like a life-changing decision.",
       "drinkPenalty": 1
     },
     {
-      "text": "Posture-check yourself like a fake wellness influencer for 20 seconds.",
+      "text": "Give your current mood as a Bollywood movie title.",
       "drinkPenalty": 1
     },
     {
-      "text": "Give everyone here a harmless one-word personality review.",
+      "text": "Let the group choose your phone wallpaper for one round, from your safe options.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Make a fake apology video for being late to plans.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Say one sincere compliment to the person on your left.",
       "drinkPenalty": 1
     },
     {
-      "text": "Describe your current outfit like a red-carpet host is interviewing you.",
+      "text": "Let the group decide your harmless red flag.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Do your best office voice while explaining why you deserve a holiday.",
       "drinkPenalty": 1
     },
     {
-      "text": "Show your most recently used emoji and defend it like a lawyer.",
+      "text": "Send 'random question: am I dramatic?' to a safe friend and show the reply later.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Make a toast to the most chaotic person in the room.",
       "drinkPenalty": 1
     },
     {
-      "text": "Do a fake influencer intro for this exact room.",
+      "text": "Read your last three emojis and explain the emotional journey.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Let the group pick one app you cannot open for two rounds.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Perform a serious news report about the current party vibe.",
       "drinkPenalty": 1
     },
     {
-      "text": "Make a toast to the person most likely to derail tonight.",
+      "text": "Give a fake LinkedIn post about surviving this game.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Say what each person here would be famous for.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Open your camera roll and show the first safe photo you are comfortable showing.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Text a safe friend 'quick poll: am I the drama?' and do not explain.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Let the group choose your next drink/snack order if available.",
       "drinkPenalty": 1
     },
     {
-      "text": "Read the title of your weirdest safe Notes app note.",
+      "text": "Do a dramatic reading of a boring notification.",
       "drinkPenalty": 1
     },
     {
-      "text": "Let the group pick one app you are not allowed to open for two rounds.",
+      "text": "Describe your personality as a dating-app bio in one sentence.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Give a fake customer-care response to your own life problems.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Let the room choose your official warning label.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Read a harmless old caption you regret.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Do a 15-second dance like you are at a sangeet and nobody briefed you.",
       "drinkPenalty": 1
     },
     {
-      "text": "Give a TED Talk title for your current life phase.",
+      "text": "Call yourself out for one annoying habit, no softening.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Give a fake motivational quote that describes your current mess.",
       "drinkPenalty": 1
     },
     {
-      "text": "Perform your reaction to someone saying they are five minutes away but still at home.",
+      "text": "Let someone inspect your recent emojis and ask one question.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Recreate your reaction when your salary gets credited.",
       "drinkPenalty": 1
     },
     {
-      "text": "Let the group choose a theme song for your entrance.",
+      "text": "Say which app you should delete and why you will not.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Pitch your worst habit as a premium feature.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Send a clean meme to the person this group chooses.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Do your most dramatic 'typing...' face.",
       "drinkPenalty": 1
     },
     {
-      "text": "Explain your phone wallpaper to the room with full sincerity.",
+      "text": "Let the group decide your vibe: green flag, red flag, or beige flag.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Give a fake award acceptance speech for being emotionally stable.",
       "drinkPenalty": 1
     },
     {
-      "text": "Give a sincere apology to someone whose fries you would steal.",
+      "text": "Say one thing you are grateful for and one thing you are avoiding.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Let the group choose one word you are banned from saying for a round.",
       "drinkPenalty": 1
     },
     {
-      "text": "Open your camera roll and describe the last photo without showing it.",
+      "text": "Explain your latest purchase like it was financially responsible.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Give a roast-free review of the person opposite you.",
       "drinkPenalty": 1
     },
     {
-      "text": "Pretend to pitch this party to investors for 30 seconds.",
+      "text": "Do a dramatic silence for the last message you should have replied to.",
       "drinkPenalty": 1
     },
     {
-      "text": "Let the group ask one yes-or-no question you must answer instantly.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Say the most dramatic thing you can about needing a charger.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Do your best office voice while asking for one more drink.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Give the room a fake restaurant review based only on the vibe.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Let someone choose your pose for a group photo later.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Read your last safe calendar reminder aloud.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Narrate your last online purchase like a crime documentary.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Give one friend a harmless but specific compliment they will remember.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Explain your most-used app as if your parents asked what it does.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Let the group pick your next WhatsApp status line for one hour.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Act like a motivational speaker selling the idea of going home early.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Say one nice thing and one suspicious thing about your own personality.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Do a dramatic reenactment of you joining a plan you know will fail.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Let the group choose one word you cannot say until your next turn.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Read the name of your last created playlist or make one up if it is too exposing.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Give a fake apology for your most annoying group-plan behavior.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Deliver a weather report for the mood of this room.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Show your lock screen battery percentage and accept judgment.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Let the group choose who you must hype up for 30 seconds.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Describe your ideal lazy Sunday like a luxury travel ad.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Give an award to the most suspiciously calm person here.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Speak like a LinkedIn influencer for your next answer.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Let someone rename your current mood.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Perform the face you make when the bill arrives.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Say the group chat message you are most likely to ignore.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Give a fake press statement about why you were late recently.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Let the group pick a harmless dare for your camera roll organization.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Recite a fake customer-care script for your emotional availability.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Make a 15-second ad for your worst habit.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Give your current bank balance an emotional support message.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Let someone choose the first word of your next Instagram caption.",
-      "drinkPenalty": 1
-    },
-    {
-      "text": "Do your best dramatic pause before saying absolutely nothing important.",
-      "drinkPenalty": 1
+      "text": "Make a fake trailer voice-over for your life this month.",
+      "drinkPenalty": 2
     }
   ],
   "savage": [
     {
-      "text": "Let the group vote on your most obvious red flag and accept the result silently.",
+      "text": "Let the group vote on your most obvious toxic trait.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Read your last sent message in any group chat with maximum guilt.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Name one person here who gives advice they cannot follow.",
       "drinkPenalty": 2
     },
     {
-      "text": "Read your last sent group-chat message with full dramatic emphasis.",
+      "text": "Give a fake PR statement about your worst recent decision.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Let the group choose one contact you are banned from texting tonight.",
+      "drinkPenalty": 4
+    },
+    {
+      "text": "Say which friend here has the most screenshots-ready personality.",
       "drinkPenalty": 2
     },
     {
-      "text": "Name one friend here who needs to stop pretending they are chill.",
+      "text": "Admit one thing you call self-care that is actually avoidance.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Let the room decide your red flag and you cannot argue.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Give a brutally honest review of your communication style.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Name the app that brings out your worst personality.",
       "drinkPenalty": 2
     },
     {
-      "text": "Give one person useful but uncomfortable advice in one sentence.",
+      "text": "Say who here is most likely to start drama and then ask for peace.",
       "drinkPenalty": 2
     },
     {
-      "text": "Show your screen-time top three and explain your life choices.",
+      "text": "Tell the group the last excuse you used to dodge plans.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Read one safe note title that sounds suspicious.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Give your dating life a movie title and a critic rating.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Let someone ask one question about your screen-time top three.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Say who here would be cancelled by their drafts, not their posts.",
       "drinkPenalty": 2
     },
     {
-      "text": "Let the group choose a contact you are banned from texting tonight.",
+      "text": "Admit one fake boundary you announce but never enforce.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Give a roast of your own Instagram personality.",
       "drinkPenalty": 2
+    },
+    {
+      "text": "Let the group pick the phrase you overuse when you are lying.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Say which friend here is most likely to confuse chaos with depth.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Read the last message you ignored, without naming the person.",
+      "drinkPenalty": 4
+    },
+    {
+      "text": "Give a fake therapist diagnosis of your own worst pattern.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Say who here would thrive in drama but deny enjoying it.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Let the group choose one thing you should stop romanticizing.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Explain your worst habit like a startup pitch.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Say which friend here is most likely to weaponize 'boundaries'.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Admit one thing you do for attention.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Give a one-sentence apology to everyone you left on read.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Let the room decide if your type is a type or a warning sign.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Say who here has the biggest 'main character in crisis' energy.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Read a safe message you sent that sounds needier than intended.",
+      "drinkPenalty": 4
+    },
+    {
+      "text": "Describe your ego in three words.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Say who here would survive a breakup by becoming annoying online.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Let the group ask one yes/no question about your last bad decision.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Give a fake apology to your bank account.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Say one truth about yourself that sounds like a roast.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Let the group pick your villain origin story.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Name one toxic trait you find attractive.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Say who here would write the messiest memoir.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Give a fake LinkedIn post about your emotional unavailability.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Admit the pettiest reason you judged someone recently.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Let the room pick your most suspicious emoji.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Say which friend here is one compliment away from a bad decision.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Give your last situationship a customer-service rating.",
+      "drinkPenalty": 3
     },
     {
       "text": "Tell the room one thing you are pretending is under control.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Say who here would be the worst person to have receipts against you.",
       "drinkPenalty": 2
     },
     {
-      "text": "Open your Notes app and read the title of the most suspicious note.",
-      "drinkPenalty": 2
+      "text": "Give a dramatic defence of your most indefensible habit.",
+      "drinkPenalty": 3
     },
     {
-      "text": "Rank three people here by who would cause the most trip drama.",
-      "drinkPenalty": 2
+      "text": "Let someone pick a harmless contact and you must send them a meme now.",
+      "drinkPenalty": 3
     },
     {
-      "text": "Let the group decide your green flag and your red flag.",
-      "drinkPenalty": 2
+      "text": "Say what your ex would roast you for, clean version.",
+      "drinkPenalty": 4
     },
     {
-      "text": "Say who here would be the worst roommate and give one reason.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Read the most recent message you ignored, without naming the sender.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Give a fake apology for your biggest party crime.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Let someone ask you one question you must answer in exactly five words.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Name the most overused phrase in this friend group.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Show the last meme you saved and say who it reminds you of.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Tell the room which app brings out the worst version of you.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Do a dramatic reading of your most common excuse.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Let the group choose your official toxic trait for tonight.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Say one thing you judge people for but secretly do.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Give the room a brutally honest review of your own dating choices.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Let the group pick one habit you should retire immediately.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Reveal the most embarrassing contact name in your phone that is safe to share.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Read your last safe search query like it is court evidence.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Name one person here who would survive cancellation by charm alone.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Give a 20-second roast of hustle culture using yourself as the example.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Let the group decide who you owe an apology to in general life.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Say which friend here has the most main-character delusion.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Show the room your unread message count.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Admit one lie you tell to avoid plans.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Let the group choose one word to describe your love life.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Give a fake PR statement about your worst decision this month.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Say who here would be the villain in a friend-group documentary.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Let one person inspect your recent emojis and ask one question.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Tell the room your most avoidant communication habit.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Name the friend most likely to say no offense and then offend everyone.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Give a confession using the phrase I was the problem.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Let the group decide your most suspicious Instagram behavior.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Say which friend here gives the best advice and the worst example.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Read the last message you almost replied to but abandoned.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Give everyone here a fake superlative that is a little too accurate.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Let the group pick the person whose phone you should never borrow.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Tell the room one thing your LinkedIn self would hide.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Name the most emotionally expensive person you know without saying their name.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Give your own apology rating out of ten and justify it.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Let someone choose a harmless screenshot category you must explain.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Say who here has the most dangerous confidence.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Admit the last time you wanted attention and pretended you did not.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Let the group choose a new warning label for you.",
-      "drinkPenalty": 2
-    },
-    {
-      "text": "Tell one truth, then immediately say I hate that I said that.",
-      "drinkPenalty": 2
+      "text": "Admit one thing you only do because you want to look interesting.",
+      "drinkPenalty": 3
     }
   ],
   "nsfw": [
     {
-      "text": "Read a flirty recent text that is safe for the room, or take the penalty.",
+      "text": "Send a clean but flirty compliment to someone safe, chosen by the group.",
+      "drinkPenalty": 4
+    },
+    {
+      "text": "Describe your type so badly that everyone can roast it.",
       "drinkPenalty": 3
     },
     {
-      "text": "Let the group write a harmless dating-app bio for you.",
+      "text": "Let the group write a dating-app opener for you.",
       "drinkPenalty": 3
     },
     {
-      "text": "Name one person here with dangerous charm and explain carefully.",
+      "text": "Give your last crush a code name and explain the vibe.",
       "drinkPenalty": 3
     },
     {
-      "text": "Describe your type badly enough that the group can roast it.",
+      "text": "Say who here has the most dangerous charm.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Read a safe flirty text or take the penalty.",
+      "drinkPenalty": 4
+    },
+    {
+      "text": "Give your dating history a Bollywood movie title.",
       "drinkPenalty": 3
     },
     {
-      "text": "Give your last crush a code name and explain why it fits.",
+      "text": "Let the group decide your dating red flag.",
       "drinkPenalty": 3
     },
     {
-      "text": "Let the group choose a one-line reply to a harmless unread chat.",
+      "text": "Say one clean compliment like you actually mean it.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Describe your worst talking stage in three words.",
       "drinkPenalty": 3
     },
     {
-      "text": "Rate your own flirting skills and provide evidence.",
+      "text": "Let the group choose one person you should not drunk-text.",
+      "drinkPenalty": 4
+    },
+    {
+      "text": "Give a fake apology for your romantic decision-making.",
       "drinkPenalty": 3
     },
     {
-      "text": "Tell the group your most avoidable dating mistake.",
+      "text": "Say which friend here should never give flirting advice.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Act out receiving a risky text in public, no words.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Tell the group the compliment that makes you fold fastest.",
       "drinkPenalty": 3
     },
     {
-      "text": "Do a 20-second pitch for why you are relationship material.",
+      "text": "Read your last safe story reply, or explain why you cannot.",
+      "drinkPenalty": 4
+    },
+    {
+      "text": "Say who here would be the most chaotic wedding plus-one.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Give a clean pitch for why someone should date you.",
       "drinkPenalty": 3
     },
     {
-      "text": "Let the group identify your most obvious dating red flag.",
+      "text": "Let the room pick your dating-app headline.",
       "drinkPenalty": 3
     },
     {
-      "text": "Read the name of the last person you searched on Instagram, if safe.",
+      "text": "Say what your ex would say is your biggest romantic flaw.",
+      "drinkPenalty": 4
+    },
+    {
+      "text": "Act like you just saw your situationship walk in.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Give a fake press statement denying romantic chaos.",
       "drinkPenalty": 3
     },
     {
-      "text": "Give one friend here a fake but believable pickup line.",
+      "text": "Say which friend here gives the strongest 'do not trust after midnight' energy.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Describe your most avoidable romantic mistake without names.",
+      "drinkPenalty": 4
+    },
+    {
+      "text": "Let the group choose a song for your dating life.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Say one thing you pretend does not matter in attraction.",
       "drinkPenalty": 3
     },
     {
-      "text": "Explain your worst I can fix them moment without names.",
-      "drinkPenalty": 3
+      "text": "Give a fake review of your flirting skills.",
+      "drinkPenalty": 2
     },
     {
-      "text": "Say who would be the most chaotic plus-one at a wedding.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Let the group choose one person you are banned from drunk-texting tonight.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Describe your ideal first date using only places in your city.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Give your situationship history a movie title.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Say who here has suspiciously good eye contact.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Admit one dating rule you made and then broke.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Tell the room which dating-app photo of yours is doing too much.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Do your best voice note after receiving a risky text.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Let the group rate your go-to flirting face.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Name one green flag you find boring and accept the judgment.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Give a fake press statement about why you went back to someone.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Read the last non-explicit message that made you smile too much.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Let the group choose your dating tagline for the night.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Say the most unhinged reason you found someone attractive.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Tell the room what your ex would roast you for.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Give one friend a clean but flirty compliment with full eye contact.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Let the group decide whether your type is a type or a warning sign.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Describe your worst talking stage using only three words.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Say who here would be the most convincing fake boyfriend or girlfriend.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Show your dating-app opening line if you have one saved.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Tell the room one romantic thing you pretend not to want.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Let someone pick a song that describes your dating life.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Say which friend here should never be allowed to give flirting advice.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Give a fake apology to everyone who has witnessed your romantic choices.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Tell the group the most dramatic reason you have checked a profile.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Say what your toxic dating pattern would be called as a Netflix show.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Let the room choose your no-contact sponsor for tonight.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Read your last safe story reply or explain why you cannot.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Give a 15-second masterclass on how not to text your ex.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Tell the room which compliment makes you fold fastest.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Let the group write a clean thirst-trap caption for you.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Say one thing you would never put in your dating bio but should.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Name the friend most likely to turn chemistry into a crisis.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Give your most recent crush a fake LinkedIn endorsement.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Tell the room what your drunk self should be banned from doing.",
-      "drinkPenalty": 3
-    },
-    {
-      "text": "Let someone choose a harmless DM you must not overthink.",
+      "text": "Name one dating-app behavior you judge but understand.",
       "drinkPenalty": 3
     },
     {
       "text": "Say who here would be most dangerous on a couples trip.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Act out trying to be chill after getting ghosted.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Tell the room the worst reason you gave someone another chance.",
+      "drinkPenalty": 4
+    },
+    {
+      "text": "Let the group decide if your type is cute or concerning.",
       "drinkPenalty": 3
+    },
+    {
+      "text": "Read a safe message that sounds like flirting, even if it was not.",
+      "drinkPenalty": 4
+    },
+    {
+      "text": "Give your last talking stage a weather forecast.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Say which friend here would accidentally flirt during a serious conversation.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Describe a date you would secretly love but publicly mock.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Give a clean roast of your own rizz.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Say what romantic decision your friends should have stopped.",
+      "drinkPenalty": 4
+    },
+    {
+      "text": "Let the group choose your official situationship warning label.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Act out spotting your ex across the room.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Say one boundary that disappears when someone is attractive.",
+      "drinkPenalty": 4
+    },
+    {
+      "text": "Give a dating-app bio for the person to your right, keep it kind-ish.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Tell the group one clean thing that makes someone instantly attractive.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Say which friend here would have the messiest secret admirer storyline.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Make a fake voice note to your future spouse apologizing for your past.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Say one romantic opinion you know will get you judged.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Act out pretending not to care about a delayed reply.",
+      "drinkPenalty": 2
+    },
+    {
+      "text": "Let the group pick your dating era: healing, chaos, denial, or delusion.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Describe your worst crush as a menu item.",
+      "drinkPenalty": 3
+    },
+    {
+      "text": "Say which friend here would be most fun and most dangerous to date.",
+      "drinkPenalty": 2
     }
   ]
 }
